@@ -10,7 +10,38 @@ sources:
     type: owner-approval
     access: public-summary
     scope: 2004 服務計畫成立、2005 MAR、2006–2008 線上功能、2007 華碩合作、八八風災後 200 餘部支援。
-    restricted_evidence_note: MAR 與華碩合約存在，合約全文不納入公開 Repo。
+    evidence_policy: MAR 以持續採購與授權作業事實治理，不要求合約；華碩合約含保密條款，不提供、不引用、不登錄保存位置或內容。
+  - id: GM-SRC-BLOGGER-2025-CARBON
+    title: 賦予舊電腦新生命：綠色奇蹟如何用再生科技點亮希望與對抗氣候變遷
+    publisher: 綠色奇蹟公益服務平台
+    published: 2025-05-29
+    type: official-impact-methodology
+    access: public
+    url: https://reuse-service.blogspot.com/2025/05/blog-post.html
+    evidence_note: 核定倡議估算係數、計算公式、用途及限制；年度實績仍須使用實際設備台帳。
+  - id: GM-SRC-DIVA-REUSE-2022
+    title: Analysis of CO2 emissions of reused IT products
+    publisher: Mälardalen University／DiVA
+    published: 2022-12-22
+    type: external-method-reference
+    access: public
+    url: https://www.diva-portal.org/smash/get/diva2:1727310/FULLTEXT01.pdf
+    evidence_note: 再利用一次的避免排放量級約為筆電 280、桌機 470、螢幕 440 kg CO₂e；研究情境及運輸假設與台灣專案不完全相同。
+  - id: GM-SRC-FOXWAY-2023
+    title: Handprint Report 2023：Laptops
+    publisher: Foxway／Sustainability Services OÜ
+    published: 2023
+    type: external-method-reference
+    access: public
+    url: https://www.foxway.com/wp-content/uploads/2024/05/handprint-report-laptops-2023-eng.pdf
+    evidence_note: 基準約 265 kg、翻新方案約 11.1 kg，筆電碳手印約 254 kg CO₂e；採部分生命週期與特定營運假設。
+  - id: GM-SRC-TCO-CLIMATE
+    title: Smart choices reduce the climate impact of your IT use
+    publisher: TCO Certified
+    type: external-method-reference
+    access: public
+    url: https://tcocertified.com/sustainability-issues/climate/
+    evidence_note: 支持多數筆電排放集中於製造階段及延長產品壽命的減碳方向，不提供綠色奇蹟年度成果數字。
   - id: GM-SRC-BLOGGER
     title: 綠色奇蹟公益服務平台 Blogger
     publisher: 綠色奇蹟公益服務平台

@@ -25,9 +25,9 @@ events:
     title: 取得微軟 MAR 資格
     source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
     evidence_level: O
-    verification_status: owner-confirmed-contract
+    verification_status: owner-confirmed-operating-fact
     public_readiness: review
-    restricted_evidence_status: contract-location-pending
+    evidence_policy: 不要求合約；以持續至今的微軟作業系統採購與授權作業事實治理。
   - id: GM-HIST-2006-2008-ONLINE
     date_start: "2006"
     date_end: "2008"
@@ -47,9 +47,9 @@ events:
     title: 華碩希望工程合作
     source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
     evidence_level: O
-    verification_status: owner-confirmed-contract
+    verification_status: owner-confirmed-confidential-contract
     public_readiness: review
-    restricted_evidence_status: contract-location-pending
+    evidence_policy: 合約含保密條款，不提供、不引用、不登錄保存位置或內容。
   - id: GM-HIST-2009-MORAKOT
     date_start: "2009"
     date_end: "2010"

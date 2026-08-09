@@ -34,6 +34,7 @@ review_due: 2026-11-07
 
 - `registry/history-sources.yaml`：公開與內部來源、發布者、日期、存取邊界及網址。
 - `registry/history-events.yaml`：歷史事件、證據等級、衝突、核定狀態及公開就緒度。
+- `registry/impact-methodology.yaml`：減碳係數、計算公式、活動數據、使用範圍及限制。
 - [歷史資料核定工作表](../about/history-evidence-review.md)：將待補件與 Owner 分派轉成可執行工作。
 
 內部 Notion 來源只登錄名稱與定位，不在公開 Repo 暴露內部頁面網址；對外內容應優先引用可公開的法人、政府、合作方或正式成果來源。
