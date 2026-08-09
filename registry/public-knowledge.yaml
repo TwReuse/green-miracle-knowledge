@@ -2,8 +2,8 @@ schema_version: "1.0"
 knowledge_base_id: GM-PUBLIC-KB
 title: 綠色奇蹟公開知識庫
 status: planning
-legal_entity: 綠色奇蹟公益服務網協會
-legal_name_verification: pending
+legal_entity: 社團法人綠色奇蹟公益服務網協會
+legal_name_verification: confirmed-from-charter-and-judicial-announcement
 repository_role: public-knowledge-ssot
 governance_model: independent-npo
 remote_repository: https://github.com/TwReuse/green-miracle-knowledge

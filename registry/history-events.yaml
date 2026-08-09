@@ -1,0 +1,70 @@
+schema_version: "1.0"
+registry_id: GM-HISTORY-EVENTS
+status: review
+owner: Chinwen
+last_reviewed: 2026-08-09
+evidence_levels:
+  A: 法人、政府或正式核定文件
+  B: 事件同期的合作方或機構公開資料
+  C: 協會官方歷史、成果報告或公開作業資料
+  D: Notion、訪談筆記或待查證敘事
+events:
+  - id: GM-HIST-2004-ORIGIN
+    date_start: "2004"
+    date_precision: year
+    title: 愛心送電腦服務起源
+    source_ids: [GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022]
+    evidence_level: C
+    verification_status: corroborated
+    public_readiness: review
+    conflict: 2008 年同期報導稱綠色奇蹟網站於 2007 年底成立，應區分服務起源與網站成立。
+  - id: GM-HIST-2007-WEB
+    date_start: "2007-12"
+    date_precision: approximate-month
+    title: 綠色奇蹟網站平台成形
+    source_ids: [GM-SRC-FCU-2008, GM-SRC-OFFICIAL-HISTORY]
+    evidence_level: B
+    verification_status: needs-owner-confirmation
+    public_readiness: review
+    conflict: 官方資料另記載 2006 年第一版官網改版完成。
+  - id: GM-HIST-2009-MORAKOT
+    date_start: "2009"
+    date_precision: year
+    title: 八八風災災區學校支援
+    source_ids: [GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-HARVEST-2017]
+    evidence_level: C
+    verification_status: corroborated
+    public_readiness: review
+    numeric_claim_status: needs-delivery-register
+  - id: GM-HIST-2020-ASSOCIATION-PREP
+    date_start: "2020"
+    date_precision: year
+    title: 發起籌組獨立協會
+    source_ids: [GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022]
+    evidence_level: C
+    verification_status: corroborated
+    public_readiness: review
+  - id: GM-HIST-2021-LEGAL
+    date_start: "2021-10"
+    date_precision: month
+    title: 內政部函准章程備查
+    source_ids: [GM-SRC-CHARTER]
+    evidence_level: A
+    verification_status: confirmed
+    public_readiness: review
+  - id: GM-HIST-2022-FUNDRAISING
+    date_start: "2022"
+    date_precision: year
+    title: 公開勸募與年度成果制度化
+    source_ids: [GM-SRC-RESULT-2022]
+    evidence_level: C
+    verification_status: confirmed-in-report
+    public_readiness: review
+  - id: GM-HIST-2025-BOARD
+    date_start: "2025-04-08"
+    date_precision: day
+    title: 第 2 屆理監事變更登記
+    source_ids: [GM-SRC-JUDICIAL-2025]
+    evidence_level: A
+    verification_status: confirmed
+    public_readiness: review
