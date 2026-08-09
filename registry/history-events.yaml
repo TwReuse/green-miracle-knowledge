@@ -8,34 +8,67 @@ evidence_levels:
   B: 事件同期的合作方或機構公開資料
   C: 協會官方歷史、成果報告或公開作業資料
   D: Notion、訪談筆記或待查證敘事
+  O: Governance Owner 核定，可公開敘述；原始限制文件另行保存
 events:
   - id: GM-HIST-2004-ORIGIN
     date_start: "2004"
     date_precision: year
-    title: 愛心送電腦服務起源
-    source_ids: [GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022]
-    evidence_level: C
-    verification_status: corroborated
+    title: 綠色奇蹟服務計畫成立
+    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022]
+    evidence_level: O
+    verification_status: owner-confirmed
     public_readiness: review
-    conflict: 2008 年同期報導稱綠色奇蹟網站於 2007 年底成立，應區分服務起源與網站成立。
-  - id: GM-HIST-2007-WEB
-    date_start: "2007-12"
-    date_precision: approximate-month
-    title: 綠色奇蹟網站平台成形
-    source_ids: [GM-SRC-FCU-2008, GM-SRC-OFFICIAL-HISTORY]
-    evidence_level: B
-    verification_status: needs-owner-confirmation
+    governance_note: 2004 指矽聯科技回饋社會的服務計畫成立，不是協會法人成立。
+  - id: GM-HIST-2005-MAR
+    date_start: "2005"
+    date_precision: year
+    title: 取得微軟 MAR 資格
+    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
+    evidence_level: O
+    verification_status: owner-confirmed-contract
     public_readiness: review
-    conflict: 官方資料另記載 2006 年第一版官網改版完成。
+    restricted_evidence_status: contract-location-pending
+  - id: GM-HIST-2006-2008-ONLINE
+    date_start: "2006"
+    date_end: "2008"
+    date_precision: year-range
+    title: 線上回收、申請與論壇功能逐步完成
+    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-FCU-2008]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    milestones:
+      "2006": 線上填單回收
+      "2007": 線上申請再生電腦
+      "2008": 論壇相關系統
+  - id: GM-HIST-2007-ASUS
+    date_start: "2007"
+    date_precision: year
+    title: 華碩希望工程合作
+    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
+    evidence_level: O
+    verification_status: owner-confirmed-contract
+    public_readiness: review
+    restricted_evidence_status: contract-location-pending
   - id: GM-HIST-2009-MORAKOT
     date_start: "2009"
-    date_precision: year
-    title: 八八風災災區學校支援
-    source_ids: [GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-HARVEST-2017]
-    evidence_level: C
-    verification_status: corroborated
+    date_end: "2010"
+    date_precision: year-range
+    title: 八八風災後南部中小學電腦教室支援
+    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-HARVEST-2017]
+    evidence_level: O
+    verification_status: owner-confirmed
     public_readiness: review
-    numeric_claim_status: needs-delivery-register
+    numeric_claim: 200餘部
+    numeric_claim_status: owner-confirmed-details-pending
+  - id: GM-HIST-2019-COLLAB-PLATFORM
+    date_start: "2019-05-12"
+    date_precision: day
+    title: 公開說明跨單位協同平台分工
+    source_ids: [GM-SRC-BLOGGER-2019-OPS]
+    evidence_level: C
+    verification_status: public-record
+    public_readiness: review
   - id: GM-HIST-2020-ASSOCIATION-PREP
     date_start: "2020"
     date_precision: year

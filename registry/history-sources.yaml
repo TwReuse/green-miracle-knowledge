@@ -3,6 +3,45 @@ registry_id: GM-HISTORY-SOURCES
 status: review
 last_reviewed: 2026-08-09
 sources:
+  - id: GM-SRC-OWNER-2026-08-09
+    title: Chinwen 歷史口徑核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-09
+    type: owner-approval
+    access: public-summary
+    scope: 2004 服務計畫成立、2005 MAR、2006–2008 線上功能、2007 華碩合作、八八風災後 200 餘部支援。
+    restricted_evidence_note: MAR 與華碩合約存在，合約全文不納入公開 Repo。
+  - id: GM-SRC-BLOGGER
+    title: 綠色奇蹟公益服務平台 Blogger
+    publisher: 綠色奇蹟公益服務平台
+    type: official-public-blog
+    access: public
+    url: https://reuse-service.blogspot.com/
+    archive_range_observed: 2016-2026
+  - id: GM-SRC-BLOGGER-2019-OPS
+    title: 捐贈收據相關 Q&A
+    publisher: 綠色奇蹟公益服務平台
+    published: 2019-05-12
+    type: official-operating-model
+    access: public
+    url: https://reuse-service.blogspot.com/2019/05/q.html
+    evidence_note: 公開說明矽聯科技、啟禾扶輪社、整修廠、物流、微軟授權單位與志工的分工協作。
+  - id: GM-SRC-BLOGGER-2019-MAR
+    title: 微軟二手電腦合作計畫，公民授權的優惠
+    publisher: 綠色奇蹟公益服務平台
+    published: 2019-04-26
+    type: official-service-explanation
+    access: public
+    url: https://reuse-service.blogspot.com/2019/04/blog-post.html
+    evidence_note: 說明 Registered Refurbisher 方案與公民授權服務規則，不單獨證明 2005 取得資格日期。
+  - id: GM-SRC-BLOGGER-2025-STORY
+    title: 從災後到未來：綠色奇蹟的再生電腦之路
+    publisher: 綠色奇蹟公益服務平台
+    published: 2025-12-21
+    type: official-narrative
+    access: public
+    url: https://reuse-service.blogspot.com/2025/12/blog-post.html
+    evidence_note: 整理回收、整修、授權、媒合、保固追蹤及跨界合作網絡。
   - id: GM-SRC-OFFICIAL-CURRENT
     title: 綠色奇蹟公益服務網協會官網
     publisher: 綠色奇蹟公益服務網協會
