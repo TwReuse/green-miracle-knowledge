@@ -1,0 +1,182 @@
+schema_version: "1.0"
+registry_id: GM-HISTORY-SOURCES
+status: review
+last_reviewed: 2026-08-09
+sources:
+  - id: GM-SRC-OWNER-2026-08-09
+    title: Chinwen 歷史口徑核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-09
+    type: owner-approval
+    access: public-summary
+    scope: 2004 服務計畫成立、2005 MAR、2006–2008 線上功能、2007 華碩合作、八八風災後 200 餘部支援。
+    evidence_policy: MAR 以持續採購與授權作業事實治理，不要求合約；華碩合約含保密條款，不提供、不引用、不登錄保存位置或內容。
+  - id: GM-SRC-BLOGGER-2025-CARBON
+    title: 賦予舊電腦新生命：綠色奇蹟如何用再生科技點亮希望與對抗氣候變遷
+    publisher: 綠色奇蹟公益服務平台
+    published: 2025-05-29
+    type: official-impact-methodology
+    access: public
+    url: https://reuse-service.blogspot.com/2025/05/blog-post.html
+    evidence_note: 核定倡議估算係數、計算公式、用途及限制；年度實績仍須使用實際設備台帳。
+  - id: GM-SRC-DIVA-REUSE-2022
+    title: Analysis of CO2 emissions of reused IT products
+    publisher: Mälardalen University／DiVA
+    published: 2022-12-22
+    type: external-method-reference
+    access: public
+    url: https://www.diva-portal.org/smash/get/diva2:1727310/FULLTEXT01.pdf
+    evidence_note: 再利用一次的避免排放量級約為筆電 280、桌機 470、螢幕 440 kg CO₂e；研究情境及運輸假設與台灣專案不完全相同。
+  - id: GM-SRC-FOXWAY-2023
+    title: Handprint Report 2023：Laptops
+    publisher: Foxway／Sustainability Services OÜ
+    published: 2023
+    type: external-method-reference
+    access: public
+    url: https://www.foxway.com/wp-content/uploads/2024/05/handprint-report-laptops-2023-eng.pdf
+    evidence_note: 基準約 265 kg、翻新方案約 11.1 kg，筆電碳手印約 254 kg CO₂e；採部分生命週期與特定營運假設。
+  - id: GM-SRC-TCO-CLIMATE
+    title: Smart choices reduce the climate impact of your IT use
+    publisher: TCO Certified
+    type: external-method-reference
+    access: public
+    url: https://tcocertified.com/sustainability-issues/climate/
+    evidence_note: 支持多數筆電排放集中於製造階段及延長產品壽命的減碳方向，不提供綠色奇蹟年度成果數字。
+  - id: GM-SRC-BLOGGER
+    title: 綠色奇蹟公益服務平台 Blogger
+    publisher: 綠色奇蹟公益服務平台
+    type: official-public-blog
+    access: public
+    url: https://reuse-service.blogspot.com/
+    archive_range_observed: 2016-2026
+  - id: GM-SRC-BLOGGER-2019-OPS
+    title: 捐贈收據相關 Q&A
+    publisher: 綠色奇蹟公益服務平台
+    published: 2019-05-12
+    type: official-operating-model
+    access: public
+    url: https://reuse-service.blogspot.com/2019/05/q.html
+    evidence_note: 公開說明矽聯科技、啟禾扶輪社、整修廠、物流、微軟授權單位與志工的分工協作。
+  - id: GM-SRC-BLOGGER-2019-MAR
+    title: 微軟二手電腦合作計畫，公民授權的優惠
+    publisher: 綠色奇蹟公益服務平台
+    published: 2019-04-26
+    type: official-service-explanation
+    access: public
+    url: https://reuse-service.blogspot.com/2019/04/blog-post.html
+    evidence_note: 說明 Registered Refurbisher 方案與公民授權服務規則，不單獨證明 2005 取得資格日期。
+  - id: GM-SRC-BLOGGER-2025-STORY
+    title: 從災後到未來：綠色奇蹟的再生電腦之路
+    publisher: 綠色奇蹟公益服務平台
+    published: 2025-12-21
+    type: official-narrative
+    access: public
+    url: https://reuse-service.blogspot.com/2025/12/blog-post.html
+    evidence_note: 整理回收、整修、授權、媒合、保固追蹤及跨界合作網絡。
+  - id: GM-SRC-OFFICIAL-CURRENT
+    title: 綠色奇蹟公益服務網協會官網
+    publisher: 綠色奇蹟公益服務網協會
+    type: official-website
+    access: public
+    url: https://www.reuse.org.tw/index.html
+  - id: GM-SRC-OFFICIAL-HISTORY
+    title: 關於綠色奇蹟／綠色奇蹟重要記事
+    publisher: 綠色奇蹟公益服務網協會
+    type: official-history
+    access: public
+    url: https://3c-dr.com.tw/about.html
+  - id: GM-SRC-CHARTER
+    title: 社團法人綠色奇蹟公益服務網協會章程
+    publisher: 綠色奇蹟公益服務網協會
+    type: legal-document
+    access: public
+    url: https://s3.hicloud.net.tw/3c-dr/%E5%8D%94%E6%9C%83%E6%96%87%E4%BB%B6/%E7%B6%A0%E8%89%B2%E5%A5%87%E8%B9%9F%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8B%99%E7%B6%B2%E5%8D%94%E6%9C%83%E7%AB%A0%E7%A8%8B.pdf
+  - id: GM-SRC-FCU-2008
+    title: 書出感動 e網情深 逢甲與大鵬國小牽手合作
+    publisher: 逢甲大學
+    published: 2008-05-15
+    type: partner-contemporary-report
+    access: public
+    url: https://www.fcu.edu.tw/fcuweekly/news/2008051503/
+  - id: GM-SRC-RESULT-2022
+    title: 2022 年勸募計畫成果發表／2023 第一季理監事會資料
+    publisher: 綠色奇蹟公益服務網協會
+    type: official-results-report
+    access: public
+    url: https://s3.hicloud.net.tw/3c-dr/%E5%8B%B8%E5%8B%9F%E5%B0%88%E6%A1%88/2022/%E7%B6%A0%E8%89%B2%E5%A5%87%E8%B9%9F%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8B%99%E7%B6%B2%282022%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8%29.pdf
+  - id: GM-SRC-JUDICIAL-2025
+    title: 社團法人綠色奇蹟公益服務網協會變更登記公告
+    publisher: 臺灣高雄地方法院
+    published: 2025-04-08
+    type: government-registration
+    access: public
+    url: https://www.judicial.gov.tw/tw/cp-144-1291093-ead40-1.html
+  - id: GM-SRC-HARVEST-2017
+    title: 高雄啟禾扶輪社 2017-18 社長介紹
+    publisher: 高雄啟禾扶輪社
+    type: partner-history
+    access: public
+    url: https://rotary-harvest.blogspot.com/2017/06/2017-18.html
+  - id: GM-SRC-CTS-2015
+    title: 捐贈二手電腦 廢鐵成綠色奇蹟
+    publisher: 華視新聞網
+    published: 2015-01-26
+    type: news-report
+    access: public
+    url: https://news.cts.com.tw/vita/campus/201501/201501261616935.html
+    rights_note: 僅摘要與連結；全文、照片及影像不得未經授權重製。
+  - id: GM-SRC-TCSH-2018
+    title: 綠色奇蹟 VS.生命教育 臺南慈中兒童節活動
+    publisher: 臺南慈濟高級中學
+    published: 2018-03-28
+    type: partner-event-report
+    access: public
+    url: https://www.tcsh.tn.edu.tw/files/secretary/20180328.pdf
+  - id: GM-SRC-NTHU-2019
+    title: 清華大學國際志工公開資料
+    publisher: 國立清華大學
+    type: institutional-report
+    access: public
+    url: https://www.nthu.edu.tw/pdf/pdf_155747594563.pdf
+  - id: GM-SRC-NOTION-MATERIALS
+    title: 基本資料知識庫素材包
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-research
+    access: internal
+    locator: Notion Wiki／基本資料知識庫素材包
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-ROTARY
+    title: 給啟禾社友的綠色奇蹟社區服務介紹
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-research
+    access: internal
+    locator: Notion Wiki／給啟禾社友的綠色奇蹟社區服務介紹
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-CHARTER
+    title: 社團法人綠色奇蹟公益服務網協會章程
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-copy
+    access: internal
+    locator: Notion Wiki／社團法人綠色奇蹟公益服務網協會章程
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-STORY-2025
+    title: 從災後到未來：綠色奇蹟的再生電腦之路
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-narrative-draft
+    access: internal
+    locator: Notion Wiki／從災後到未來：綠色奇蹟的再生電腦之路
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-COLLAB
+    title: 把善意做成閉環：跨社群再生電腦的共善協作
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-narrative-draft
+    access: internal
+    locator: Notion Wiki／把善意做成閉環：跨社群再生電腦的共善協作
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-SDGS
+    title: 曼谷 UN-SDGs 青年論壇簡報素材
+    publisher: 綠色奇蹟內部 Notion
+    type: internal-presentation-draft
+    access: internal
+    locator: Notion Wiki／曼谷 UN-SDGs 青年論壇簡報素材
+    public_citation_allowed: false

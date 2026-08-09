@@ -1,0 +1,52 @@
+schema_version: "1.0"
+methodology_id: GM-IMPACT-CARBON-AVOIDED-001
+title: 再生電腦避免排放倡議估算方法
+status: review
+approved_by: Chinwen
+approved_at: 2026-08-09
+applicable_uses:
+  - 公益倡議
+  - 官網說明
+  - 一般合作提案
+  - 專案情境試算
+not_sufficient_for:
+  - 組織溫室氣體盤查
+  - 第三方查證
+  - 未經重算的企業 ESG 正式揭露
+method: LCA 與避免負擔法的簡化倡議估算
+formula: laptop_count * 250 + desktop_count * 470 + monitor_count * 440
+output_unit: kg_CO2e
+coefficients:
+  laptop:
+    value: 250
+    unit: kg_CO2e_per_completed_device
+    rationale: 低於外部研究約 254–280 kg 的保守值
+  desktop:
+    value: 470
+    unit: kg_CO2e_per_completed_device
+  monitor:
+    value: 440
+    unit: kg_CO2e_per_completed_device
+required_activity_data:
+  - period
+  - completed_device_count_by_type
+  - unique_device_rule
+  - delivery_or_in_use_evidence
+  - calculation_date
+assumptions:
+  - 再生設備替代或延後購買功能相近的新設備
+  - 完成整修、交付並投入使用才可計算
+  - 同一設備不得跨年度或跨專案重複計算
+scenario_only:
+  device_range: 500-1000
+  coefficient: 250
+  result_tCO2e: 125-250
+  label_required: 產出區間試算，非年度實績
+tree_equivalence:
+  status: not-adopted
+  rule: 不作為現行正式 KPI
+source_ids:
+  - GM-SRC-BLOGGER-2025-CARBON
+  - GM-SRC-DIVA-REUSE-2022
+  - GM-SRC-FOXWAY-2023
+  - GM-SRC-TCO-CLIMATE
