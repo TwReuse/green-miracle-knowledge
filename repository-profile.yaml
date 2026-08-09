@@ -1,0 +1,34 @@
+repository_name: green-miracle-knowledge
+visibility: public
+remote_organization: TwReuse
+remote_url: https://github.com/TwReuse/green-miracle-knowledge
+hosting_model: 矽聯科技技術代管，綠色奇蹟保有法人內容權責
+legal_content_owner: 綠色奇蹟公益服務網協會
+technical_custodian: 矽聯科技股份有限公司
+repository_administrator: Chinwen
+github_handle: SLchinwen
+description: 綠色奇蹟公益服務網協會的公開知識、教育訓練與內容 SSOT
+default_branch: main
+branch_protection:
+  require_pull_request: true
+  required_approvals: 1
+  require_code_owner_review_for_high_risk_paths: true
+  require_status_checks:
+    - docs-check
+  prohibit_force_push: true
+  prohibit_deletion: true
+permissions:
+  administrators: Chinwen
+  maintainers: Chinwen 與待指定備援維護人
+  reviewers: 方案、資料證據、隱私權利與教育訓練角色
+  contributors: 工作人員、志工與合作夥伴
+  public: read-only
+release_model:
+  documentation_site: GitHub Pages 或協會控制的公開網域
+  versioning: 每次核定內容以 tag 或 release 保留版本
+  downstream_traceability: 官網、簡報、行銷與 AI 保留知識 ID 及版本
+decisions_pending:
+  - 共同管理人與帳號遺失時的復原方式
+  - 文件、程式碼、資料與視覺素材授權
+  - 私密通報信箱或表單
+  - GitHub Pages 的正式網域與 DNS 管理人

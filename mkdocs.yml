@@ -1,0 +1,26 @@
+site_name: 綠色奇蹟公開知識庫
+site_description: 綠色奇蹟公益服務網協會的公開知識與教育訓練 SSOT
+docs_dir: docs
+strict: true
+nav:
+  - 開始使用: index.md
+  - 認識綠色奇蹟:
+      - 法人定位與歷史關係: about/identity-and-history.md
+      - 使命與服務定位: about/mission-and-positioning.md
+  - 服務與影響:
+      - 再生電腦服務閉環: services/reuse-computer-loop.md
+      - 成果與影響力衡量: impact/measurement.md
+  - 教育訓練:
+      - 訓練入口: training/index.md
+      - 新成員入門: training/onboarding.md
+      - 內容發布訓練: training/content-publication.md
+  - 治理與透明:
+      - 角色與核定權責: governance/roles-and-approval.md
+      - 矽聯代管與法人權責: governance/hosting-and-custodianship.md
+      - 公開與非公開資料邊界: governance/public-private-boundary.md
+      - 內容發布生命週期: governance/publication-lifecycle.md
+  - 來源與規劃:
+      - 來源登錄: sources/source-register.md
+      - Repo 目錄與內容架構: repository-architecture.md
+      - 發展路線圖: roadmap.md
+      - 詞彙表: glossary.md

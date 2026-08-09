@@ -1,0 +1,61 @@
+schema_version: "1.0"
+knowledge_base_id: GM-PUBLIC-KB
+title: 綠色奇蹟公開知識庫
+status: planning
+legal_entity: 綠色奇蹟公益服務網協會
+legal_name_verification: pending
+repository_role: public-knowledge-ssot
+governance_model: independent-npo
+remote_repository: https://github.com/TwReuse/green-miracle-knowledge
+hosting:
+  technical_custodian: 矽聯科技股份有限公司
+  github_organization: TwReuse
+  administrator: Chinwen
+  legal_content_owner: 綠色奇蹟公益服務網協會
+  boundary: 技術代管不移轉協會的法人、內容、財務、會務、個資或品牌權責。
+origin_relationship:
+  statement: 綠色奇蹟源自矽聯科技公益服務，創辦人同為邱勤文；現為獨立法人。
+  source: user-confirmed
+  governance_effect: 矽聯科技僅為歷史或合作來源，不擔任本知識庫的法人核定機關。
+roles:
+  legal_governance_body: pending-association-appointment
+  knowledge_governance_owner: 邱勤文（Chinwen）
+  program_owner: pending
+  evidence_owner: pending
+  privacy_rights_reviewer: pending
+  publisher: Chinwen
+publication_rule:
+  branch: main
+  direct_publish_status: approved
+  source_required: true
+  approval_evidence_required: true
+  review_due_required: true
+public_boundary:
+  allowed:
+    - 核定的法人、使命、歷史、服務與參與方式
+    - 具定義、來源與核定紀錄的成果資料
+    - 已取得使用權的故事、照片、引言與合作描述
+    - 不含個資及內部控制細節的教育訓練素材
+  prohibited:
+    - 個資、兒少資料、受贈名冊與個案紀錄
+    - 設備序號、物流明細與資料清除紀錄
+    - 內部財務憑證、銀行資料、限制文件與合約
+    - 帳密、金鑰、權杖、弱點與內部權限資料
+    - 未授權的照片、Logo、影音、新聞全文或教材
+content_statuses: [draft, review, blocked, approved, superseded, withdrawn]
+initial_gates:
+  - id: GM-GATE-LEGAL
+    status: blocked
+    requirement: 核對法人正式名稱、立案與授權角色。
+  - id: GM-GATE-DATA
+    status: blocked
+    requirement: 建立年度成果定義、去重、來源與核定表。
+  - id: GM-GATE-RIGHTS
+    status: blocked
+    requirement: 建立個資、肖像、兒少、Logo、照片與引言授權矩陣。
+  - id: GM-GATE-SERVICE
+    status: blocked
+    requirement: 核對現行回收、申請、費用、保固與例外規則。
+  - id: GM-GATE-LICENSE
+    status: blocked
+    requirement: 協會核定文字、程式碼、資料及視覺素材授權。
