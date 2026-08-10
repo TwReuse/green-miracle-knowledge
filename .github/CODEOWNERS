@@ -2,7 +2,10 @@
 # 高風險法人內容仍須依 GOVERNANCE.md 保留對應核定紀錄。
 
 * @SLchinwen
-/docs/governance/ @SLchinwen
-/docs/impact/ @SLchinwen
-/docs/training/ @SLchinwen
+/public-site/ @SLchinwen
+/knowledge-base/governance/ @SLchinwen
+/knowledge-base/impact/ @SLchinwen
+/knowledge-base/training/ @SLchinwen
 /registry/ @SLchinwen
+/skills/ @SLchinwen
+/workbench/ @SLchinwen
