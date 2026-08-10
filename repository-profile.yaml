@@ -8,6 +8,13 @@ technical_custodian: 矽聯科技股份有限公司
 repository_administrator: Chinwen
 github_handle: SLchinwen
 description: 綠色奇蹟公益服務網協會的公開知識、教育訓練與內容 SSOT
+public_site_config: mkdocs.yml
+public_site_root: public-site
+knowledge_preview_config: mkdocs.knowledge.yml
+knowledge_root: knowledge-base
+workbench_root: workbench
+machine_readable_root: registry
+directory_boundary: 所有目錄可在公開 Repo 查閱；只有 public-site 由正式網站發布，這是呈現模式而非機密等級。
 default_branch: main
 branch_protection:
   require_pull_request: true

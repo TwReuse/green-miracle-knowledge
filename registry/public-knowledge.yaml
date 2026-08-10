@@ -31,6 +31,23 @@ publication_rule:
   source_required: true
   approval_evidence_required: true
   review_due_required: true
+content_layers:
+  human_readable:
+    path: public-site
+    audience: [社會大眾, 媒體, 教師, 合作夥伴, 新進人員]
+    rule: 由寫手 Skill 依 approved 知識母稿改寫；保留 canonical_knowledge_ids 與使用邊界。
+  canonical_knowledge:
+    paths: [knowledge-base/about, knowledge-base/services, knowledge-base/impact, knowledge-base/stories, knowledge-base/training]
+    audience: [內容編輯者, 教育訓練者, Owner]
+    rule: 保存完整核定事實、適用條件、例外與上下文。
+  governance_and_sources:
+    paths: [knowledge-base/governance, knowledge-base/sources, knowledge-base/ai]
+    audience: [維護者, 稽核者, AI設計者]
+    rule: 管理來源、狀態、權利、AI 卡與發布規則，不作為一般讀者主入口。
+  machine_readable:
+    path: registry
+    audience: [AI, 網站, 搜尋, 自動化工具]
+    rule: 提供穩定 ID、狀態、來源、限制及版本；不得包含個資或未核定預設答案。
 public_boundary:
   allowed:
     - 核定的法人、使命、歷史、服務與參與方式
@@ -54,49 +71,49 @@ operational_data_boundary:
 learning_assets:
   - id: GM-GOV-DATA-001
     title: 官網資料如何成為可信任來源並供 AI 引用
-    path: docs/governance/website-data-provenance.md
+    path: knowledge-base/governance/website-data-provenance.md
     status: review
     owner_role: 知識治理負責人
     purpose: 核定 2018 年資料追溯分界，並提供新版官網資料出口、Repo 同步及 AI 應用的需求輸入。
     completion_marker: 官網能輸出去識別、具版本與更正資訊的公開資料，Repo 經人工核定同步，AI 回答附期間與來源。
   - id: GM-AI-CARD-INDEX-001
     title: AI 知識卡與引用索引
-    path: docs/ai/knowledge-cards.md
+    path: knowledge-base/ai/knowledge-cards.md
     status: approved
     owner_role: 知識治理負責人
     purpose: 提供網站、客服、行銷、簡報與 AI 一致的短答案、限制及人工轉接規則。
     completion_marker: 所有卡片均具狀態、來源、限制、審視日與人工轉接條件，draft 不成為預設答案。
   - id: GM-PUB-SVC-QUALITY-001
     title: 再生電腦服務品質系統
-    path: docs/services/service-quality-system.md
+    path: knowledge-base/services/service-quality-system.md
     status: approved
     owner_role: 方案負責人
     purpose: 將免費物流、合法授權、六個月保固、資訊流、物流及 SOP 串成可改善的服務閉環。
     completion_marker: 適用條件、例外、必留紀錄、品質指標與 AI 回答規則均已核定。
   - id: GM-GOV-NOTION-001
     title: Notion 治理、章程、勸募與作業資料盤點
-    path: docs/governance/notion-governance-inventory.md
+    path: knowledge-base/governance/notion-governance-inventory.md
     status: review
     owner_role: 知識治理負責人
     purpose: 分辨現行、內部、審核中、草案與歷史來源，避免 AI 將 Notion 工作稿當正式制度。
     completion_marker: 每份來源具 ID、狀態、可引用範圍、敏感邊界與審視期限。
   - id: GM-STORY-INTERVIEW-2025-002
     title: 2025 年理事長訪談完整問答素材
-    path: docs/stories/chair-interview-2025-full-qa.md
+    path: knowledge-base/stories/chair-interview-2025-full-qa.md
     status: review
     owner_role: 知識治理負責人
     purpose: 在 Repo 內保存 Q1–Q20 完整回答，供引用時核對上下文，不再依賴 Notion。
     completion_marker: 二十題均有完整回答、使用邊界與 Repo 引用順序，且不含 Notion 內部網址、個資或未核定成果宣稱。
   - id: GM-STORY-INTERVIEW-2025-001
     title: 理事長訪談：把二十年經驗交給下一個世代
-    path: docs/stories/chair-interview-2025.md
+    path: knowledge-base/stories/chair-interview-2025.md
     status: review
     owner_role: 知識治理負責人
     purpose: 提供創辦人暨理事長第一人稱理念、服務判斷、能力傳承與未來方向之可引用素材。
     completion_marker: 引言保留來源與語意，數字及事實主張回到對應正式資料，公開版本不包含內部Notion網址與個資。
   - id: GM-TRAIN-004
     title: 如何用二十年經驗解決下一個問題
-    path: docs/training/learning-from-20-years.md
+    path: knowledge-base/training/learning-from-20-years.md
     status: review
     owner_role: 教育訓練負責人
     purpose: 串連網路、行動與AI世代的數位需求，以及減廢、惜物、循環與減碳演進，供新進人員萃取能力、研究問題與提出改善。

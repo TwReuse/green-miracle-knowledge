@@ -19,7 +19,7 @@ cards:
       - 不得將 2004 年描述為協會法人成立。
       - 章程修正草案未核定前，仍以 2021 備查章程為基準。
     source_ids: [GM-SRC-NOTION-CHARTER-2021, GM-SRC-OWNER-2026-08-10-R4]
-    related_docs: [docs/about/identity-and-history.md, docs/governance/notion-governance-inventory.md]
+    related_docs: [knowledge-base/about/identity-and-history.md, knowledge-base/governance/notion-governance-inventory.md]
   - card_id: GM-KC-LOG-001
     title: 免費物流回收
     category: service
@@ -31,7 +31,7 @@ cards:
       - 偏遠地點、特殊搬運、專車或不安全設備須個案評估。
       - 免費不等於即時或無條件受理。
     source_ids: [GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-NOTION-CS-QA-V1]
-    related_docs: [docs/services/service-quality-system.md]
+    related_docs: [knowledge-base/services/service-quality-system.md]
   - card_id: GM-KC-LIC-001
     title: 合法再生電腦授權
     category: service
@@ -43,7 +43,7 @@ cards:
       - 不在長效知識卡寫死版本、品項、價格或採購條件。
       - 不得將公益授權描述為一般商業授權或自由轉售權。
     source_ids: [GM-SRC-REUSE-PROJECT-2026, GM-SRC-NOTION-KNOWLEDGE-PACK]
-    related_docs: [docs/services/service-quality-system.md]
+    related_docs: [knowledge-base/services/service-quality-system.md]
   - card_id: GM-KC-WAR-001
     title: 六個月硬體保固
     category: service
@@ -56,7 +56,7 @@ cards:
       - 個別專案另有約定時，以個別文件為準。
     required_inputs: [領用日, 設備序號, 故障描述, 照片, 是否疑似人為因素]
     source_ids: [GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-ASSET-2026, GM-SRC-NOTION-SERVICE-TERMS-2024]
-    related_docs: [docs/services/service-quality-system.md]
+    related_docs: [knowledge-base/services/service-quality-system.md]
   - card_id: GM-KC-ALLOC-001
     title: 申請與核配
     category: service
@@ -68,7 +68,7 @@ cards:
       - 不保證品項、台數、規格或交付日期。
       - 年度上限、優先順序、募集折抵與認養條件須查當期公告。
     source_ids: [GM-SRC-NOTION-ALLOC-2026, GM-SRC-REUSE-PROJECT-2026]
-    related_docs: [docs/governance/notion-governance-inventory.md]
+    related_docs: [knowledge-base/governance/notion-governance-inventory.md]
   - card_id: GM-KC-FUND-001
     title: 2026 勸募狀態
     category: fundraising
@@ -80,7 +80,7 @@ cards:
       - 不得從草案回答捐款用途、金額、抵稅或收據法律效果。
       - 回答現行勸募時須轉查官網公開徵信。
     source_ids: [GM-SRC-NOTION-FUNDRAISING-2026, GM-SRC-REUSE-CREDIT-CHECK]
-    related_docs: [docs/governance/notion-governance-inventory.md]
+    related_docs: [knowledge-base/governance/notion-governance-inventory.md]
   - card_id: GM-KC-DATA-001
     title: 回收設備資料安全
     category: security
@@ -92,7 +92,7 @@ cards:
       - 協會處理紀錄不當然等同第三方資安銷毀認證。
       - 不公開設備序號、資料清除明細或捐贈者個資。
     source_ids: [GM-SRC-NOTION-DISK-QA-2026, GM-SRC-NOTION-CS-QA-V1]
-    related_docs: [docs/governance/notion-governance-inventory.md]
+    related_docs: [knowledge-base/governance/notion-governance-inventory.md]
   - card_id: GM-KC-QA-001
     title: 客服例外與人工轉接
     category: operations
@@ -104,4 +104,4 @@ cards:
       - 不在公開對話揭露個資、序號、地址、弱勢證明或內部紀錄。
     escalation_channels: [官網表單, LINE官方帳號@reuse, service@reuse.org.tw, 07-7190888]
     source_ids: [GM-SRC-REUSE-PROJECT-2026, GM-SRC-NOTION-CS-QA-V1]
-    related_docs: [docs/ai/knowledge-cards.md]
+    related_docs: [knowledge-base/ai/knowledge-cards.md]

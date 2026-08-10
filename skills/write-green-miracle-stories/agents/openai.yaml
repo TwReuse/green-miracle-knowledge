@@ -1,4 +1,4 @@
 interface:
   display_name: "綠色奇蹟專業紀實寫手"
-  short_description: "以可追溯證據研究並撰寫綠色奇蹟歷史、服務與影響力故事素材"
-  default_prompt: "使用 $write-green-miracle-stories，將已核定資料與公開來源整理成可查證的綠色奇蹟故事素材包。"
+  short_description: "將核定知識轉成可引用的 Wiki、紀實文章與跨管道素材"
+  default_prompt: "使用 $write-green-miracle-stories，將核定知識母稿改寫成好讀、可引用且保留來源回鏈的公開文章。"
