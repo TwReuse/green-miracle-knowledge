@@ -13,7 +13,7 @@ review_due: 2026-11-07
 
 | 需求 | 使用位置 | 產製方式 |
 |---|---|---|
-| 給社會大眾、媒體或合作夥伴閱讀 | `docs/public/` | 使用 `write-green-miracle-stories` 寫成 Wiki、問答或紀實文章 |
+| 給社會大眾、媒體或合作夥伴閱讀 | `public-site/` | 使用 `write-green-miracle-stories` 寫成 Wiki、問答或紀實文章 |
 | 保存完整口徑與限制 | 主題知識母稿 | 先更新來源、狀態、適用條件與 Owner 核定 |
 | 提供 AI 回答 | `registry/ai-knowledge-cards.yaml` | 使用短答案、限制、來源與人工轉接條件 |
 | 提供網站、搜尋或工具同步 | `registry/` | 使用穩定 ID、版本與機讀欄位，不放個資 |

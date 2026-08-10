@@ -1,13 +1,18 @@
 ---
 doc_id: GM-PUBLIC-IMPACT-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
 content_layer: human-readable
+page_type: impact
+primary_audience: [社會大眾, 媒體教師, 合作夥伴]
 narrative_style: wiki-explainer
 canonical_knowledge_ids: [GM-PUB-ABOUT-002, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-PUB-HISTORY-001]
 last_reviewed: 2026-08-10
 review_due: 2026-11-08
+approved_by: Chinwen
+approval_date: 2026-08-10
+approval_evidence: owner-approval-chat-2026-08-10-four-public-articles
 ---
 
 # 從惜物到循環與數位平權

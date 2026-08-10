@@ -1,41 +1,39 @@
-site_name: 綠色奇蹟公開知識庫
-site_description: 綠色奇蹟公益服務網協會的公開知識與教育訓練 SSOT
-docs_dir: docs
+site_name: 綠色奇蹟知識文件站
+site_description: 綠色奇蹟公益服務網協會提供大眾閱讀與引用的公開知識站
+site_url: https://docs.reuse.org.tw/
+site_author: 社團法人綠色奇蹟公益服務網協會
+copyright: © 社團法人綠色奇蹟公益服務網協會｜本文件站說明長期知識，當期服務以官網公告為準。
+docs_dir: public-site
 strict: true
+theme:
+  name: mkdocs
+  locale: zh_TW
+  logo: assets/images/reuse-logo.png
+  favicon: assets/images/reuse-logo.png
+  nav_style: primary
+  highlightjs: true
+  user_color_mode_toggle: false
+plugins:
+  - search:
+      lang: zh
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+extra_css:
+  - assets/stylesheets/green-miracle.css
 nav:
-  - 首頁: index.md
-  - 公開閱讀:
+  - 文件首頁: index.md
+  - 深度認識:
       - 從這裡認識綠色奇蹟: public/index.md
       - 一個服務如何走過二十年: public/our-story.md
       - 一部再生電腦的旅程: public/computer-journey.md
       - 從惜物到循環與數位平權: public/reuse-and-future.md
-      - 如何引用知識庫: public/how-to-cite.md
-  - 主題知識:
-      - 法人定位與歷史關係: about/identity-and-history.md
-      - 成立緣由與時序記事: about/history-timeline.md
-      - 使命與服務定位: about/mission-and-positioning.md
-      - 再生電腦服務閉環: services/reuse-computer-loop.md
-      - 服務品質系統: services/service-quality-system.md
-      - 成果與影響力衡量: impact/measurement.md
-      - 理事長訪談與二十年傳承: stories/chair-interview-2025.md
-  - 教育訓練:
-      - 訓練入口: training/index.md
-      - 新成員入門: training/onboarding.md
-      - 二十年經驗傳承與應用: training/learning-from-20-years.md
-      - 內容發布訓練: training/content-publication.md
-  - 維護者專區:
-      - 人讀、治理與機讀分層: governance/content-layering.md
-      - 角色與核定權責: governance/roles-and-approval.md
-      - 矽聯代管與法人權責: governance/hosting-and-custodianship.md
-      - 公開與非公開資料邊界: governance/public-private-boundary.md
-      - 內容發布生命週期: governance/publication-lifecycle.md
-      - Notion 治理與制度盤點: governance/notion-governance-inventory.md
-      - 官網資料追溯與 AI 整合: governance/website-data-provenance.md
-      - 知識卡與引用索引: ai/knowledge-cards.md
-      - 來源登錄: sources/source-register.md
-      - 矽聯科技時期史料: sources/early-systemlead-sources.md
-      - 歷史資料核定工作表: about/history-evidence-review.md
-      - 理事長訪談完整問答: stories/chair-interview-2025-full-qa.md
-      - Repo 目錄與內容架構: repository-architecture.md
-      - 發展路線圖: roadmap.md
-      - 詞彙表: glossary.md
+      - 綠色奇蹟事實資料包: public/factsheet.md
+      - 常見問題: public/faq.md
+      - 資料引用與媒體使用: public/how-to-cite.md
+  - 前往官網:
+      - 捐出舊電腦: https://www.reuse.org.tw/index.html
+      - 申請再生電腦: https://www.reuse.org.tw/project.html
+      - 勸募徵信: https://www.reuse.org.tw/Credit_Check.html

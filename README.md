@@ -24,27 +24,21 @@
 
 放在 `TwReuse` 代表目前由矽聯科技提供 GitHub 帳號、權限、CI（持續整合）及發布技術代管，不代表協會的內容、財務、會務、個資或品牌權責移轉給矽聯科技。
 
-## 閱讀入口
+## 兩種使用介面
 
-- [知識站首頁](docs/index.md)
-- [對外公開閱讀入口](docs/public/index.md)
-- [一個服務如何走過二十年](docs/public/our-story.md)
-- [一部再生電腦的旅程](docs/public/computer-journey.md)
-- [法人定位與歷史關係](docs/about/identity-and-history.md)
-- [NPO 角色與核定權責](docs/governance/roles-and-approval.md)
-- [矽聯代管與法人權責](docs/governance/hosting-and-custodianship.md)
-- [公開與非公開資料邊界](docs/governance/public-private-boundary.md)
-- [內容發布生命週期](docs/governance/publication-lifecycle.md)
-- [教育訓練入口](docs/training/index.md)
-- [二十年經驗傳承與應用](docs/training/learning-from-20-years.md)
-- [來源登錄](docs/sources/source-register.md)
-- [Repo 目錄與內容架構](docs/repository-architecture.md)
+- `public-site/`：對外人讀內容。`mkdocs.yml` 只發布這個目錄。
+- `knowledge-base/`：知識母稿、治理、來源、訓練與 AI 維護內容。資料可在 Repo 查閱，但不出現在公開網站。
+- `registry/`：AI、網站、搜尋與自動化使用的機讀索引。
+- `workbench/`：片段整理流程與頁面初審紀錄，不進任何公開網站導覽。
+- `skills/`：寫作、初審與活動歸檔方法。
+
+「不在公開網站」不是「機密」。Repo 本身是公開可讀；真正需要保密的 Notion 私密頁、個資、兒少資訊、後台逐筆明細、合約與內控資料仍不得放入本 Repo。
 
 ## 內容分層
 
-- `docs/public/`：寫手 skill 依核定知識改寫的 Wiki／紀實對外文章。
-- 主題文件：保存完整事實口徑、條件、例外與上下文。
-- `docs/governance/`、`docs/sources/`、`docs/ai/`：治理、來源與 AI 維護資料。
+- `public-site/`：寫手 Skill 依核定知識改寫的 Wiki／紀實對外文章。
+- `knowledge-base/`：保存完整事實口徑、條件、例外、來源與上下文。
+- `workbench/`：維護者的片段供應與頁面審查作業紀錄。
 - `registry/`：供 AI、網站與工具使用的機讀索引，不作為一般讀者主入口。
 
 ## 本機預覽
@@ -53,6 +47,13 @@
 python -m pip install -r requirements.txt
 python -m mkdocs serve
 python -m mkdocs build --strict
+```
+
+知識工作台預覽：
+
+```powershell
+python -m mkdocs serve -f mkdocs.knowledge.yml -a 127.0.0.1:8774
+python -m mkdocs build --strict -f mkdocs.knowledge.yml
 ```
 
 ## 目前狀態

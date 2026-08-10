@@ -30,17 +30,22 @@ green-miracle-knowledge/
 ├─ SECURITY.md                       # 私密通報與禁止公開資料
 ├─ LICENSE.md                        # 文件、程式碼與素材授權
 ├─ repository-profile.yaml           # Repo、權限、分支與發布設定
-├─ mkdocs.yml                        # 公開知識站導覽
-├─ docs/
-│  ├─ public/                        # 寫手 Skill 產製的 Wiki／紀實對外文章
+├─ mkdocs.yml                        # 只發布 public-site 的對外網站
+├─ mkdocs.knowledge.yml              # knowledge-base 維護預覽
+├─ public-site/                      # 對外人讀網站；一般訪客入口
+│  ├─ index.md
+│  └─ public/                        # Wiki、故事、服務與引用文章
+├─ knowledge-base/                   # Repo 可查閱，但不進公開網站
 │  ├─ about/                         # 法人、歷史、使命等核定知識母稿
 │  ├─ services/                      # 服務流程、條件與例外的知識母稿
 │  ├─ impact/                        # 成果、方法、年度報告與更正母稿
 │  ├─ stories/                       # 訪談、案例與完整上下文素材
-│  ├─ partners/                      # 合作方式與核准夥伴描述
 │  ├─ training/                      # 新成員、志工與發布訓練
 │  ├─ governance/                    # 權責、代管、隱私與發布流程
-│  └─ sources/                       # 可公開來源與證據導覽
+│  ├─ sources/                       # 可公開來源與證據導覽
+│  └─ ai/                            # AI 使用、限制與知識卡說明
+├─ workbench/                        # 片段供應流程與初審紀錄
+├─ skills/                           # 寫作、初審與活動歸檔方法
 ├─ registry/                         # 不作為一般讀者導覽；供 AI／網站機讀
 │  ├─ public-knowledge.yaml          # 知識庫基本設定與公開規則
 │  ├─ sources.yaml                   # 來源、版本、權威層級
@@ -57,9 +62,9 @@ green-miracle-knowledge/
 
 | 層次 | 權威內容 | 主要使用者 |
 |---|---|---|
-| `docs/public/` | 由核定知識改寫的 Wiki、紀實文章與引用入口 | 社會大眾、媒體、教師、合作夥伴 |
-| 主題知識母稿 | 完整事實口徑、條件、例外與上下文 | 編輯者、團隊、志工與教育訓練 |
-| 治理與來源文件 | 狀態、Owner、來源、權利、AI 與發布規則 | 維護者、稽核者、AI 設計者 |
+| `public-site/` | 由核定知識改寫的 Wiki、紀實文章與引用入口 | 社會大眾、媒體、教師、合作夥伴 |
+| `knowledge-base/` | 完整事實口徑、條件、例外、來源、訓練與治理 | 編輯者、團隊、志工、稽核者與 AI 設計者 |
+| `workbench/` | 片段收納、頁面初審及待 Chinwen 核定事項 | 維護者與內容工作者 |
 | `registry/` | 系統可讀的 ID、來源、狀態、限制及版本 | 網站、AI、搜尋與稽核工具 |
 | `assets/public/` | 已核准公開且有權利紀錄的素材 | 網站、行銷、簡報 |
 | `templates/` | 從核准知識重組的標準輸出 | 內容、教育與對外溝通人員 |
@@ -69,7 +74,7 @@ green-miracle-knowledge/
 
 ### 第一階段
 
-沿用目前已建立的 `docs/`、`registry/public-knowledge.yaml`、治理文件、教育訓練及 MkDocs 站，建立遠端 Repo 與 Pages。
+以 `public-site/` 發布對外網站；以 `knowledge-base/` 與 `workbench/` 支援維護者工作；`registry/` 保持機讀用途。
 
 ### 第二階段
 

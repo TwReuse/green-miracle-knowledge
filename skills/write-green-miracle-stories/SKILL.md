@@ -14,17 +14,17 @@ description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來
    - `registry/history-events.yaml`
    - `registry/history-sources.yaml`
    - `registry/impact-methodology.yaml`（涉及成果或碳排時）
-   - `docs/about/`、`docs/services/` 及相關核定頁面
-   - `docs/stories/chair-interview-2025.md`（創辦理念、服務判斷、組織文化、青年傳承或未來方向的日常引用入口）
-   - `docs/stories/chair-interview-2025-full-qa.md`（需要完整上下文或核對引言時；優先於返回 Notion）
+   - `knowledge-base/about/`、`knowledge-base/services/` 及相關核定頁面
+   - `knowledge-base/stories/chair-interview-2025.md`（創辦理念、服務判斷、組織文化、青年傳承或未來方向的日常引用入口）
+   - `knowledge-base/stories/chair-interview-2025-full-qa.md`（需要完整上下文或核對引言時；優先於返回 Notion）
 3. 優先使用 Repo 已同步的訪談與素材；只有 Repo 缺少內容或需要核對原始編輯記錄時才回 Notion。使用 Notion 時，只把已授權或已核定內容提升為事實；內部頁面網址、個資與未公開內容不得寫入公開 Repo。
 4. 讀取 [來源與事實政策](references/source-and-fact-policy.md)。需要公開搜尋時，再讀取 [網路研究與權利規範](references/web-research-and-rights.md)。
 
 ## 內容分層
 
-- `docs/public/` 是對外人讀成品。使用 Wiki、問答或記者式敘事，不把治理欄位塞進正文。
-- `docs/about/`、`docs/services/`、`docs/impact/`、`docs/stories/` 與 `docs/training/` 是知識母稿與完整上下文。
-- `docs/governance/`、`docs/sources/`、`docs/ai/` 是維護者資料。
+- `public-site/` 是對外人讀成品。使用 Wiki、問答或記者式敘事，不把治理欄位塞進正文。
+- `knowledge-base/about/`、`knowledge-base/services/`、`knowledge-base/impact/`、`knowledge-base/stories/` 與 `knowledge-base/training/` 是知識母稿與完整上下文。
+- `knowledge-base/governance/`、`knowledge-base/sources/`、`knowledge-base/ai/` 是維護者資料。
 - `registry/` 是 AI、網站與工具的機讀來源，不是一般文章。
 
 公開文章只可從 `approved` 知識母稿產製。若任何必要輸入仍為 `review`、`draft` 或 `blocked`，成品不得高於該狀態。人讀文章與知識卡是同一事實的不同呈現，不得形成平行 SSOT。
@@ -88,7 +88,7 @@ python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <
 - Wiki 說明採短段落、問題式標題與清楚定義；紀實文章以人物、問題、選擇、行動、轉折與今日意義推進。
 - 正文不堆疊來源 ID；在 frontmatter 記錄 `canonical_knowledge_ids`、必要的 `source_ids`，文末用「資料依據與限制」回鏈。
 - 服務、勸募、聯絡方式與法定事項加上當期查詢入口，不把長效文章當即時公告。
-- 公開文章預設寫入 `docs/public/`，首次產出設為 `review`，由 Chinwen 核定後才改為 `approved`。
+- 公開文章預設寫入 `public-site/public/`，首次產出設為 `review`，由 Chinwen 核定後才改為 `approved`。
 
 教育訓練版本不得只摘要歷史。每個案例至少輸出：問題、角色、資源、採取方法、限制、可重用能力、今日應用及一個可驗證的改善題目。把「自行執行、共同執行、轉介」列為能力判斷，而不是用自行完成量衡量所有影響力。
 

@@ -1,14 +1,19 @@
 ---
 doc_id: GM-PUBLIC-STORY-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
 content_layer: human-readable
+page_type: story
+primary_audience: [初次訪客, 媒體教師, 新進人員]
 narrative_style: journalistic-wiki
 canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-HISTORY-001]
 source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-MOENV-PCLOVE-2005, GM-SRC-FCU-2008, GM-SRC-KCG-2010, GM-SRC-CTS-2015, GM-SRC-CHARTER]
 last_reviewed: 2026-08-10
 review_due: 2026-11-08
+approved_by: Chinwen
+approval_date: 2026-08-10
+approval_evidence: owner-approval-chat-2026-08-10-four-public-articles
 ---
 
 # 一個服務，如何走過二十年
@@ -46,6 +51,6 @@ review_due: 2026-11-08
 <details>
 <summary>資料依據與使用邊界</summary>
 
-本篇由寫手流程依核定文件 `GM-PUB-ABOUT-001`、`GM-PUB-HISTORY-001` 改寫。2004 年為服務計畫起源，2021 年為協會法人化；兩者不可混稱。八八風災 200 餘部為歷史彙總，不代表目前已有 2004 年起可去重的累計資料。完整時間點與證據限制請見[綠色奇蹟時序記事](../about/history-timeline.md)。
+本篇由核定歷史母稿改寫。2004 年為服務計畫起源，2021 年為協會法人化；兩者不可混稱。八八風災 200 餘部為歷史彙總，不代表目前已有 2004 年起可去重的累計資料。若需媒體採訪或正式引用個別事件，請向協會確認最新核定版本。
 
 </details>

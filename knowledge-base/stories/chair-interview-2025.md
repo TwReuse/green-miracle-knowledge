@@ -103,5 +103,5 @@ review_due: 2026-11-07
 ## 來源與保存
 
 - 原始來源：Notion「舊機翻新，青年揚帆」採訪企劃及其 Q1–Q20 回答子頁。
-- 完整 Q1–Q20 回答已同步至 `docs/stories/chair-interview-2025-full-qa.md`；Notion 保留為原始備份，不再是日常引用依賴。
+- 完整 Q1–Q20 回答已同步至 `knowledge-base/stories/chair-interview-2025-full-qa.md`；Notion 保留為原始備份，不再是日常引用依賴。
 - Repo 引用代號：`GM-SRC-NOTION-CHAIR-INTERVIEW-2025`。

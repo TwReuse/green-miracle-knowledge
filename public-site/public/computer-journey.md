@@ -1,13 +1,18 @@
 ---
 doc_id: GM-PUBLIC-SERVICE-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
 content_layer: human-readable
+page_type: service
+primary_audience: [設備捐贈者, 申請者, 合作夥伴]
 narrative_style: wiki-explainer
 canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
 last_reviewed: 2026-08-10
 review_due: 2026-11-08
+approved_by: Chinwen
+approval_date: 2026-08-10
+approval_evidence: owner-approval-chat-2026-08-10-four-public-articles
 ---
 
 # 一部再生電腦的旅程
@@ -47,6 +52,6 @@ review_due: 2026-11-08
 <details>
 <summary>資料依據與當期查詢</summary>
 
-本篇依 `GM-PUB-SVC-001` 與 `GM-PUB-SVC-QUALITY-001` 改寫。流程說明不取代內部 SOP，也不構成個案核配、日期、規格或法律承諾。申請與當期條件請回到[綠色奇蹟官網](https://www.reuse.org.tw/)確認；完整限制請見[再生電腦服務品質系統](../services/service-quality-system.md)。
+本篇依核定服務與品質母稿改寫。流程說明不取代內部 SOP，也不構成個案核配、日期、規格或法律承諾。申請與當期條件請回到[綠色奇蹟官網](https://www.reuse.org.tw/)確認。
 
 </details>
