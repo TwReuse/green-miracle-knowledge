@@ -7,22 +7,31 @@ nav:
   - 認識綠色奇蹟:
       - 法人定位與歷史關係: about/identity-and-history.md
       - 成立緣由與時序記事: about/history-timeline.md
+      - 理事長訪談與二十年傳承: stories/chair-interview-2025.md
+      - 理事長訪談完整問答: stories/chair-interview-2025-full-qa.md
       - 歷史資料核定工作表: about/history-evidence-review.md
       - 使命與服務定位: about/mission-and-positioning.md
   - 服務與影響:
       - 再生電腦服務閉環: services/reuse-computer-loop.md
+      - 服務品質系統: services/service-quality-system.md
       - 成果與影響力衡量: impact/measurement.md
   - 教育訓練:
       - 訓練入口: training/index.md
       - 新成員入門: training/onboarding.md
+      - 二十年經驗傳承與應用: training/learning-from-20-years.md
       - 內容發布訓練: training/content-publication.md
   - 治理與透明:
       - 角色與核定權責: governance/roles-and-approval.md
       - 矽聯代管與法人權責: governance/hosting-and-custodianship.md
       - 公開與非公開資料邊界: governance/public-private-boundary.md
       - 內容發布生命週期: governance/publication-lifecycle.md
+      - Notion 治理與制度盤點: governance/notion-governance-inventory.md
+      - 官網資料追溯與 AI 整合: governance/website-data-provenance.md
+  - AI 整合:
+      - 知識卡與引用索引: ai/knowledge-cards.md
   - 來源與規劃:
       - 來源登錄: sources/source-register.md
+      - 矽聯科技時期史料: sources/early-systemlead-sources.md
       - Repo 目錄與內容架構: repository-architecture.md
       - 發展路線圖: roadmap.md
       - 詞彙表: glossary.md

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 knowledge_base_id: GM-PUBLIC-KB
 title: 綠色奇蹟公開知識庫
-status: planning
+status: approved
 legal_entity: 社團法人綠色奇蹟公益服務網協會
 legal_name_verification: confirmed-from-charter-and-judicial-announcement
 repository_role: public-knowledge-ssot
@@ -14,16 +14,17 @@ hosting:
   legal_content_owner: 綠色奇蹟公益服務網協會
   boundary: 技術代管不移轉協會的法人、內容、財務、會務、個資或品牌權責。
 origin_relationship:
-  statement: 綠色奇蹟源自矽聯科技公益服務，創辦人同為邱勤文；現為獨立法人。
+  statement: 2004 年由矽聯科技股份有限公司年度董事會與同仁共同訂定社會回饋服務計畫，綠色奇蹟服務從此誕生；創辦人暨理事長為邱勤文，2021 年後由獨立法人承接治理。
   source: user-confirmed
   governance_effect: 矽聯科技僅為歷史或合作來源，不擔任本知識庫的法人核定機關。
 roles:
-  legal_governance_body: pending-association-appointment
+  legal_governance_body: 依章程由會員大會、理事會與監事會行使法定權責
   knowledge_governance_owner: 邱勤文（Chinwen）
-  program_owner: pending
-  evidence_owner: pending
-  privacy_rights_reviewer: pending
+  program_owner: 邱勤文（Chinwen）
+  evidence_owner: 邱勤文（Chinwen）
+  privacy_rights_reviewer: 邱勤文（Chinwen）
   publisher: Chinwen
+  technical_recovery: TwReuse 組織管理者僅處理帳號與 Repo 存取復原，不取得內容核定權。
 publication_rule:
   branch: main
   direct_publish_status: approved
@@ -43,19 +44,76 @@ public_boundary:
     - 帳密、金鑰、權杖、弱點與內部權限資料
     - 未授權的照片、Logo、影音、新聞全文或教材
 content_statuses: [draft, review, blocked, approved, superseded, withdrawn]
+operational_data_boundary:
+  traceable_baseline_year: 2018
+  pre_2018_policy: 不全面補齊或移轉 Excel、紙本及舊系統逐筆明細；以公開史料與 Owner 核定脈絡說明歷程。
+  post_2018_authority: reuse.org.tw 官網營運資料庫與經勾稽的公開紀錄。
+  trust_condition: 引用須保留期間、狀態、統計定義、去重、資料版本與更正資訊。
+  ai_integration_status: planning
+  ai_boundary: AI 只使用去識別公開資料及已核定知識卡，不直接讀寫正式資料庫。
+learning_assets:
+  - id: GM-GOV-DATA-001
+    title: 官網資料如何成為可信任來源並供 AI 引用
+    path: docs/governance/website-data-provenance.md
+    status: review
+    owner_role: 知識治理負責人
+    purpose: 核定 2018 年資料追溯分界，並提供新版官網資料出口、Repo 同步及 AI 應用的需求輸入。
+    completion_marker: 官網能輸出去識別、具版本與更正資訊的公開資料，Repo 經人工核定同步，AI 回答附期間與來源。
+  - id: GM-AI-CARD-INDEX-001
+    title: AI 知識卡與引用索引
+    path: docs/ai/knowledge-cards.md
+    status: approved
+    owner_role: 知識治理負責人
+    purpose: 提供網站、客服、行銷、簡報與 AI 一致的短答案、限制及人工轉接規則。
+    completion_marker: 所有卡片均具狀態、來源、限制、審視日與人工轉接條件，draft 不成為預設答案。
+  - id: GM-PUB-SVC-QUALITY-001
+    title: 再生電腦服務品質系統
+    path: docs/services/service-quality-system.md
+    status: approved
+    owner_role: 方案負責人
+    purpose: 將免費物流、合法授權、六個月保固、資訊流、物流及 SOP 串成可改善的服務閉環。
+    completion_marker: 適用條件、例外、必留紀錄、品質指標與 AI 回答規則均已核定。
+  - id: GM-GOV-NOTION-001
+    title: Notion 治理、章程、勸募與作業資料盤點
+    path: docs/governance/notion-governance-inventory.md
+    status: review
+    owner_role: 知識治理負責人
+    purpose: 分辨現行、內部、審核中、草案與歷史來源，避免 AI 將 Notion 工作稿當正式制度。
+    completion_marker: 每份來源具 ID、狀態、可引用範圍、敏感邊界與審視期限。
+  - id: GM-STORY-INTERVIEW-2025-002
+    title: 2025 年理事長訪談完整問答素材
+    path: docs/stories/chair-interview-2025-full-qa.md
+    status: review
+    owner_role: 知識治理負責人
+    purpose: 在 Repo 內保存 Q1–Q20 完整回答，供引用時核對上下文，不再依賴 Notion。
+    completion_marker: 二十題均有完整回答、使用邊界與 Repo 引用順序，且不含 Notion 內部網址、個資或未核定成果宣稱。
+  - id: GM-STORY-INTERVIEW-2025-001
+    title: 理事長訪談：把二十年經驗交給下一個世代
+    path: docs/stories/chair-interview-2025.md
+    status: review
+    owner_role: 知識治理負責人
+    purpose: 提供創辦人暨理事長第一人稱理念、服務判斷、能力傳承與未來方向之可引用素材。
+    completion_marker: 引言保留來源與語意，數字及事實主張回到對應正式資料，公開版本不包含內部Notion網址與個資。
+  - id: GM-TRAIN-004
+    title: 如何用二十年經驗解決下一個問題
+    path: docs/training/learning-from-20-years.md
+    status: review
+    owner_role: 教育訓練負責人
+    purpose: 串連網路、行動與AI世代的數位需求，以及減廢、惜物、循環與減碳演進，供新進人員萃取能力、研究問題與提出改善。
+    completion_marker: 受訓者能從案例提出新問題、組合既有資源、設計小規模驗證並回寫知識庫。
 initial_gates:
   - id: GM-GATE-LEGAL
-    status: blocked
+    status: approved
     requirement: 核對法人正式名稱、立案與授權角色。
   - id: GM-GATE-DATA
     status: blocked
-    requirement: 建立年度成果定義、去重、來源與核定表。
+    requirement: 建立 2018 年後官網成果的狀態字典、統計定義、去重、更正紀錄及版本化公開資料出口。
   - id: GM-GATE-RIGHTS
     status: blocked
     requirement: 建立個資、肖像、兒少、Logo、照片與引言授權矩陣。
   - id: GM-GATE-SERVICE
-    status: blocked
+    status: approved
     requirement: 核對現行回收、申請、費用、保固與例外規則。
   - id: GM-GATE-LICENSE
-    status: blocked
+    status: approved
     requirement: 協會核定文字、程式碼、資料及視覺素材授權。

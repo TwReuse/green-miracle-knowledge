@@ -1,9 +1,11 @@
 ---
 doc_id: GM-GOV-004
-status: planning
+status: approved
 owner_role: Chinwen
 public: true
-last_reviewed: 2026-08-09
+approved_by: Chinwen
+approval_evidence: owner-instruction-2026-08-10-p0
+last_reviewed: 2026-08-10
 review_due: 2026-11-07
 ---
 
@@ -33,7 +35,7 @@ review_due: 2026-11-07
 ## 維運與備援
 
 1. 啟用 `main` 分支保護、PR（合併請求）、`docs-check` 及禁止強制推送。
-2. Chinwen 為主要管理人；另指定至少一位備援管理人，避免單一帳號風險。
+2. Chinwen 為主要管理人；帳號失效時由 `TwReuse` 組織管理者執行技術復原。此備援只處理存取，不取得內容核定權。
 3. GitHub 帳號使用多因素驗證，不在 Repo 保存密碼、權杖或金鑰。
 4. 每年至少一次確認代管關係、管理人、網域、權限與備份。
 5. 若未來移轉至協會自有 GitHub 組織，保留 Repo 名稱、Git 歷史、Issue、Release、知識 ID 與重新導向。
@@ -46,4 +48,4 @@ review_due: 2026-11-07
 
 ## 完成標誌
 
-遠端 Repo 已建立、Chinwen 帳號已核對、分支保護與 CI 已啟用、備援管理人已指定，且 README 與公開站均能看到本代管聲明。
+遠端 Repo 已建立、Chinwen 為管理人、CI 可執行、技術復原責任與內容權責已分開，且 README 與公開站均能看到本代管聲明。分支保護設定仍須由 GitHub Repo 設定頁定期覆核。

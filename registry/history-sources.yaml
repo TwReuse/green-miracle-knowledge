@@ -1,16 +1,140 @@
 schema_version: "1.0"
 registry_id: GM-HISTORY-SOURCES
 status: review
-last_reviewed: 2026-08-09
+last_reviewed: 2026-08-10
 sources:
+  - id: GM-SRC-NOTION-CHAIR-INTERVIEW-2025
+    title: 舊機翻新，青年揚帆採訪企劃／理事長 Q1–Q20 回答
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2025
+    type: owner-interview-material
+    access: repo-synchronized-owner-interview
+    canonical_repo_path: docs/stories/chair-interview-2025-full-qa.md
+    original_backup_locator: Notion Wiki／綠色奇蹟公益服務網協會介紹／舊機翻新，青年揚帆
+    speaker: 創辦人暨理事長邱勤文
+    scope: 科技為人、效率與人本、標準化與追溯、需求導向、整修取捨、國際試點、財務韌性、青年傳承、AI數位落差及未來二十年。
+    public_citation_allowed: true
+    evidence_policy: 日常引用以 Repo 完整問答與整理素材為準，Notion 僅作原始備份。可用於理念、判斷方法與未來方向；歷史日期、合作事實、成果數字、技術標準與法規仍須各自來源。主頁的2,200台及比較性定位不採用。
+  - id: GM-SRC-OWNER-2026-08-10-R5
+    title: Chinwen C／G／D 合作、素材權利與成果口徑核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-10
+    type: owner-approval
+    access: public-summary
+    scope: 啟禾合作起點與組織邊界、歷史影音及人物素材規則、八八風災200餘台、家扶與慈濟合作數字、整修產能、華碩DOC轉介、年度目標及無歷年累計。
+    evidence_policy: 完成交付、合作支援、年度目標、整修產能與轉介媒合分開登錄；不使用全台最大。
+  - id: GM-SRC-REUSE-CREDIT-CHECK
+    title: 綠色奇蹟公益服務網勸募專案公開徵信
+    publisher: 綠色奇蹟公益服務網協會
+    type: official-disclosure-gateway
+    access: public
+    url: https://www.reuse.org.tw/Credit_Check.html
+    evidence_note: 公開捐贈基本資料、每月收支、預算執行、結案報告與年度財務資料入口。
+  - id: GM-SRC-REUSE-FINAL-REPORTS
+    title: 綠色奇蹟捐贈結案報告搜尋入口
+    publisher: 綠色奇蹟公益服務網協會
+    type: official-results-gateway
+    access: public
+    url: https://www.reuse.org.tw/Event.html?type=all&tag=57WQ5qGI5aCx5ZGK
+  - id: GM-SRC-TFCF-SOUTH-KAOHSIUNG-REQ-2021
+    title: 家扶基金會南高雄家扶中心再生電腦線上申請
+    publisher: 綠色奇蹟公益服務網
+    published: 2021-06-11
+    type: official-application-record
+    access: public
+    url: https://www.reuse.org.tw/eventdetail.html?actid=F92D5DBE-DC01-4884-9313-CD5749AB3F85
+    evidence_note: 記錄桌機與螢幕各100台申請；申請量不能單獨證明完成交付。
+  - id: GM-SRC-TWNEWSHUB-TFCF-100-2021
+    title: 百台再生電腦助南高雄家扶兒少遠距學習
+    publisher: 台灣新聞雲
+    published: 2021-07-28
+    type: news-completion-report
+    access: public
+    url: https://twnewshub.com/archives/18071
+    evidence_note: 補足100台完成募集、整修與發放紀錄。
+    rights_note: 只摘要與連結；兒少影像及個案細節不重製。
+  - id: GM-SRC-OWNER-2026-08-10-R4
+    title: Chinwen A／B 歷史主線與創辦敘事核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-10
+    type: owner-approval
+    access: public-summary
+    scope: 創辦人暨理事長邱勤文、屏東成長與城鄉資訊差距、群像敘事、矽聯科技股份有限公司年度董事會、2004 服務計畫成立、MAR 線上平台、2006–2008 功能目的、2007 華碩共同執行環保署專案、八八風災 200餘台與學校線索、2021 法人邊界。
+    evidence_policy: 取代「公司理事會」及「2004 年不可稱綠色奇蹟服務計畫成立」等舊暫行用語；新威、新發及啟禾結緣細節仍待補證。
+  - id: GM-SRC-OWNER-2026-08-10-R3
+    title: Chinwen 2004 年專案承接與名稱狀態核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-10
+    type: owner-approval
+    access: public-summary
+    scope: 資策會專案下，由屏東縣電腦商業同業公會承接屏東地區再生電腦捐贈安裝，使用矽聯科技建立的網站服務；綠色奇蹟當時主要為網站與服務名稱，服務能力仍在起步。
+    evidence_policy: 專案承接與早期網站狀態仍有效；2004 年服務成立用語由 GM-SRC-OWNER-2026-08-10-R4 取代。
+  - id: GM-SRC-MOENV-PCLOVE-2005
+    title: 環保署推動二手電腦回收轉贈作業計畫
+    publisher: 行政院環境保護署（現環境部）
+    published: 2005-09-20
+    type: government-program-context
+    access: public
+    url: https://enews.moenv.gov.tw/Page/3B3C62C78849F32F/360ca16e-1572-49c7-bac4-44d8400b4882
+    evidence_note: 支持環保署與資策會的專案背景；頁面未直接記載屏東縣電腦商業同業公會、矽聯科技或綠色奇蹟名稱，不能單獨證明具體下包與服務關係。
+  - id: GM-SRC-FCU-2008
+    title: 書出感動 e網情深 逢甲與大鵬國小牽手合作
+    publisher: 逢甲大學
+    published: 2008-05-15
+    type: partner-contemporary-report
+    access: public
+    url: https://www.fcu.edu.tw/fcuweekly/news/2008051503/
+    evidence_note: 記錄邀請矽聯科技配合 54 部再生電腦的微軟作業系統申請與捐贈，並稱綠色奇蹟為矽聯科技建立的網站。「去年底成立網站」與 2004 起源口徑差異須保留，不作唯一建站年份。
+    rights_note: 只摘要與連結，校園及兒少照片不重製。
+  - id: GM-SRC-KCG-2010
+    title: 淘汰的舊電腦交給綠色奇蹟
+    publisher: 高雄市政府新聞局
+    published: 2010-04-14
+    type: government-contemporary-report
+    access: public
+    url: https://kcginfo.kcg.gov.tw/Publish_Content.aspx?chapt=4306&n=337EA9B16C7004DE&s=7CAF28DCBAC6B498&sms=E5C0F6A40A13E849&sort=1
+    evidence_note: 記錄網站由高雄軟體公司建立，由該公司負擔物流並累積回收再利用專案經驗，也提及國際志工、八八風災電腦教室與部落活動。
+    rights_note: 網站明示未經同意不得轉載；只摘要與連結，照片不重製。
+  - id: GM-SRC-BLOGGER-QA-2014
+    title: 綠色奇蹟常見 Q&A
+    publisher: 綠色奇蹟公益平台
+    published: 2014-05
+    type: official-operating-record
+    access: public
+    url: https://3c-dr.blogspot.com/2014/05/q.html
+    evidence_note: 記錄矽聯科技提供網站並負責 SOP、整體規劃、建置管理及維護費用，另有整修廠、物流、授權及公益單位分工。
+  - id: GM-SRC-NOWNEWS-GARENA-2019
+    title: 綠色電腦再生計畫啟動 Garena 邀玩家送暖造福弱勢兒少
+    publisher: NOWnews 今日新聞
+    published: 2019-11-29
+    type: news-report
+    access: public
+    url: https://www.nownews.com/news/3786898
+    evidence_note: 將綠色奇蹟描述為由矽聯科技規劃經營的公益平台，並記錄二手電腦整理與需求登錄整合角色。
+    rights_note: 只摘要與連結，新聞全文及公關照片不重製。
+  - id: GM-SRC-1111-SYSTEMLEAD-PROFILE
+    title: 矽聯科技股份有限公司公司簡介
+    publisher: 1111 商搜網
+    type: company-directory
+    access: public
+    url: https://trade.1111.com.tw/Comp_Info?vNo=190347
+    evidence_note: 公司資料將綠色奇蹟列為矽聯科技建立的環保公益網站；未提供原始刊登日期，只作公司自述背景，不判定特定事件年份。
+  - id: GM-SRC-UDN-RECYCLE-2019
+    title: 2019 年 6 月 8 日回收專題報導
+    publisher: 聯合報系印刷版面
+    published: 2019-06-08
+    type: newspaper-pdf-lead
+    access: public
+    url: https://369printing.udngroup.com/WFDPDF/2019/assets/wfd-20190608.pdf
+    evidence_note: 搜尋資料顯示可能將「電腦回收送愛至偏鄉」描述為矽聯科技創立的公益平台；原 PDF 本次無法正常開啟，維持 lead-only。
   - id: GM-SRC-OWNER-2026-08-09
     title: Chinwen 歷史口徑核定
     publisher: 綠色奇蹟知識治理負責人
     recorded: 2026-08-09
     type: owner-approval
     access: public-summary
-    scope: 2004 服務計畫成立、2005 MAR、2006–2008 線上功能、2007 華碩合作、八八風災後 200 餘部支援。
-    evidence_policy: MAR 以持續採購與授權作業事實治理，不要求合約；華碩合約含保密條款，不提供、不引用、不登錄保存位置或內容。
+    scope: 舊版歷史口徑；2026-08-10 起由 GM-SRC-OWNER-2026-08-10-R4 補充與取代相關 A／B 主張。
+    evidence_policy: 保留追溯，不再作最新主敘事來源。
   - id: GM-SRC-BLOGGER-2025-CARBON
     title: 賦予舊電腦新生命：綠色奇蹟如何用再生科技點亮希望與對抗氣候變遷
     publisher: 綠色奇蹟公益服務平台
@@ -91,13 +215,6 @@ sources:
     type: legal-document
     access: public
     url: https://s3.hicloud.net.tw/3c-dr/%E5%8D%94%E6%9C%83%E6%96%87%E4%BB%B6/%E7%B6%A0%E8%89%B2%E5%A5%87%E8%B9%9F%E5%85%AC%E7%9B%8A%E6%9C%8D%E5%8B%99%E7%B6%B2%E5%8D%94%E6%9C%83%E7%AB%A0%E7%A8%8B.pdf
-  - id: GM-SRC-FCU-2008
-    title: 書出感動 e網情深 逢甲與大鵬國小牽手合作
-    publisher: 逢甲大學
-    published: 2008-05-15
-    type: partner-contemporary-report
-    access: public
-    url: https://www.fcu.edu.tw/fcuweekly/news/2008051503/
   - id: GM-SRC-RESULT-2022
     title: 2022 年勸募計畫成果發表／2023 第一季理監事會資料
     publisher: 綠色奇蹟公益服務網協會
@@ -180,3 +297,134 @@ sources:
     access: internal
     locator: Notion Wiki／曼谷 UN-SDGs 青年論壇簡報素材
     public_citation_allowed: false
+  - id: GM-SRC-REUSE-PROJECT-2026
+    title: 再生電腦申請須知
+    publisher: 綠色奇蹟公益服務網協會
+    accessed: 2026-08-10
+    type: official-current-service
+    access: public
+    url: https://www.reuse.org.tw/project.html
+    evidence_note: 確認免費回收、合法授權、六個月保固、申請配合事項及保固回廠運費邊界。
+  - id: GM-SRC-REUSE-ASSET-2026
+    title: 2026 物資處置與報廢核銷說明書
+    publisher: 綠色奇蹟公益服務網協會
+    accessed: 2026-08-10
+    type: official-operations-disclosure
+    access: public
+    url: https://www.reuse.org.tw/PhysicalAssetSummary.html?donaYear=2026
+    evidence_note: 確認六個月硬體保固備品留用與實物流向揭露原則；動態欄位未載入時不得推測數字或勸募文號。
+  - id: GM-SRC-NOTION-GOV-ROOT
+    title: 綠色奇蹟公益服務網協會 Notion 總導覽
+    publisher: 綠色奇蹟內部 Notion
+    accessed: 2026-08-10
+    type: internal-governance-index
+    access: internal
+    locator: Notion Wiki／綠色奇蹟公益服務網協會
+    public_citation_allowed: false
+  - id: GM-SRC-NOTION-CHARTER-2021
+    title: 社團法人綠色奇蹟公益服務網協會章程-2021
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2021
+    type: internal-copy-of-legal-document
+    access: internal
+    locator: Notion Wiki／社團法人綠色奇蹟公益服務網協會章程-2021
+    public_citation_allowed: false
+    evidence_note: 章程正文記載內政部110年10月台內團字第1100047640號函准予備查；正式逐條引用仍優先核對公開章程或主管機關版本。
+  - id: GM-SRC-NOTION-CHARTER-DRAFT-2026
+    title: 綠色奇蹟公益服務網協會章程修正草案
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2026-04-21
+    type: internal-draft
+    access: internal
+    locator: Notion 治理索引庫／章程修正草案
+    public_citation_allowed: false
+    evidence_note: 頁面為空白且狀態待整理，不構成章程修正或通過證據。
+  - id: GM-SRC-NOTION-FUNDRAISING-2026
+    title: 再生電腦傳愛計畫2026 勸募活動申請書
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2025-10-21
+    type: internal-fundraising-draft
+    access: internal
+    locator: Notion Wiki／年度勸募計畫／再生電腦傳愛計畫2026
+    public_citation_allowed: false
+    evidence_note: 尚有待填欄位，未附主管機關核准文號及正式核准期間，只能作規劃來源。
+  - id: GM-SRC-NOTION-ALLOC-2026
+    title: 2026 綠色奇蹟再生電腦申請與核配原則
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2026-05-18
+    type: internal-service-policy-review
+    access: internal
+    locator: Notion Wiki／2026 再生電腦申請與核配原則
+    public_citation_allowed: false
+    evidence_note: 年度上限、募集折抵、認養金額及優先順序需由方案 Owner 核定並以官網現行公告為準。
+  - id: GM-SRC-NOTION-RECOVERY-OPTIONS
+    title: 綠色奇蹟提供的回收電腦方式
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2025-02-03
+    type: internal-historical-service-guide
+    access: internal
+    locator: Notion Wiki／綠色奇蹟提供的回收電腦方式
+    public_citation_allowed: false
+    evidence_note: 可說明免費物流、自費寄送與預約親送的歷史模式，現行條件以官網為準。
+  - id: GM-SRC-NOTION-FREIGHT-SOP-V1
+    title: 電腦回收運費內部管理辦法與SOP V1.0
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2025-12-31
+    type: approved-internal-sop
+    access: internal-restricted
+    locator: Notion Wiki／電腦回收運費內部管理辦法與SOP
+    public_citation_allowed: summary-only
+    evidence_note: 公開內容只描述資源池統籌、可追溯及異常管理，不公開內控門檻、憑證或廠商資料。
+  - id: GM-SRC-NOTION-SERVICE-TERMS-2024
+    title: 網站服務條款
+    publisher: 綠色奇蹟內部 Notion
+    effective: 2024-07
+    type: internal-legal-review
+    access: internal
+    locator: Notion Wiki／網站服務條款
+    public_citation_allowed: false
+    evidence_note: Notion 外部導覽已標示法務、稅務、退費、扣繳與保固敘述需二次確認。
+  - id: GM-SRC-NOTION-CS-QA-V1
+    title: 客服QA（回收電腦線上填單）v1.0
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2026-01-02
+    type: internal-customer-service-qa
+    access: internal
+    locator: Notion Wiki／客服QA（回收電腦線上填單）
+    public_citation_allowed: false
+    evidence_note: 可萃取問答主題；時程、硬體規格、稅務與資料清除方式需以當期公告與SOP覆核。
+  - id: GM-SRC-NOTION-DISK-QA-2026
+    title: 回收設備硬碟資料處理說明函
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2026-07-23
+    type: internal-security-qa-review
+    access: internal
+    locator: Notion 文件知識庫／回收設備硬碟資料處理說明函
+    public_citation_allowed: false
+    evidence_note: 來源標示外部需審核；未核定前不得承諾證明等同第三方資安銷毀認證。
+  - id: GM-SRC-NOTION-KNOWLEDGE-PACK
+    title: 基本資料知識庫素材包
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2025-12-02
+    type: internal-brand-material
+    access: internal
+    locator: Notion Wiki／基本資料知識庫素材包
+    public_citation_allowed: false
+    evidence_note: 品牌與服務描述須回到正式章程、官網、成果與Owner來源。
+  - id: GM-SRC-NOTION-COLLAB-MODELS-2026
+    title: 再生電腦合作勸募合作模式分工說明
+    publisher: 綠色奇蹟內部 Notion
+    recorded: 2026-01-02
+    type: internal-collaboration-model-review
+    access: internal
+    locator: Notion Wiki／再生電腦合作勸募合作模式分工說明
+    public_citation_allowed: false
+    evidence_note: 五種合作模式可供規劃；價格、稅務、授權費與硬體規格不得當長效公開口徑。
+  - id: GM-SRC-OWNER-2026-08-10-R6
+    title: Chinwen 官網資料追溯分界與 AI 整合方向核定
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-10
+    type: owner-approval
+    access: public-summary
+    scope: 2018 年官網大改版後的線上資料追溯、2018 年前歷史資料停止全面補齊、官網公開紀錄可信任定位，以及新版官網未來提供 Repo／AI 引用的需求方向。
+    evidence_policy: 歷史脈絡不要求逐筆明細；2018 年後成果引用仍須保留期間、狀態、統計定義、去重及更正資訊。未來資料介面仍屬需求候選。
