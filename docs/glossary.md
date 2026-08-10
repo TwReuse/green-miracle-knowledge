@@ -1,6 +1,6 @@
 ---
 doc_id: GM-GLOSSARY-001
-status: planning
+status: draft
 owner_role: 知識治理負責人
 public: true
 last_reviewed: 2026-08-09

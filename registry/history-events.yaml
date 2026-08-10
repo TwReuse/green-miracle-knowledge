@@ -2,7 +2,7 @@ schema_version: "1.0"
 registry_id: GM-HISTORY-EVENTS
 status: review
 owner: Chinwen
-last_reviewed: 2026-08-09
+last_reviewed: 2026-08-10
 evidence_levels:
   A: 法人、政府或正式核定文件
   B: 事件同期的合作方或機構公開資料
@@ -14,53 +14,106 @@ events:
     date_start: "2004"
     date_precision: year
     title: 綠色奇蹟服務計畫成立
-    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022]
+    source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-MOENV-PCLOVE-2005]
     evidence_level: O
     verification_status: owner-confirmed
     public_readiness: review
-    governance_note: 2004 指矽聯科技回饋社會的服務計畫成立，不是協會法人成立。
+    participants:
+      project_executor: 資策會
+      regional_subcontractor: 屏東縣電腦商業同業公會
+      regional_scope: 屏東地區再生電腦捐贈與安裝
+      website_service_provider: 矽聯科技
+    corporate_governance_body: 矽聯科技股份有限公司年度董事會
+    name_status: 綠色奇蹟為網站與服務名稱
+    service_maturity: 服務計畫成立並開始投入人力，後續能力逐年擴充
+    governance_note: 2004 可稱綠色奇蹟服務計畫成立或服務誕生，但不是協會法人成立。
   - id: GM-HIST-2005-MAR
     date_start: "2005"
     date_precision: year
     title: 取得微軟 MAR 資格
-    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
+    source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OFFICIAL-HISTORY]
     evidence_level: O
     verification_status: owner-confirmed-operating-fact
     public_readiness: review
-    evidence_policy: 不要求合約；以持續至今的微軟作業系統採購與授權作業事實治理。
+    evidence_policy: 透過微軟線上平台申請，依使用規範負擔追蹤責任，並線上下單取得再生電腦公益授權；沒有實體合約。
   - id: GM-HIST-2006-2008-ONLINE
     date_start: "2006"
     date_end: "2008"
     date_precision: year-range
     title: 線上回收、申請與論壇功能逐步完成
-    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-FCU-2008]
+    source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OFFICIAL-HISTORY, GM-SRC-FCU-2008]
     evidence_level: O
     verification_status: owner-confirmed
     public_readiness: review
     milestones:
-      "2006": 線上填單回收
-      "2007": 線上申請再生電腦
-      "2008": 論壇相關系統
+      "2006": 線上填單物流回收
+      "2007": 除環保署專案學校函文造冊外，開始接受再生電腦線上申請
+      "2008": 完成論壇相關系統，以當時熱門社群資訊宣傳回收、擴大設備來源
   - id: GM-HIST-2007-ASUS
     date_start: "2007"
     date_precision: year
     title: 華碩希望工程合作
-    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY]
+    source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OFFICIAL-HISTORY]
     evidence_level: O
     verification_status: owner-confirmed-confidential-contract
     public_readiness: review
-    evidence_policy: 合約含保密條款，不提供、不引用、不登錄保存位置或內容。
+    public_scope: 與華碩希望工程共同執行該年度環保署專案，建立較完整的回收整修技術與回收追蹤。
+    evidence_policy: 合約含保密條款，不提供、不引用、不登錄保存位置或內容，也不推測條款。
   - id: GM-HIST-2009-MORAKOT
     date_start: "2009"
     date_end: "2010"
     date_precision: year-range
     title: 八八風災後南部中小學電腦教室支援
-    source_ids: [GM-SRC-OWNER-2026-08-09, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-HARVEST-2017]
+    source_ids: [GM-SRC-OWNER-2026-08-10-R5, GM-SRC-KCG-2010]
     evidence_level: O
     verification_status: owner-confirmed
     public_readiness: review
     numeric_claim: 200餘部
-    numeric_claim_status: owner-confirmed-details-pending
+    numeric_claim_status: owner-confirmed-aggregate-details-unavailable
+    regions: [屏東, 高雄, 台南, 台東]
+    recipient_scope: 10多所學校與課輔單位
+    school_examples: [新威國小, 新發國小, 荖濃國小]
+    evidence_policy: 早期保存不完整，逐校日期與台數不可考；保留彙總，不補造明細。
+  - id: GM-HIST-2009-HARVEST-ACQUAINTANCE
+    date_start: "2009"
+    date_precision: year
+    title: 災後服務分享促成與啟禾相識
+    source_ids: [GM-SRC-OWNER-2026-08-10-R5]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    relationship_note: 啟禾捐新電腦給六龜龍興國小；綠色奇蹟支援新威、新發、荖濃等學校，兩者非共同專案。分享後由該年度社長 Fion 吳孟芬邀請邱勤文入社。
+  - id: GM-HIST-2011-2012-HARVEST-PRESIDENT
+    date_start: "2011"
+    date_end: "2012"
+    date_precision: rotary-year
+    title: 邱勤文擔任高雄啟禾扶輪社社長
+    source_ids: [GM-SRC-OWNER-2026-08-10-R5]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    organization_boundary: 啟禾扶輪社與綠色奇蹟為長期社區服務夥伴，但互為獨立組織、非隸屬關係。
+  - id: GM-HIST-2018-WEBSITE-TRACEABILITY
+    date_start: "2018"
+    date_precision: year
+    title: 官網大改版後建立較完整的線上資料追溯
+    source_ids: [GM-SRC-OWNER-2026-08-10-R6]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    capability: 申請、捐贈、客服、物流、整修、交付與結案由不同角色線上回報並寫入資料庫勾稽。
+    evidence_policy: 2018 年後官網資料庫與公開紀錄是營運成果主要追溯來源；2018 年前不全面補造 Excel、紙本或舊系統明細，以公開史料及 Owner 核定脈絡呈現。
+  - id: GM-HIST-2021-TFCF-SOUTH-KAOHSIUNG
+    date_start: "2021-06-11"
+    date_end: "2021-07-28"
+    date_precision: date-range
+    title: 南高雄家扶100台遠距學習再生電腦
+    source_ids: [GM-SRC-TFCF-SOUTH-KAOHSIUNG-REQ-2021, GM-SRC-TWNEWSHUB-TFCF-100-2021]
+    evidence_level: C
+    verification_status: corroborated-application-and-completion
+    public_readiness: review
+    numeric_claim: 100台完成交付
+    evidence_policy: 申請紀錄與完成報導成對引用；兒少與家庭個資不得公開。
   - id: GM-HIST-2019-COLLAB-PLATFORM
     date_start: "2019-05-12"
     date_precision: day

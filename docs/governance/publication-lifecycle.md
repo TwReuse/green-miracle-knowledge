@@ -1,9 +1,11 @@
 ---
 doc_id: GM-GOV-003
-status: planning
+status: approved
 owner_role: 知識治理負責人
 public: true
-last_reviewed: 2026-08-09
+approved_by: Chinwen
+approval_evidence: owner-instruction-2026-08-10-p0
+last_reviewed: 2026-08-10
 review_due: 2026-11-07
 ---
 

@@ -1,15 +1,17 @@
 ---
 doc_id: GM-PUB-ABOUT-002
-status: review
+status: approved
 owner_role: 知識治理負責人
 public: true
-last_reviewed: 2026-08-09
+approved_by: Chinwen
+approval_evidence: owner-instruction-2026-08-10-p0
+last_reviewed: 2026-08-10
 review_due: 2026-11-07
 ---
 
 # 綠色奇蹟的使命與服務定位
 
-## 定位草案
+## 核定定位
 
 綠色奇蹟以環保回收與數位公益為核心，將可再利用的舊電腦整修、依法處理軟體與資料安全，再媒合給有需要的人與組織。
 

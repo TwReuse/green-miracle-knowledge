@@ -1,6 +1,6 @@
 ---
 doc_id: GM-REPO-001
-status: planning
+status: draft
 owner_role: Chinwen
 public: true
 last_reviewed: 2026-08-09

@@ -17,7 +17,7 @@
 
 ## 遠端代管定位
 
-- 建議遠端：`https://github.com/TwReuse/green-miracle-knowledge`
+- 正式遠端：`https://github.com/TwReuse/green-miracle-knowledge`
 - GitHub 組織與技術代管：矽聯科技 `TwReuse`
 - Repo 管理人與知識治理負責人：Chinwen
 - 法人內容權責：綠色奇蹟公益服務網協會
@@ -33,6 +33,7 @@
 - [公開與非公開資料邊界](docs/governance/public-private-boundary.md)
 - [內容發布生命週期](docs/governance/publication-lifecycle.md)
 - [教育訓練入口](docs/training/index.md)
+- [二十年經驗傳承與應用](docs/training/learning-from-20-years.md)
 - [來源登錄](docs/sources/source-register.md)
 - [Repo 目錄與內容架構](docs/repository-architecture.md)
 
@@ -46,4 +47,8 @@ python -m mkdocs build --strict
 
 ## 目前狀態
 
-`planning`：已確認由 `TwReuse` 技術代管，管理人為 Chinwen。正式遠端 Repo 尚未建立；授權條款、備援管理人及高風險內容的覆核角色仍待補齊。
+`approved`：正式遠端 Repo 已建立，由 `TwReuse` 技術代管，Chinwen 統籌知識治理、方案、資料、隱私與發布決策。`main` 為公開基線；只有標示 `approved` 的內容可作為官網、簡報、教育訓練與 AI 的正式引用來源。
+
+- 帳號或權限中斷時，由 `TwReuse` 組織管理者執行技術復原，但不因此取得協會內容核定權。
+- 敏感或資安內容以 `service@reuse.org.tw` 私密通報，不得放入公開 Issue。
+- 授權採分層管理；詳見 [LICENSE.md](LICENSE.md)。

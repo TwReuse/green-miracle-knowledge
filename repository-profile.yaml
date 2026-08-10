@@ -19,8 +19,9 @@ branch_protection:
   prohibit_deletion: true
 permissions:
   administrators: Chinwen
-  maintainers: Chinwen 與待指定備援維護人
-  reviewers: 方案、資料證據、隱私權利與教育訓練角色
+  maintainers: Chinwen
+  technical_recovery: TwReuse 組織管理者僅處理帳號與 Repo 存取復原，不取得協會內容核定權。
+  reviewers: Chinwen 依內容風險邀請理監事、方案人員或外部權利人提供意見。
   contributors: 工作人員、志工與合作夥伴
   public: read-only
 release_model:
@@ -28,7 +29,4 @@ release_model:
   versioning: 每次核定內容以 tag 或 release 保留版本
   downstream_traceability: 官網、簡報、行銷與 AI 保留知識 ID 及版本
 decisions_pending:
-  - 共同管理人與帳號遺失時的復原方式
-  - 文件、程式碼、資料與視覺素材授權
-  - 私密通報信箱或表單
   - GitHub Pages 的正式網域與 DNS 管理人

@@ -1,0 +1,29 @@
+schema_version: "1.0"
+registry_id: GM-RELEASES
+owner: Chinwen
+releases:
+  - version: 1.0.0
+    tag: v1.0.0
+    release_date: 2026-08-10
+    status: approved
+    approved_by: Chinwen
+    approval_evidence: owner-instruction-2026-08-10-p0
+    title: 綠色奇蹟公開知識基線
+    content_policy: 只有 approved 文件與知識卡可作為正式對外及 AI 預設引用來源。
+    approved_docs:
+      - GM-PUB-001
+      - GM-PUB-ABOUT-001
+      - GM-PUB-ABOUT-002
+      - GM-PUB-HISTORY-001
+      - GM-PUB-SVC-001
+      - GM-PUB-SVC-QUALITY-001
+      - GM-GOV-001
+      - GM-GOV-002
+      - GM-GOV-003
+      - GM-GOV-004
+      - GM-AI-CARD-INDEX-001
+    approved_card_registry: GM-AI-KNOWLEDGE-CARDS
+    known_limits:
+      - 2018 年後官網版本化公開資料出口尚未完成。
+      - 第三方及人物視覺素材不包含於 Repo 開放授權。
+      - 當期勸募與服務條件仍以正式公告為準。

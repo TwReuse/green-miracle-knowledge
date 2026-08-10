@@ -1,0 +1,21 @@
+id: GM-SRC-CANDIDATE-YYYY-NNN
+title: ""
+media_type: news # video | government | school-record | partner-record | blog | archive | interview
+publisher: ""
+author_or_channel: ""
+published_at: ""
+event_date: ""
+url: ""
+accessed_at: ""
+video_timestamps: []
+speakers: []
+supported_claims: []
+evidence_level: D # 沿用 history-events.yaml 的 A | B | C | D | O
+verification_status: lead-only # confirmed | corroborated | owner-confirmed | context-only | conflict | blocked
+story_use: research-only # used | background-only | rejected | pending-approval
+rights_status: link-only # short-quote | embed-allowed | permission-required | internal-only
+public_citation_allowed: false
+contains_personal_data: unknown
+rights_and_privacy_notes: ""
+conflicts_with: []
+notes: ""

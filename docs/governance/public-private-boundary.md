@@ -1,9 +1,11 @@
 ---
 doc_id: GM-GOV-002
-status: planning
-owner_role: 權利與隱私審查人
+status: approved
+owner_role: Chinwen
 public: true
-last_reviewed: 2026-08-09
+approved_by: Chinwen
+approval_evidence: owner-instruction-2026-08-10-p0
+last_reviewed: 2026-08-10
 review_due: 2026-11-07
 ---
 
@@ -21,11 +23,11 @@ review_due: 2026-11-07
 ## 不得放進公開 Repo
 
 - 受贈者、捐贈者、志工與合作窗口的個人資料。
-- 兒少姓名、學校、住址、個案紀錄或可識別影像。
+- 兒少姓名、住址、個案紀錄、家庭處境或可識別影像。學校、課輔與照護單位名稱可公開，但不得因此揭露個人身分。
 - 設備序號、資產編號、物流明細與資料清除紀錄。
 - 內部財務憑證、銀行資訊、合約、會議限制文件。
 - 帳號、密碼、權杖、金鑰、系統弱點與內部權限資料。
-- 未授權照片、Logo、影音、新聞全文或第三方教材。
+- 未授權照片、Logo、影音、新聞全文或第三方教材。過往合作可引用單位名稱；現有合作使用 Logo 時須取得合作方正式檔案與規範。
 
 ## 資料流程圖與信任邊界
 
