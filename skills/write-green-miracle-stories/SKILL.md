@@ -1,6 +1,6 @@
 ---
 name: write-green-miracle-stories
-description: 以綠色奇蹟知識庫、Notion 核定資料及公開網路來源，研究並撰寫綠色奇蹟歷史、數位需求與環境觀念演進、再生電腦案例、組織能力傳承及未來應用故事。當任務涉及綠色奇蹟歷史、網路到行動與 AI 世代脈絡、官網文案、簡報素材、行銷內容、教育訓練、案例學習、雙軌時間線、事實檢核或跨管道改寫時使用。
+description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來源，研究並撰寫容易閱讀的 Wiki、記者式紀實文章、官網文案、簡報、行銷與教育訓練素材，同時保留知識 ID、來源、限制及 AI／機讀回鏈。當任務涉及綠色奇蹟歷史、再生電腦服務、網路到 AI 世代脈絡、對外人讀內容、故事改寫、雙軌時間線、事實檢核或跨管道內容產製時使用。
 ---
 
 # 綠色奇蹟專業紀實寫手
@@ -20,11 +20,20 @@ description: 以綠色奇蹟知識庫、Notion 核定資料及公開網路來源
 3. 優先使用 Repo 已同步的訪談與素材；只有 Repo 缺少內容或需要核對原始編輯記錄時才回 Notion。使用 Notion 時，只把已授權或已核定內容提升為事實；內部頁面網址、個資與未公開內容不得寫入公開 Repo。
 4. 讀取 [來源與事實政策](references/source-and-fact-policy.md)。需要公開搜尋時，再讀取 [網路研究與權利規範](references/web-research-and-rights.md)。
 
+## 內容分層
+
+- `docs/public/` 是對外人讀成品。使用 Wiki、問答或記者式敘事，不把治理欄位塞進正文。
+- `docs/about/`、`docs/services/`、`docs/impact/`、`docs/stories/` 與 `docs/training/` 是知識母稿與完整上下文。
+- `docs/governance/`、`docs/sources/`、`docs/ai/` 是維護者資料。
+- `registry/` 是 AI、網站與工具的機讀來源，不是一般文章。
+
+公開文章只可從 `approved` 知識母稿產製。若任何必要輸入仍為 `review`、`draft` 或 `blocked`，成品不得高於該狀態。人讀文章與知識卡是同一事實的不同呈現，不得形成平行 SSOT。
+
 ## 工作流程
 
 ### 1. 建立故事 Brief
 
-複製 `assets/story-brief-template.md`，明確定義核心命題、時段、對象、主要事件、不可公開內容與預期輸出。可執行：
+複製 `assets/story-brief-template.md`，明確定義核心命題、時段、對象、主要事件、不可公開內容、預期輸出及目標內容層。可執行：
 
 ```powershell
 python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <story-slug> --title "<故事標題>" --output <工作目錄>
@@ -73,6 +82,14 @@ python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <
 
 先保留一份含完整註解與來源的母稿，再產製官網長文、簡報大綱、社群短文、新聞素材與教育訓練版本。不同版本可以刪減，不得提高事實確定度或省略必要限制。
 
+對外人讀文章使用 `assets/public-article-template.md`，並遵守：
+
+- 開頭先回答「這件事與讀者有什麼關係」，不要先講治理流程。
+- Wiki 說明採短段落、問題式標題與清楚定義；紀實文章以人物、問題、選擇、行動、轉折與今日意義推進。
+- 正文不堆疊來源 ID；在 frontmatter 記錄 `canonical_knowledge_ids`、必要的 `source_ids`，文末用「資料依據與限制」回鏈。
+- 服務、勸募、聯絡方式與法定事項加上當期查詢入口，不把長效文章當即時公告。
+- 公開文章預設寫入 `docs/public/`，首次產出設為 `review`，由 Chinwen 核定後才改為 `approved`。
+
 教育訓練版本不得只摘要歷史。每個案例至少輸出：問題、角色、資源、採取方法、限制、可重用能力、今日應用及一個可驗證的改善題目。把「自行執行、共同執行、轉介」列為能力判斷，而不是用自行完成量衡量所有影響力。
 
 ## 必要輸出
@@ -86,5 +103,6 @@ python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <
 5. 來源清單與未採用原因。
 6. 待 Chinwen 或其他治理角色核定清單。
 7. 供新進人員使用的能力萃取與未來應用題目。
+8. 對外人讀文章草稿；包含 `canonical_knowledge_ids`、資料依據、限制與當期查詢入口。
 
 研究稿應標示 `draft` 或 `review`；只有完成相應核定後才能標示為可公開 SSOT。

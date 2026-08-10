@@ -53,6 +53,16 @@ def main() -> int:
         encoding="utf-8",
         newline="\n",
     )
+    public_values = {
+        **values,
+        "DOC_ID": "GM-PUBLIC-DRAFT-001",
+        "STYLE": "journalistic-wiki",
+    }
+    render(
+        assets / "public-article-template.md",
+        packet / "07-public-article.md",
+        public_values,
+    )
     print(packet)
     return 0
 

@@ -31,6 +31,23 @@ publication_rule:
   source_required: true
   approval_evidence_required: true
   review_due_required: true
+content_layers:
+  human_readable:
+    path: docs/public
+    audience: [社會大眾, 媒體, 教師, 合作夥伴, 新進人員]
+    rule: 由寫手 Skill 依 approved 知識母稿改寫；保留 canonical_knowledge_ids 與使用邊界。
+  canonical_knowledge:
+    paths: [docs/about, docs/services, docs/impact, docs/stories, docs/training]
+    audience: [內容編輯者, 教育訓練者, Owner]
+    rule: 保存完整核定事實、適用條件、例外與上下文。
+  governance_and_sources:
+    paths: [docs/governance, docs/sources, docs/ai]
+    audience: [維護者, 稽核者, AI設計者]
+    rule: 管理來源、狀態、權利、AI 卡與發布規則，不作為一般讀者主入口。
+  machine_readable:
+    path: registry
+    audience: [AI, 網站, 搜尋, 自動化工具]
+    rule: 提供穩定 ID、狀態、來源、限制及版本；不得包含個資或未核定預設答案。
 public_boundary:
   allowed:
     - 核定的法人、使命、歷史、服務與參與方式

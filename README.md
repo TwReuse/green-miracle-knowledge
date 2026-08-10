@@ -27,6 +27,9 @@
 ## 閱讀入口
 
 - [知識站首頁](docs/index.md)
+- [對外公開閱讀入口](docs/public/index.md)
+- [一個服務如何走過二十年](docs/public/our-story.md)
+- [一部再生電腦的旅程](docs/public/computer-journey.md)
 - [法人定位與歷史關係](docs/about/identity-and-history.md)
 - [NPO 角色與核定權責](docs/governance/roles-and-approval.md)
 - [矽聯代管與法人權責](docs/governance/hosting-and-custodianship.md)
@@ -36,6 +39,13 @@
 - [二十年經驗傳承與應用](docs/training/learning-from-20-years.md)
 - [來源登錄](docs/sources/source-register.md)
 - [Repo 目錄與內容架構](docs/repository-architecture.md)
+
+## 內容分層
+
+- `docs/public/`：寫手 skill 依核定知識改寫的 Wiki／紀實對外文章。
+- 主題文件：保存完整事實口徑、條件、例外與上下文。
+- `docs/governance/`、`docs/sources/`、`docs/ai/`：治理、來源與 AI 維護資料。
+- `registry/`：供 AI、網站與工具使用的機讀索引，不作為一般讀者主入口。
 
 ## 本機預覽
 
