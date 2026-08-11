@@ -17,7 +17,20 @@ review_due: 2026-09-30
 
 綠色奇蹟的二十年，不是一串彼此分開的活動。每一次回收、整修、災後支援與跨組織合作，都在回答同一個問題：如何把社會的善意，轉化為能持續運作、被檢查、被改善，也能交給下一代的服務。
 
-[用年度表格快速瀏覽重要記事、當下困難、想法與做法](annual-chronicle.md)
+<section class="gm-featured-reading" id="annual-chronicle-guide" aria-labelledby="annual-chronicle-title">
+  <div class="gm-featured-reading-content">
+    <span class="gm-featured-label">重點閱讀</span>
+    <h2 id="annual-chronicle-title">用歷年記事對照服務如何改變</h2>
+    <p>如果想先掌握全貌，可以從年度卡片快速比較：當年發生什麼事、遇到什麼困難、團隊如何思考，以及最後採取什麼做法。</p>
+    <ul class="gm-reading-points" aria-label="歷年記事的四個對照面向">
+      <li>重要記事</li>
+      <li>當下困難</li>
+      <li>當時想法</li>
+      <li>採取做法</li>
+    </ul>
+  </div>
+  <a class="gm-button gm-button-primary" href="../annual-chronicle/">開啟歷年記事 <span aria-hidden="true">→</span></a>
+</section>
 
 ## 歷史｜從一個問題開始 { #history }
 

@@ -436,6 +436,93 @@ code {
   margin-top: auto;
 }
 
+.gm-featured-reading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(1.25rem, 4vw, 2.5rem);
+  align-items: center;
+  margin: 1.75rem 0 2.5rem;
+  padding: clamp(1.35rem, 4vw, 2rem);
+  border: 1px solid #a9dac6;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #eaf7f1 0%, #ffffff 72%);
+  box-shadow: 0 14px 34px rgba(21, 60, 49, 0.08);
+}
+
+.gm-featured-reading h2 {
+  margin: 0.45rem 0 0.65rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.35rem, 2.6vw, 1.8rem);
+}
+
+.gm-featured-reading p {
+  margin: 0;
+  color: var(--gm-muted);
+}
+
+.gm-featured-label {
+  color: var(--gm-green-600);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.gm-reading-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gm-reading-points li {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #c5e5d8;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--gm-green-700);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.gm-context-nav,
+.gm-chronicle-return {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0 2rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--gm-border);
+  border-radius: 16px;
+  background: var(--gm-green-050);
+}
+
+.gm-context-nav div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.gm-context-nav strong {
+  color: var(--gm-green-800);
+}
+
+.gm-context-nav div > span,
+.gm-chronicle-return p {
+  color: var(--gm-muted);
+}
+
+.gm-chronicle-return {
+  margin-top: 2.5rem;
+  background: linear-gradient(135deg, #f7fbf8, #edf8f3);
+}
+
+.gm-chronicle-return p {
+  margin: 0;
+}
+
 .gm-site-boundary {
   margin: 3rem 0;
   padding: clamp(1.4rem, 4vw, 2.3rem);
@@ -491,6 +578,20 @@ code {
   .gm-reading-card {
     min-height: auto;
   }
+
+  .gm-featured-reading {
+    grid-template-columns: 1fr;
+  }
+
+  .gm-featured-reading .gm-button {
+    justify-self: start;
+  }
+
+  .gm-context-nav,
+  .gm-chronicle-return {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 767px) {
@@ -536,6 +637,12 @@ code {
   }
 
   .gm-button {
+    width: 100%;
+  }
+
+  .gm-featured-reading .gm-button,
+  .gm-context-nav .gm-button,
+  .gm-chronicle-return .gm-button {
     width: 100%;
   }
 }

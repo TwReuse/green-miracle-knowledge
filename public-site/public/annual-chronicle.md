@@ -19,6 +19,14 @@ review_due: 2026-09-30
 
 未來每年更新時，新的年度卡片會接續在下方。今天的「現在」會逐漸成為歷史，而當年的想法與做法，可以幫助下一代理解服務為什麼改變。
 
+<nav class="gm-context-nav" aria-label="歷年記事對照導覽">
+  <div>
+    <strong>搭配服務演進閱讀</strong>
+    <span>回到「過去與未來」，可把年度事件放回歷史、現在與未來的完整脈絡。</span>
+  </div>
+  <a class="gm-button gm-button-secondary" href="../our-story/#annual-chronicle-guide"><span aria-hidden="true">←</span> 返回過去與未來</a>
+</nav>
+
 <section class="gm-chronicle-grid" aria-label="綠色奇蹟歷年記事">
 
 <article class="gm-chronicle-card"><header><span>年度</span><h2>2004</h2></header><dl><div><dt>重要記事／新聞摘要</dt><dd>綠色奇蹟服務計畫誕生，開始投入舊電腦回收、整修與轉捐贈。</dd></div><div><dt>當下困難</dt><dd>一邊有仍可使用的汰換電腦，另一邊有家庭、學校與公益單位缺少數位工具，供需彼此看不見。</dd></div><div><dt>當時想法</dt><dd>網路不只能傳遞資訊，也可以讓願意付出資源的人找到真正需要的人。</dd></div><div><dt>採取做法</dt><dd>由企業同仁、整修人員與合作夥伴開始建立回收、整修、媒合與捐贈服務。</dd></div></dl></article>
@@ -52,6 +60,11 @@ review_due: 2026-09-30
 <article class="gm-chronicle-card"><header><span>年度</span><h2>2026</h2></header><dl><div><dt>重要記事／新聞摘要</dt><dd>Windows 10 終止支援提高交付規格；AI 與資料中心需求推升記憶體及 SSD 成本。</dd></div><div><dt>當下困難</dt><dd>符合安全要求的舊機變少，SSD 與記憶體批次報價明顯增加，弱勢家庭取得電腦的門檻升高。</dd></div><div><dt>當時想法</dt><dd>再生不能只追求數量，而要確保設備安全、可持續使用，並讓家庭具備數位安全能力。</dd></div><div><dt>採取做法</dt><dd>提高交付規格、重新分流舊機、重新估算備品與勸募需求，並規劃把防詐、反霸凌及健康使用網路納入交付與回訪。</dd></div></dl></article>
 
 </section>
+
+<div class="gm-chronicle-return">
+  <p>看完年度事件後，回到服務演進頁，對照這些做法如何從歷史累積成現在的能力，並接續未來方向。</p>
+  <a class="gm-button gm-button-primary" href="../our-story/#annual-chronicle-guide"><span aria-hidden="true">←</span> 返回過去與未來對照</a>
+</div>
 
 ## 每年如何接續更新
 
