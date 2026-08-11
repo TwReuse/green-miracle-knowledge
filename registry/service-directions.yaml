@@ -1,0 +1,31 @@
+schema_version: "1.0"
+registry_id: GM-SERVICE-DIRECTIONS
+site_name: 綠色奇蹟服務傳承與永續共創
+official_site_menu_label: 永續共創
+status: review
+owner_role: 方案負責人
+last_reviewed: 2026-08-11
+review_due: 2026-09-30
+publication_rule: review 狀態可供審閱，不得作為已全面提供或保證交付的服務答案。
+directions:
+  - direction_id: GM-DIR-DIGITAL-SAFETY
+    title: 數位安全與家庭陪伴
+    delivery_status: planned-direction
+    canonical_doc: knowledge-base/services/digital-safety-and-family-support.md
+    public_page: public-site/public/digital-safety.md
+    source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-MOE-DIGITAL-LITERACY, GM-SRC-MOE-BULLY-2024, GM-SRC-NPA-165, GM-SRC-IWIN]
+    limitation: 尚非所有受贈案件固定流程，不取代醫療、心理、校園、警政或法律服務。
+  - direction_id: GM-DIR-PUBLIC-COCREATE
+    title: 公益共創
+    delivery_status: planned-direction
+    canonical_doc: knowledge-base/services/public-co-creation.md
+    public_page: public-site/public/our-story.md#service-process
+    source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11]
+    limitation: 合作對象、角色、資源與成果須逐案核定。
+  - direction_id: GM-DIR-NEXT20
+    title: 下一個二十年
+    delivery_status: evidence-backed-direction
+    canonical_doc: knowledge-base/about/next-20-years.md
+    public_page: public-site/public/our-story.md#future
+    source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-NOTION-CHAIR-INTERVIEW-2025]
+    limitation: 2024 活動可核對；其餘為未來方向，不是固定年度論壇或聯合國正式關係。

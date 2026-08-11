@@ -1,4 +1,4 @@
 interface:
-  display_name: "綠色奇蹟公開內容優化審核"
-  short_description: "以角色任務、事實治理與歸檔標準初審並改善公開頁面內容"
-  default_prompt: "使用 $review-green-miracle-public-content 檢核並改善這個綠色奇蹟公開頁面，列出阻擋項、修改建議與送 Chinwen 核定狀態。"
+  display_name: "綠色奇蹟公開內容審核"
+  short_description: "檢查年度、成本、服務與活動內容能否被不同讀者正確理解、引用與送審"
+  default_prompt: "使用 $review-green-miracle-public-content，檢核這篇綠色奇蹟公開內容的讀者任務、年度證據、引用限制與送審狀態。"

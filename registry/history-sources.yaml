@@ -1,8 +1,17 @@
 schema_version: "1.0"
 registry_id: GM-HISTORY-SOURCES
 status: review
-last_reviewed: 2026-08-10
+last_reviewed: 2026-08-11
 sources:
+  - id: GM-SRC-OWNER-HISTORY-POLICY-2026-08-11
+    title: 2005、2006、2008 與 2021 年服務政策演進補充
+    publisher: 綠色奇蹟知識治理負責人
+    recorded: 2026-08-11
+    type: owner-confirmed-history
+    access: public-summary
+    scope: 2005 年回收量與來料品質瓶頸、2006 年免費物流到府回收試作及一台也回收、2008 年品質規格與六個月保固、2021 年個資保護與硬碟／SSD 分流政策。
+    public_citation_allowed: true
+    evidence_policy: 作為歷史政策演進的 Owner 口述來源；2021 年硬碟處理描述限於當時政策，不取代現行資料處理 SOP 或第三方資安銷毀認證。
   - id: GM-SRC-NOTION-CHAIR-INTERVIEW-2025
     title: 舊機翻新，青年揚帆採訪企劃／理事長 Q1–Q20 回答
     publisher: 綠色奇蹟內部 Notion

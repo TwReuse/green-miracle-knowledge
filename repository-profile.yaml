@@ -7,7 +7,7 @@ legal_content_owner: 綠色奇蹟公益服務網協會
 technical_custodian: 矽聯科技股份有限公司
 repository_administrator: Chinwen
 github_handle: SLchinwen
-description: 綠色奇蹟公益服務網協會的公開知識、教育訓練與內容 SSOT
+description: 綠色奇蹟服務傳承與永續共創網站、公開知識、教育訓練與內容 SSOT
 public_site_config: mkdocs.yml
 public_site_root: public-site
 knowledge_preview_config: mkdocs.knowledge.yml

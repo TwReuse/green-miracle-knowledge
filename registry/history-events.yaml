@@ -2,7 +2,7 @@ schema_version: "1.0"
 registry_id: GM-HISTORY-EVENTS
 status: review
 owner: Chinwen
-last_reviewed: 2026-08-10
+last_reviewed: 2026-08-11
 evidence_levels:
   A: 法人、政府或正式核定文件
   B: 事件同期的合作方或機構公開資料
@@ -36,6 +36,36 @@ events:
     verification_status: owner-confirmed-operating-fact
     public_readiness: review
     evidence_policy: 透過微軟線上平台申請，依使用規範負擔追蹤責任，並線上下單取得再生電腦公益授權；沒有實體合約。
+  - id: GM-HIST-2005-RECOVERY-BOTTLENECK
+    date_start: "2005"
+    date_precision: year
+    title: 申請增加後出現回收量與來料品質瓶頸
+    source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    challenge: 申請數量高於往年，但合作回收商有未達數量不派車的門檻；回收設備亦有缺件與品質問題，使整修產出無法同步增加。
+    policy_effect: 促成夥伴決議試作由服務端支援免費物流到府回收。
+  - id: GM-HIST-2006-FREE-PICKUP-PILOT
+    date_start: "2006"
+    date_precision: year
+    title: 試作免費物流到府回收與一台也回收
+    source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R4]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    service_positioning: 將綠色奇蹟定位為面向消費者的電腦回收服務，一台也可提出到府回收申請。
+    policy_effect: 以線上填單、免費物流與跨區排程，降低回收量不足時無法全省派車的困境。
+  - id: GM-HIST-2008-QUALITY-WARRANTY
+    date_start: "2008"
+    date_precision: year
+    title: 提高檢測規格並建立六個月免費保固
+    source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    context: 城市電子垃圾流向偏鄉的新聞事件引發社會討論，也凸顯受贈者對再生設備品質的期待落差。
+    policy_effect: 要求整修夥伴提高檢測品質與交付規格，綠色奇蹟出廠的再生電腦提供六個月免費保固。
   - id: GM-HIST-2006-2008-ONLINE
     date_start: "2006"
     date_end: "2008"
@@ -114,6 +144,19 @@ events:
     public_readiness: review
     numeric_claim: 100台完成交付
     evidence_policy: 申請紀錄與完成報導成對引用；兒少與家庭個資不得公開。
+  - id: GM-HIST-2021-DATA-STORAGE-POLICY
+    date_start: "2021"
+    date_precision: year
+    title: 加強回收電腦個資保護與儲存裝置分流
+    source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11]
+    evidence_level: O
+    verification_status: owner-confirmed
+    public_readiness: review
+    policy:
+      regenerated_computer_storage: 再生電腦一律改用新品 SSD。
+      reusable_old_drives: 舊硬碟依當時作業完成低階格式化，品質尚可者轉作儲存碟或維修備品。
+      noncompliant_old_drives: 不符合再利用規範者一律破壞、造冊並報廢。
+    evidence_policy: 本事件記錄 2021 年歷史政策，不取代現行資料處理 SOP，也不得宣稱等同第三方資安銷毀認證。
   - id: GM-HIST-2019-COLLAB-PLATFORM
     date_start: "2019-05-12"
     date_precision: day

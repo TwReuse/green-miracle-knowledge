@@ -1,6 +1,6 @@
 ---
 name: write-green-miracle-stories
-description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來源，研究並撰寫容易閱讀的 Wiki、記者式紀實文章、官網文案、簡報、行銷與教育訓練素材，同時保留知識 ID、來源、限制及 AI／機讀回鏈。當任務涉及綠色奇蹟歷史、再生電腦服務、網路到 AI 世代脈絡、對外人讀內容、故事改寫、雙軌時間線、事實檢核或跨管道內容產製時使用。
+description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來源，為「綠色奇蹟服務傳承與永續共創」研究並撰寫可引用的年度觀察、Wiki、紀實文章、官網文案、簡報、行銷與教育訓練素材，同時保留知識 ID、證據截止日、來源、限制及 AI／機讀回鏈。當任務涉及綠色奇蹟歷史、再生電腦服務、年度科技或成本變化、數位安全、公益協作、青年永續、下一個二十年、對外人讀內容、事實檢核或跨管道內容產製時使用。
 ---
 
 # 綠色奇蹟專業紀實寫手
@@ -17,6 +17,7 @@ description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來
    - `knowledge-base/about/`、`knowledge-base/services/` 及相關核定頁面
    - `knowledge-base/stories/chair-interview-2025.md`（創辦理念、服務判斷、組織文化、青年傳承或未來方向的日常引用入口）
    - `knowledge-base/stories/chair-interview-2025-full-qa.md`（需要完整上下文或核對引言時；優先於返回 Notion）
+   - `registry/annual-observations.yaml` 與 `knowledge-base/impact/annual-observation-<year>.md`（年度變化、採購價格、勸募背景或讀者引用任務）
 3. 優先使用 Repo 已同步的訪談與素材；只有 Repo 缺少內容或需要核對原始編輯記錄時才回 Notion。使用 Notion 時，只把已授權或已核定內容提升為事實；內部頁面網址、個資與未公開內容不得寫入公開 Repo。
 4. 讀取 [來源與事實政策](references/source-and-fact-policy.md)。需要公開搜尋時，再讀取 [網路研究與權利規範](references/web-research-and-rights.md)。
 
@@ -28,6 +29,8 @@ description: 以綠色奇蹟核定知識母稿、Notion 授權資料及公開來
 - `registry/` 是 AI、網站與工具的機讀來源，不是一般文章。
 
 公開文章只可從 `approved` 知識母稿產製。若任何必要輸入仍為 `review`、`draft` 或 `blocked`，成品不得高於該狀態。人讀文章與知識卡是同一事實的不同呈現，不得形成平行 SSOT。
+
+公開網站的正式名稱是「綠色奇蹟服務傳承與永續共創」，官網選單名稱是「永續共創」。活動、照片、影片、當期申請與勸募公告留在 `reuse.org.tw`；本 Repo 說明服務傳承、年度改變、方法、證據與未來方向，不建立第二套活動官網。
 
 ## 工作流程
 
@@ -92,6 +95,19 @@ python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <
 
 教育訓練版本不得只摘要歷史。每個案例至少輸出：問題、角色、資源、採取方法、限制、可重用能力、今日應用及一個可驗證的改善題目。把「自行執行、共同執行、轉介」列為能力判斷，而不是用自行完成量衡量所有影響力。
 
+### 8. 產製年度觀察
+
+年度觀察使用 `assets/annual-observation-template.md`，至少完成：
+
+1. 年度變化、受影響角色、服務影響、協會回應、可驗證結果及下一年問題。
+2. `observation_year`、`evidence_cutoff`、來源 ID、核定狀態與下次審視日。
+3. 把外部市場研究、協會報價、實際成交、會計決算與情境試算分開。
+4. 採購價格保留品項、容量／規格、新品／二手、價格性質、月份、單位與區間；協會報價不得改寫成市場平均。
+5. 同時產出 canonical 母稿、`public-site/public/` 讀者版與 `registry/annual-observations.yaml` 機讀登錄。
+6. 讀者版附建議引用格式、資料截止日、不可改寫方式及當期官網查詢入口。
+
+每年正式更新一次；若安全支援、授權、法規或單台整備成本較核定基準變動超過 10%，可建立具日期的重大變動補充，並於下一年度文章整併。
+
 ## 必要輸出
 
 每個完成的故事素材包至少包含：
@@ -104,5 +120,6 @@ python skills/write-green-miracle-stories/scripts/build_story_packet.py --slug <
 6. 待 Chinwen 或其他治理角色核定清單。
 7. 供新進人員使用的能力萃取與未來應用題目。
 8. 對外人讀文章草稿；包含 `canonical_knowledge_ids`、資料依據、限制與當期查詢入口。
+9. 若為年度觀察，另包含採購／市場主張表、計算式、引用格式及機讀年度索引更新。
 
 研究稿應標示 `draft` 或 `review`；只有完成相應核定後才能標示為可公開 SSOT。

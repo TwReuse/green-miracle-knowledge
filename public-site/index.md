@@ -5,24 +5,30 @@ owner_role: Chinwen
 public: true
 content_layer: human-readable
 page_type: entry
-canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
-last_reviewed: 2026-08-10
-review_due: 2026-11-07
-title: 綠色奇蹟知識文件站
-description: 從二十年歷程、再生電腦服務到循環與數位平權，系統化認識綠色奇蹟。
+canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-ANNUAL-2026-001]
+last_reviewed: 2026-08-11
+review_due: 2026-11-09
+title: 綠色奇蹟服務傳承與永續共創
+description: 從歷史形成服務能力、現在持續因應改變，到與下一代共同創造未來。
 ---
 
 <section class="gm-hero" markdown="1">
-<div class="gm-eyebrow">綠色奇蹟知識文件站</div>
+<div class="gm-eyebrow">綠色奇蹟服務傳承與永續共創</div>
 
-# 從一部再生電腦，認識二十年的服務
+# 從一部再生電腦，看見服務的過去與未來
 
-綠色奇蹟把回收、檢測、整修、合法授權、需求媒合、交付與保固，逐步連成一套可以持續改善的公益服務。這裡把歷史、方法與經驗整理成容易閱讀、可以引用，也能持續傳承的文件。
+綠色奇蹟把回收、檢測、整修、合法授權、需求媒合、交付與保固，逐步連成一套可以持續改善的公益服務。從歷史累積的方法、現在面對的改變，到未來要解決的問題，都沿著同一條服務脈絡被記錄與接續。
 
 <div class="gm-hero-actions">
-  <a class="gm-button gm-button-primary" href="public/">開始認識綠色奇蹟</a>
+  <a class="gm-button gm-button-primary" href="public/our-story/">閱讀過去與未來</a>
   <a class="gm-button gm-button-secondary" href="public/computer-journey/">了解再生電腦旅程</a>
 </div>
+
+## 今年發生了什麼？
+
+2026 年，Windows 10 終止支援提高了再生電腦的合規規格；AI 與資料中心需求也推升記憶體及 SSD 的取得成本。這些變化不只影響整備預算，也提高了弱勢家庭、學校與公益團體取得安全可用電腦的門檻。
+
+[看見服務如何因應 2026 年的改變](public/our-story.md#present){ .gm-text-link }
 
 <div class="gm-hero-note">2004 年服務計畫起源 · 2021 年由獨立法人承接治理</div>
 </section>
@@ -50,41 +56,41 @@ description: 從二十年歷程、再生電腦服務到循環與數位平權，�
   </a>
 </div>
 
-## 依你的角色，用三條路徑認識綠色奇蹟
+## 依你的角色，從歷史、現在走向未來
 
 <div class="gm-reading-grid">
   <article class="gm-reading-card">
     <span class="gm-card-number">01</span>
-    <h3>先了解為什麼開始</h3>
-    <p>從網路成長、行動世代到 AI 世代，理解數位需求如何改變，以及服務如何一路回應。</p>
-    <a href="public/our-story/">閱讀二十年故事 →</a>
+    <h3>歷史｜善意如何成為服務</h3>
+    <p>從 2004 年開始，看回收、整修、物流與需求媒合如何一步步形成。</p>
+    <a href="public/our-story/#history">從歷史開始 →</a>
   </article>
   <article class="gm-reading-card">
     <span class="gm-card-number">02</span>
-    <h3>再看服務如何運作</h3>
-    <p>一部設備如何從回收進入檢測、整修、合法授權、媒合、交付與六個月保固。</p>
-    <a href="public/computer-journey/">閱讀再生電腦旅程 →</a>
+    <h3>現在｜因應環境持續改善</h3>
+    <p>面對規格、成本與數位安全的新問題，讓每年的觀察成為下一次調整依據。</p>
+    <a href="public/our-story/#present">閱讀現在的改變 →</a>
   </article>
   <article class="gm-reading-card">
     <span class="gm-card-number">03</span>
-    <h3>思考下一個問題</h3>
-    <p>從惜物、減少電子廢棄物，走向循環使用、減碳、數位平權與下一代科技能力。</p>
-    <a href="public/reuse-and-future/">閱讀循環與數位平權 →</a>
+    <h3>未來｜把方法交給下一代</h3>
+    <p>讓青年與公益夥伴參與真實問題，把新的嘗試整理成可接續的服務能力。</p>
+    <a href="public/our-story/#future">走向未來 →</a>
   </article>
 </div>
 
 <section class="gm-site-boundary" markdown="1">
 
-## 官網處理當期服務，文件站保存長期知識
+## 官網發布當期服務，本網站保存傳承與改變
 
-`reuse.org.tw` 提供回收、申請、捐款、活動及最新公告；`docs.reuse.org.tw` 則整理綠色奇蹟的歷史、服務方法、影響脈絡與可引用內容。申請資格、可收設備、費用、時程及聯絡方式如有變動，仍以官網最新公告與個案回覆為準。
+`reuse.org.tw` 提供回收、申請、捐款、活動、照片、影片及最新公告；`docs.reuse.org.tw` 則整理綠色奇蹟的服務傳承、年度變化、方法、影響脈絡與未來方向。申請資格、可收設備、費用、時程及聯絡方式如有變動，仍以官網最新公告與個案回覆為準。
 
-[前往綠色奇蹟官網](https://www.reuse.org.tw/){ .gm-inline-link }
+頁首的綠色奇蹟 Logo 可直接回到正式官網。
 
 </section>
 
-## 讓二十年經驗成為下一次改善的起點
+## 讓累積的經驗成為下一次改善的起點
 
-這個文件站不只保存過去，也希望協助媒體、教師、志工、合作夥伴與新進人員，理解綠色奇蹟已具備的能力與限制。當新的環境、教育或數位問題出現時，我們可以從既有案例出發，重新組合平台、物流、整修、授權、媒合與服務網絡。
+這個網站不只保存過去，也協助媒體、教師、志工、合作夥伴與新進人員理解綠色奇蹟已具備的能力與限制。當新的環境、教育或數位問題出現時，我們可以從既有案例出發，重新組合平台、物流、整修、授權、媒合與服務網絡，邀請年輕人與公益夥伴共同接續未來的服務。
 
-[了解如何引用這個知識庫](public/how-to-cite.md){ .gm-text-link }
+[了解如何引用本網站資料](public/how-to-cite.md){ .gm-text-link }

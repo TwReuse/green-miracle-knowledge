@@ -91,12 +91,14 @@ def audit(path: Path) -> dict[str, object]:
             "ENTRY_RECYCLE": ("我要回收電腦", "reuse.org.tw"),
             "ENTRY_APPLY": ("我要申請再生電腦", "project.html"),
             "ENTRY_ROLE": ("依你的角色",),
-            "ENTRY_BOUNDARY": ("知識庫", "官網", "當期"),
+            "ENTRY_BOUNDARY": ("官網", "當期"),
             "ENTRY_HISTORY": ("2004", "2021"),
         }
         for code, needles in checks.items():
             if not all(needle in body for needle in needles):
                 add(blockers, code, f"入口頁缺少：{'、'.join(needles)}")
+        if "服務傳承" not in body and "知識庫" not in body:
+            add(blockers, "ENTRY_LEGACY", "入口頁須說明服務傳承或知識保存定位")
 
     if page_type in {"entry", "service"} and "reuse.org.tw" not in body:
         add(blockers, "CURRENT_SERVICE", "入口或服務頁必須連回官網當期服務")
@@ -109,6 +111,16 @@ def audit(path: Path) -> dict[str, object]:
         for heading in ("背景與目的", "參與角色與分工", "結果與口徑", "可傳承的經驗"):
             if heading not in body:
                 add(blockers, "ACT_SECTION", f"活動歸檔缺少段落：{heading}")
+
+    if fields.get("annual_observation", "").lower() == "true":
+        for key in ("observation_year", "evidence_cutoff", "source_ids"):
+            if not fields.get(key):
+                add(blockers, f"ANNUAL_{key.upper()}", f"年度觀察缺少：{key}")
+        for heading in ("今年發生了什麼", "綠色奇蹟如何回應", "引用方式與資料限制", "資料依據"):
+            if heading not in body:
+                add(blockers, "ANNUAL_SECTION", f"年度觀察缺少段落：{heading}")
+        if ("報價" in body or "採購" in body) and not re.search(r"不(?:代表|是).{0,12}市場平均", body):
+            add(blockers, "ANNUAL_PRICE_SCOPE", "採購／報價內容須明示不代表市場平均")
 
     long_paragraphs = [
         p

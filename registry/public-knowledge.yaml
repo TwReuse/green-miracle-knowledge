@@ -1,10 +1,12 @@
 schema_version: "1.0"
 knowledge_base_id: GM-PUBLIC-KB
-title: 綠色奇蹟公開知識庫
+title: 綠色奇蹟服務傳承與永續共創
 status: approved
 legal_entity: 社團法人綠色奇蹟公益服務網協會
 legal_name_verification: confirmed-from-charter-and-judicial-announcement
 repository_role: public-knowledge-ssot
+official_site_menu_label: 永續共創
+public_site_purpose: 保存服務傳承、年度變化、資源再生、公益協作與未來方向，供讀者與外部服務引用。
 governance_model: independent-npo
 remote_repository: https://github.com/TwReuse/green-miracle-knowledge
 hosting:
@@ -69,6 +71,13 @@ operational_data_boundary:
   ai_integration_status: planning
   ai_boundary: AI 只使用去識別公開資料及已核定知識卡，不直接讀寫正式資料庫。
 learning_assets:
+  - id: GM-SERVICE-DIRECTIONS
+    title: 服務傳承與永續共創方向登錄
+    path: registry/service-directions.yaml
+    status: review
+    owner_role: 方案負責人
+    purpose: 將數位安全與家庭陪伴、公益共創及下一個二十年整理為可審閱、可更新且不誤稱為現行承諾的方向資料。
+    completion_marker: 三項方向均完成方案 Owner 核定，並為正式提供的服務另列對象、量能、時程、轉介及成效定義。
   - id: GM-GOV-DATA-001
     title: 官網資料如何成為可信任來源並供 AI 引用
     path: knowledge-base/governance/website-data-provenance.md

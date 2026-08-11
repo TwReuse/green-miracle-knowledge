@@ -43,23 +43,12 @@ body {
 .navbar-brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
   min-height: 44px;
   padding-left: 230px;
   background: url("../images/reuse-logo.png") left center / 220px auto no-repeat;
   color: var(--gm-green-900) !important;
   font-size: 0;
   font-weight: 700;
-}
-
-.navbar-brand::after {
-  content: "知識文件站";
-  padding: 0.3rem 0.65rem;
-  border: 1px solid var(--gm-border);
-  border-radius: 999px;
-  color: var(--gm-green-700);
-  font-size: 0.82rem;
-  letter-spacing: 0.04em;
 }
 
 .navbar-brand img {
@@ -136,8 +125,8 @@ h4 {
 }
 
 h1 {
-  font-size: clamp(2.25rem, 5vw, 4.35rem);
-  line-height: 1.15;
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  line-height: 1.22;
 }
 
 h2 {
@@ -168,6 +157,74 @@ blockquote {
 
 table {
   background: var(--gm-white);
+}
+
+.gm-chronicle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.gm-chronicle-card {
+  overflow: hidden;
+  border: 1px solid #cfe3da;
+  border-radius: 18px;
+  background: var(--gm-white);
+  box-shadow: 0 12px 32px rgba(21, 60, 49, 0.06);
+}
+
+.gm-chronicle-card header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 1.15rem 1.3rem;
+  background: linear-gradient(135deg, var(--gm-green-900), var(--gm-green-700));
+  color: var(--gm-white);
+}
+
+.gm-chronicle-card header span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  opacity: 0.78;
+}
+
+.gm-chronicle-card header h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--gm-white);
+  font-size: clamp(1.55rem, 4vw, 2.15rem);
+  line-height: 1.1;
+}
+
+.gm-chronicle-card dl {
+  margin: 0;
+}
+
+.gm-chronicle-card dl > div {
+  padding: 1rem 1.3rem 1.1rem;
+  border-top: 1px solid var(--gm-border);
+}
+
+.gm-chronicle-card dl > div:first-child {
+  border-top: 0;
+  background: var(--gm-green-050);
+}
+
+.gm-chronicle-card dt {
+  margin-bottom: 0.28rem;
+  color: var(--gm-green-700);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.gm-chronicle-card dd {
+  margin: 0;
+  color: var(--gm-ink);
+  line-height: 1.72;
 }
 
 thead {
@@ -211,6 +268,7 @@ code {
   max-width: 760px;
   margin: 0.8rem 0 1.2rem;
   color: #14261f;
+  font-size: clamp(2.1rem, 3.8vw, 3.15rem);
 }
 
 .gm-hero p {
@@ -391,6 +449,21 @@ code {
   border: 0;
 }
 
+.gm-purpose-note {
+  margin: 1rem 0 1.4rem;
+  padding: 1rem 1.15rem;
+  border-left: 4px solid var(--gm-green-500);
+  border-radius: 0 14px 14px 0;
+  background: var(--gm-green-050);
+  color: #385046;
+}
+
+.gm-purpose-note strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--gm-green-700);
+}
+
 .footer {
   margin-top: 3rem;
   padding: 2.2rem 0;
@@ -409,7 +482,8 @@ code {
   }
 
   .gm-action-grid,
-  .gm-reading-grid {
+  .gm-reading-grid,
+  .gm-chronicle-grid {
     grid-template-columns: 1fr;
   }
 
@@ -426,10 +500,6 @@ code {
 
   .navbar {
     min-height: 64px;
-  }
-
-  .navbar-brand::after {
-    display: none;
   }
 
   .navbar-brand {
@@ -454,7 +524,7 @@ code {
   }
 
   .gm-hero h1 {
-    font-size: clamp(2.05rem, 12vw, 3rem);
+    font-size: clamp(1.9rem, 8.5vw, 2.5rem);
   }
 
   .gm-hero p {

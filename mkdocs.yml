@@ -1,12 +1,13 @@
-site_name: 綠色奇蹟知識文件站
-site_description: 綠色奇蹟公益服務網協會提供大眾閱讀與引用的公開知識站
+site_name: 綠色奇蹟服務傳承與永續共創
+site_description: 記錄綠色奇蹟的服務歷程、年度變化、資源再生、公益協作與未來共創，提供大眾閱讀與引用
 site_url: https://docs.reuse.org.tw/
 site_author: 社團法人綠色奇蹟公益服務網協會
-copyright: © 社團法人綠色奇蹟公益服務網協會｜本文件站說明長期知識，當期服務以官網公告為準。
+copyright: © 社團法人綠色奇蹟公益服務網協會｜本網站保存服務傳承與年度觀察，當期服務以官網公告為準。
 docs_dir: public-site
 strict: true
 theme:
   name: mkdocs
+  custom_dir: public-site/overrides
   locale: zh_TW
   logo: assets/images/reuse-logo.png
   favicon: assets/images/reuse-logo.png
@@ -24,16 +25,10 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/green-miracle.css
 nav:
-  - 文件首頁: index.md
-  - 深度認識:
-      - 從這裡認識綠色奇蹟: public/index.md
-      - 一個服務如何走過二十年: public/our-story.md
+  - 永續共創: index.md
+  - 過去與未來:
+      - 服務如何演進: public/our-story.md
+      - 歷年記事: public/annual-chronicle.md
+  - 服務與再生:
       - 一部再生電腦的旅程: public/computer-journey.md
-      - 從惜物到循環與數位平權: public/reuse-and-future.md
-      - 綠色奇蹟事實資料包: public/factsheet.md
-      - 常見問題: public/faq.md
-      - 資料引用與媒體使用: public/how-to-cite.md
-  - 前往官網:
-      - 捐出舊電腦: https://www.reuse.org.tw/index.html
-      - 申請再生電腦: https://www.reuse.org.tw/project.html
-      - 勸募徵信: https://www.reuse.org.tw/Credit_Check.html
+      - 數位安全與家庭陪伴: public/digital-safety.md

@@ -1,0 +1,59 @@
+schema_version: "1.0"
+registry_id: GM-ANNUAL-OBSERVATIONS
+site_name: 綠色奇蹟服務傳承與永續共創
+official_site_menu_label: 永續共創
+owner: Chinwen
+chronicle:
+  public_path: public-site/public/annual-chronicle.md
+  update_frequency: annual
+  purpose: 以年度或階段摘要保存重要記事、當下困難、當時想法與採取做法，呈現服務如何演進。
+  required_fields: [年度, 重要記事或新聞摘要, 當下困難, 當時想法, 採取做法]
+  update_rule: 每完成一篇年度觀察，同步在歷年記事新增或修訂一張年度卡片；事件細節與價格計算仍保留在各年度觀察。
+update_policy:
+  formal_cycle: annual
+  target_publish_month: 4
+  midyear_supplement_triggers:
+    - 作業系統、安全支援、授權或法規重大改變
+    - 單台整備成本較核定基準變動超過 10%
+    - 合規設備供應或交付等待時間出現重大變化
+  required_sections:
+    - 年度發生的變化
+    - 對服務與使用者的影響
+    - 綠色奇蹟的回應
+    - 可驗證結果
+    - 未解問題與下一年方向
+    - 引用方式與資料限制
+observations:
+  - observation_id: GM-ANNUAL-2026-001
+    year: 2026
+    title: 當規格與成本同時改變
+    status: approved
+    evidence_cutoff: 2026-06-30
+    canonical_path: knowledge-base/impact/annual-observation-2026.md
+    public_path: public-site/public/annual-2026.md
+    public_doc_id: GM-PUBLIC-ANNUAL-2026-001
+    approved_by: Chinwen
+    approval_date: 2026-08-11
+    approval_evidence: owner-direction-chat-2026-08-11-site-skill-and-procurement-quotes
+    key_claims:
+      - claim_id: GM-ANNUAL-2026-SSD-256
+        item: 256GB 新品 SSD
+        baseline_cost_twd: 800
+        quote_period: 2026-06
+        quote_range_twd: [1500, 1800]
+        claim_type: owner-confirmed-procurement-quote
+        not_market_average: true
+      - claim_id: GM-ANNUAL-2026-RAM-8G
+        item: 8GB 記憶體
+        baseline_cost_twd: 600
+        quote_period: 2026-06
+        quote_range_twd: [1400, 2000]
+        claim_type: owner-confirmed-procurement-quote
+        not_market_average: true
+    source_ids:
+      - GM-SRC-OWNER-PROCUREMENT-2026-06
+      - GM-SRC-MS-WIN10-EOS
+      - GM-SRC-MS-WIN11-REQ
+      - GM-SRC-TF-MEMORY-2026Q1
+      - GM-SRC-IDC-PC-2026
+      - GM-SRC-GARTNER-PC-2026
