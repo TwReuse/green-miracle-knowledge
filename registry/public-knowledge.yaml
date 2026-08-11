@@ -71,6 +71,13 @@ operational_data_boundary:
   ai_integration_status: planning
   ai_boundary: AI 只使用去識別公開資料及已核定知識卡，不直接讀寫正式資料庫。
 learning_assets:
+  - id: GM-TRAIN-PRESENTATION-2026-001
+    title: 綠色奇蹟過去現在與未來：2026 扶輪社友簡報大綱
+    path: knowledge-base/training/green-miracle-presentation-outline-2026.md
+    status: review
+    owner_role: 知識治理負責人
+    purpose: 提供扶輪社友使用的二十張知識卡式簡報大綱，串連服務成長、2026 挑戰、參與方式及青年傳承。
+    completion_marker: 由 Chinwen 核定歷史口徑、2026 報價邊界、參與邀請與未來方向後，可延伸製作正式簡報。
   - id: GM-SERVICE-DIRECTIONS
     title: 服務傳承與永續共創方向登錄
     path: registry/service-directions.yaml
