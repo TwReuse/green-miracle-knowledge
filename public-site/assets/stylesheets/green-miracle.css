@@ -523,6 +523,37 @@ code {
   margin: 0;
 }
 
+.gm-deck-featured-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid var(--gm-green-100);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f2faf6, #e4f5ed);
+  box-shadow: 0 10px 28px rgba(21, 60, 49, 0.07);
+}
+
+.gm-deck-featured-action > div {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.gm-deck-featured-action strong {
+  color: var(--gm-green-800);
+  font-size: 1.12rem;
+}
+
+.gm-deck-featured-action span {
+  color: var(--gm-muted);
+}
+
+.gm-deck-featured-action .gm-button {
+  flex: 0 0 auto;
+}
+
 .gm-deck-overview {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -783,8 +814,14 @@ code {
   .gm-featured-reading .gm-button,
   .gm-context-nav .gm-button,
   .gm-chronicle-return .gm-button,
-  .gm-deck-actions .gm-button {
+  .gm-deck-actions .gm-button,
+  .gm-deck-featured-action .gm-button {
     width: 100%;
+  }
+
+  .gm-deck-featured-action {
+    align-items: stretch;
+    flex-direction: column;
   }
 }
 

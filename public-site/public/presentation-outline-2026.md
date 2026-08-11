@@ -18,6 +18,14 @@ description: 提供扶輪社友使用的二十張知識卡式簡報大綱，串�
 
 這份 2026 簡報大綱以扶輪社友為主要對象，使用「公益形象大使 × 簡報專家」的敘事角度，把二十年服務整理成可理解、可轉述，也能邀請行動的二十張知識卡。
 
+<div class="gm-deck-featured-action">
+  <div>
+    <strong>2026 綠色奇蹟介紹簡報</strong>
+    <span>需要介紹、引用或播放時，可開啟 Gamma 版本，同時保留本頁作為內容大綱與資料邊界對照。</span>
+  </div>
+  <a class="gm-button gm-button-primary" href="https://gamma.app/docs/-kdg1emqxx6qxyk4" target="_blank" rel="noopener noreferrer" aria-label="在新分頁開啟 Gamma 簡報">檢視簡報</a>
+</div>
+
 <div class="gm-deck-overview" aria-label="簡報配置">
   <div><strong>10 張</strong><span>過去｜成長軌跡與故事</span></div>
   <div><strong>5 張</strong><span>現在｜重點與參與方式</span></div>
