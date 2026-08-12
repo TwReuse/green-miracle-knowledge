@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block site_meta %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page and page.is_homepage %}<meta name="description" content="{{ config.site_description }}">{% endif %}
+{% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
+{% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+<link rel="shortcut icon" type="image/png" href="https://www.reuse.org.tw/css/3c-dr/img/favicon.png">
+{% endblock %}
+
 {% block site_name %}
 <a class="navbar-brand" href="https://www.reuse.org.tw/" aria-label="前往綠色奇蹟官網">{{ config.site_name }}</a>
 {% endblock %}

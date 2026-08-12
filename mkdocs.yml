@@ -10,7 +10,6 @@ theme:
   custom_dir: public-site/overrides
   locale: zh_TW
   logo: assets/images/reuse-logo.png
-  favicon: assets/images/reuse-logo.png
   nav_style: primary
   highlightjs: true
   user_color_mode_toggle: false
