@@ -24,6 +24,10 @@ REQUIRED_FIELDS = (
 PAGE_TYPES = {"entry", "wiki", "story", "service", "impact", "activity-archive"}
 INTERNAL_LINK = re.compile(r"\]\((?:\.\./)+(?:about|ai|governance|impact|services|sources|stories|training)/")
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+REVERSE_DIRECTIVE = re.compile(
+    r"不得|不應|不要|請勿|禁止|不可(?:將|把|改寫|直接|自行|對外|公開|引用|使用|推論|補寫|混稱)"
+    r"|不能(?:直接|自行|預先|當作|稱為|視為|把|只|用)"
+)
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
@@ -67,6 +71,26 @@ def audit(path: Path) -> dict[str, object]:
         add(blockers, "STRUCT_H1", f"必須剛好有一個 H1，目前為 {h1_count}")
     if not re.search(r"(?m)^##\s+\S", body):
         add(warnings, "STRUCT_H2", "缺少 H2，讀者不易掃讀")
+    for line_number, line in enumerate(body.splitlines(), start=1):
+        match = re.match(r"^##\s+(.+?)\s*$", line)
+        if not match:
+            continue
+        label = re.sub(r"\s*\{[^}]+\}\s*$", "", match.group(1))
+        label = re.sub(r"^\d+[.)、]\s*", "", label)
+        visible_length = len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", label))
+        if visible_length > 8:
+            add(
+                warnings,
+                "NAV_H2_LONG",
+                f"第 {line_number} 行內頁目錄標題超過 8 個可見字元：{label}",
+            )
+    reverse_matches = sorted(set(REVERSE_DIRECTIVE.findall(body)))
+    if reverse_matches:
+        add(
+            warnings,
+            "PUBLIC_REVERSE_DIRECTIVE",
+            "公開正文含禁止式審稿語句；請改成正確資料、適用範圍或可直接引用口徑",
+        )
     if INTERNAL_LINK.search(body):
         add(blockers, "LINK_INTERNAL", "公開頁面連到不建置的內部維護路徑")
 
@@ -90,8 +114,8 @@ def audit(path: Path) -> dict[str, object]:
             "ENTRY_POSITION": ("綠色奇蹟", "回收", "整修"),
             "ENTRY_RECYCLE": ("我要回收電腦", "reuse.org.tw"),
             "ENTRY_APPLY": ("我要申請再生電腦", "project.html"),
-            "ENTRY_ROLE": ("依你的角色",),
-            "ENTRY_BOUNDARY": ("官網", "當期"),
+            "ENTRY_ROLE": ("角色指引",),
+            "ENTRY_BOUNDARY": ("網站分工", "官網"),
             "ENTRY_HISTORY": ("2004", "2021"),
         }
         for code, needles in checks.items():
@@ -116,11 +140,13 @@ def audit(path: Path) -> dict[str, object]:
         for key in ("observation_year", "evidence_cutoff", "source_ids"):
             if not fields.get(key):
                 add(blockers, f"ANNUAL_{key.upper()}", f"年度觀察缺少：{key}")
-        for heading in ("今年發生了什麼", "綠色奇蹟如何回應", "引用方式與資料限制", "資料依據"):
+        for heading in ("年度變化", "協會回應", "引用資訊", "資料依據"):
             if heading not in body:
                 add(blockers, "ANNUAL_SECTION", f"年度觀察缺少段落：{heading}")
-        if ("報價" in body or "採購" in body) and not re.search(r"不(?:代表|是).{0,12}市場平均", body):
-            add(blockers, "ANNUAL_PRICE_SCOPE", "採購／報價內容須明示不代表市場平均")
+        if ("報價" in body or "採購" in body) and not all(
+            needle in body for needle in ("批次", "報價", "適用範圍")
+        ):
+            add(blockers, "ANNUAL_PRICE_SCOPE", "採購／報價內容須以正向文字標示批次與適用範圍")
 
     long_paragraphs = [
         p

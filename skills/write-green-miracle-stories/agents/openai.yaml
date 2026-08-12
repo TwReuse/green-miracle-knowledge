@@ -1,4 +1,4 @@
 interface:
   display_name: "綠色奇蹟服務傳承寫手"
-  short_description: "依核定來源產製可引用的年度觀察、服務故事、公益協作與永續共創內容"
-  default_prompt: "使用 $write-green-miracle-stories，依核定母稿與來源產製「綠色奇蹟服務傳承與永續共創」可引用的年度或主題文章。"
+  short_description: "依核定來源產製短選單、正向口徑與可引用文章"
+  default_prompt: "使用 $write-green-miracle-stories，依核定母稿產製 8 字內頁目錄、正向事實口徑與可直接引用的文章。"

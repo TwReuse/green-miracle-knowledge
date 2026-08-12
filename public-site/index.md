@@ -5,7 +5,7 @@ owner_role: Chinwen
 public: true
 approved_by: Chinwen
 approval_date: 2026-08-12
-approval_evidence: owner-instruction-2026-08-12-eight-public-pages
+approval_evidence: owner-instruction-2026-08-12-menu-positive-public-copy
 content_layer: human-readable
 page_type: entry
 canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-ANNUAL-2026-001]
@@ -27,7 +27,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
   <a class="gm-button gm-button-secondary" href="public/computer-journey/">了解再生電腦旅程</a>
 </div>
 
-## 今年發生了什麼？
+## 年度變化
 
 2026 年，Windows 10 終止支援提高了再生電腦的合規規格；AI 與資料中心需求也推升記憶體及 SSD 的取得成本。這些變化不只影響整備預算，也提高了弱勢家庭、學校與公益團體取得安全可用電腦的門檻。
 
@@ -36,7 +36,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
 <div class="gm-hero-note">2004 年服務計畫起源 · 2021 年由獨立法人承接治理</div>
 </section>
 
-## 你現在想做什麼？
+## 服務入口
 
 <div class="gm-action-grid">
   <a class="gm-action-card" href="https://www.reuse.org.tw/index.html">
@@ -59,7 +59,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
   </a>
 </div>
 
-## 依你的角色，從歷史、現在走向未來
+## 閱讀路徑
 
 <div class="gm-reading-grid">
   <article class="gm-reading-card">
@@ -82,7 +82,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
   </article>
 </div>
 
-## 依需要找到服務與資料
+## 角色指引
 
 - 設備捐贈者或企業：先讀[再生電腦旅程](public/computer-journey.md)，再回官網提出回收申請。
 - 申請者、社工或學校：先查看官網的[再生電腦申請說明](https://www.reuse.org.tw/project.html)，再了解交付與保固原則。
@@ -91,7 +91,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
 
 <section class="gm-site-boundary" markdown="1">
 
-## 官網發布當期服務，本網站保存傳承與改變
+## 網站分工
 
 `reuse.org.tw` 提供回收、申請、捐款、活動、照片、影片及最新公告；`docs.reuse.org.tw` 則整理綠色奇蹟的服務傳承、年度變化、方法、影響脈絡與未來方向。申請資格、可收設備、費用、時程及聯絡方式如有變動，仍以官網最新公告與個案回覆為準。
 
@@ -99,7 +99,7 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
 
 </section>
 
-## 讓累積的經驗成為下一次改善的起點
+## 經驗再利用
 
 這個網站不只保存過去，也協助媒體、教師、志工、合作夥伴與新進人員理解綠色奇蹟已具備的能力與限制。當新的環境、教育或數位問題出現時，可以先回看既有案例，再由協會與合作夥伴依實際需求、資源及風險設計下一步。
 

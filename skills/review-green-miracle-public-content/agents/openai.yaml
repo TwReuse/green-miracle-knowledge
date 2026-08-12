@@ -1,4 +1,4 @@
 interface:
   display_name: "綠色奇蹟公開內容審核"
-  short_description: "檢查年度、成本、服務與活動內容能否被不同讀者正確理解、引用與送審"
-  default_prompt: "使用 $review-green-miracle-public-content，檢核這篇綠色奇蹟公開內容的讀者任務、年度證據、引用限制與送審狀態。"
+  short_description: "檢查公開內容、短選單、正向引用口徑與送審狀態"
+  default_prompt: "使用 $review-green-miracle-public-content，檢核綠色奇蹟公開內容、8 字內頁目錄、正向引用口徑與送審狀態。"
