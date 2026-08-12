@@ -5,7 +5,7 @@ owner_role: Chinwen
 public: true
 approved_by: Chinwen
 approval_date: 2026-08-12
-approval_evidence: owner-instruction-2026-08-12-menu-positive-public-copy
+approval_evidence: owner-instruction-2026-08-12-toc-no-title-repetition
 content_layer: human-readable
 page_type: service
 primary_audience: [設備捐贈者, 申請者, 合作夥伴, 社會大眾, 媒體教師]
@@ -26,7 +26,7 @@ review_due: 2026-09-30
 
 免費回收由協會整合資源協助收件，實際時間依排程安排；偏遠地點、特殊搬運、專車需求與設備安全則採個別評估。
 
-<aside class="gm-purpose-note"><strong>這一步的再生用意</strong>讓分散在家庭與企業、數量不一的設備有機會進入再利用系統。一台也能提出申請，是降低參與門檻；但合理排程與包裝，才能避免空趟、額外碳排與物流資源浪費。</aside>
+<aside class="gm-purpose-note"><strong>參與更容易</strong>讓分散在家庭與企業、數量不一的設備有機會進入再利用系統。一台也能提出申請，是降低參與門檻；但合理排程與包裝，才能避免空趟、額外碳排與物流資源浪費。</aside>
 
 ## 2. 收件分類
 
@@ -34,7 +34,7 @@ review_due: 2026-09-30
 
 捐贈者先完成重要資料備份。資料處理方法與可提供的紀錄，依當期作業程序及個別案件約定辦理；一般處理紀錄屬協會作業紀錄，第三方資安銷毀證明則依個別合作另行約定。
 
-<aside class="gm-purpose-note"><strong>這一步的再生用意</strong>每部設備都要判斷最合適的去向：可延役者整修、可利用者保留零件，其餘設備合規去化，讓成本、故障與資料風險在交付前被妥善處理。</aside>
+<aside class="gm-purpose-note"><strong>找到合適去向</strong>每部設備都要判斷最合適的去向：可延役者整修、可利用者保留零件，其餘設備合規去化，讓成本、故障與資料風險在交付前被妥善處理。</aside>
 
 ## 3. 檢測整修
 
@@ -42,7 +42,7 @@ review_due: 2026-09-30
 
 完整的環境效益以設備通過檢測、完成整修並重新投入使用為基礎，對應原有設備實際延長的服務時間。碳排資料則附上設備類型、期間、完成數量、計算方法與資料版本。
 
-<aside class="gm-purpose-note"><strong>這一步的再生用意</strong>品質、合法授權與可維護性決定「延長使用」是否真的成立。2008 年起提高檢測與交付規格並建立六個月免費保固，也是為了避免把城市淘汰設備的品質風險轉移給受贈者。</aside>
+<aside class="gm-purpose-note"><strong>品質先到位</strong>品質、合法授權與可維護性決定「延長使用」是否真的成立。2008 年起提高檢測與交付規格並建立六個月免費保固，也是為了避免把城市淘汰設備的品質風險轉移給受贈者。</aside>
 
 ## 4. 申請審核
 
@@ -50,7 +50,7 @@ review_due: 2026-09-30
 
 數位平權同時需要設備、穩定網路、適合的軟體、使用能力、維修支持與安全意識。需求媒合會理解實際使用場域，再安排適合的設備與服務。
 
-<aside class="gm-purpose-note"><strong>這一步的再生用意</strong>讓有限設備到達能持續使用、能管理，也確實產生學習或公益效益的地方。再生效益同時觀察交付與後續使用結果。</aside>
+<aside class="gm-purpose-note"><strong>資源精準媒合</strong>讓有限設備到達能持續使用、能管理，也確實產生學習或公益效益的地方。再生效益同時觀察交付與後續使用結果。</aside>
 
 ## 5. 交付保固 { #delivery-support }
 
@@ -60,7 +60,7 @@ review_due: 2026-09-30
 
 設備交付後，也可以成為數位安全教育的入口。協會正規劃和學校、社福及公益夥伴合作，協助家庭理解帳號安全、防詐、網路霸凌、網路成癮警訊與求助方式；目前階段為依合作場域與年度量能設計的試辦方向。
 
-<aside class="gm-purpose-note"><strong>這一步的再生用意</strong>讓設備的生命延長，也讓使用者有能力安全地使用。保固、回訪與數位陪伴把一次捐贈變成可學習、可修正的服務關係。</aside>
+<aside class="gm-purpose-note"><strong>服務持續改善</strong>讓設備的生命延長，也讓使用者有能力安全地使用。保固、回訪與數位陪伴把一次捐贈變成可學習、可修正的服務關係。</aside>
 
 ## 再生效益 { #reuse-purpose }
 

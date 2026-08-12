@@ -1,4 +1,4 @@
 interface:
   display_name: "綠色奇蹟服務傳承寫手"
-  short_description: "依核定來源產製短選單、正向口徑與可引用文章"
-  default_prompt: "使用 $write-green-miracle-stories，依核定母稿產製 8 字內頁目錄、正向事實口徑與可直接引用的文章。"
+  short_description: "產製不重複標題、用詞精簡且可引用的文章"
+  default_prompt: "使用 $write-green-miracle-stories，依核定母稿產製不重複 H1 的短目錄、精簡提示詞與可直接引用的文章。"

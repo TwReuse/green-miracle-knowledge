@@ -24,6 +24,7 @@ REQUIRED_FIELDS = (
 PAGE_TYPES = {"entry", "wiki", "story", "service", "impact", "activity-archive"}
 INTERNAL_LINK = re.compile(r"\]\((?:\.\./)+(?:about|ai|governance|impact|services|sources|stories|training)/")
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+PURPOSE_LABEL = re.compile(r'<aside\s+class="gm-purpose-note"[^>]*>\s*<strong>([^<]+)</strong>')
 REVERSE_DIRECTIVE = re.compile(
     r"不得|不應|不要|請勿|禁止|不可(?:將|把|改寫|直接|自行|對外|公開|引用|使用|推論|補寫|混稱)"
     r"|不能(?:直接|自行|預先|當作|稱為|視為|把|只|用)"
@@ -69,14 +70,17 @@ def audit(path: Path) -> dict[str, object]:
     h1_count = len(re.findall(r"(?m)^#\s+\S", body))
     if h1_count != 1:
         add(blockers, "STRUCT_H1", f"必須剛好有一個 H1，目前為 {h1_count}")
+    h1_match = re.search(r"(?m)^#\s+(.+?)\s*$", body)
     if not re.search(r"(?m)^##\s+\S", body):
         add(warnings, "STRUCT_H2", "缺少 H2，讀者不易掃讀")
+    h2_labels: list[str] = []
     for line_number, line in enumerate(body.splitlines(), start=1):
         match = re.match(r"^##\s+(.+?)\s*$", line)
         if not match:
             continue
         label = re.sub(r"\s*\{[^}]+\}\s*$", "", match.group(1))
         label = re.sub(r"^\d+[.)、]\s*", "", label)
+        h2_labels.append(label)
         visible_length = len(re.findall(r"[A-Za-z0-9\u3400-\u9fff]", label))
         if visible_length > 8:
             add(
@@ -84,6 +88,28 @@ def audit(path: Path) -> dict[str, object]:
                 "NAV_H2_LONG",
                 f"第 {line_number} 行內頁目錄標題超過 8 個可見字元：{label}",
             )
+    if h1_match:
+        h1_label = re.sub(r"\s*\{[^}]+\}\s*$", "", h1_match.group(1))
+        if h1_label in h2_labels:
+            add(warnings, "NAV_H1_REPEAT", "內頁目錄重複頁面 H1 標題")
+    purpose_labels = PURPOSE_LABEL.findall(body)
+    duplicate_purpose_labels = sorted(
+        label for label in set(purpose_labels) if purpose_labels.count(label) > 1
+    )
+    if duplicate_purpose_labels:
+        add(
+            warnings,
+            "COPY_REPEAT_LABEL",
+            f"提示框標籤重複，請改成段落專屬短語：{'、'.join(duplicate_purpose_labels)}",
+        )
+    mkdocs_config = next(
+        (parent / "mkdocs.yml" for parent in path.resolve().parents if (parent / "mkdocs.yml").is_file()),
+        None,
+    )
+    if mkdocs_config:
+        config_text = mkdocs_config.read_text(encoding="utf-8-sig")
+        if not re.search(r'(?m)^\s+toc_depth:\s*["\']?2-2["\']?\s*$', config_text):
+            add(warnings, "NAV_TOC_H1", "MkDocs toc_depth 應設為 2-2，避免側邊目錄重複頁面 H1")
     reverse_matches = sorted(set(REVERSE_DIRECTIVE.findall(body)))
     if reverse_matches:
         add(

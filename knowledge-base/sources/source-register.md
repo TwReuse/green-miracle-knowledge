@@ -36,7 +36,7 @@ review_due: 2026-11-07
 - `GM-SRC-MOE-DIGITAL-LITERACY`：[教育部全民資安素養網](https://eliteracy.edu.tw/About.aspx)及[教材專區](https://eliteracy.edu.tw/Materials.aspx)，提供數位健康、網路成癮、媒體識讀、網路霸凌、網路安全、隱私與交易等教育主題；可作課程設計依據，不代表教育部已核定綠色奇蹟課程。
 - `GM-SRC-MOE-BULLY-2024`：[教育部防制校園霸凌專區](https://bully.moe.edu.tw/)及[教育部 2024 年政策說明](https://www.edu.tw/News_Content.aspx?n=9E7AC85F1954DDA8&s=5A96AE80E87B04EF&sms=169B8E91BB75571F)，作為校園霸凌求助與正式制度入口；綠色奇蹟不取代學校調查與處理程序。
 - `GM-SRC-NPA-165`：[165 全民防騙網](https://165.npa.gov.tw/)，作為疑似詐欺的官方查詢與求助入口。
-- `GM-SRC-IWIN`：[iWIN 網路內容防護機構](https://iwin.org.tw/)，作為兒少網路內容與使用安全資源入口。
+- `GM-SRC-IWIN`：[iWIN 網路內容防護機構](https://i.win.org.tw/)，作為兒少網路內容與使用安全資源入口。
 - `GM-SRC-OFFICIAL-YOUTH-2024`：[2024 年支持左營高中扶少團參與沖繩 SDGs 青年論壇活動紀錄](https://www.reuse.org.tw/eventdetail.html?actid=69B6D21E-F806-49A8-9708-B950EC4E71AA)，可支持該次青年、氣候、減碳與再生電腦參與歷史；不得延伸宣稱聯合國正式夥伴、認證或固定年度方案。
 
 ## 2026 規格、供應與價格背景來源
