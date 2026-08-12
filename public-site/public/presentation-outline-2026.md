@@ -1,14 +1,17 @@
 ---
 doc_id: GM-PUBLIC-PRESENTATION-2026-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: wiki
 primary_audience: [扶輪社友, 公益夥伴, 企業夥伴, 青年導師]
 canonical_knowledge_ids: [GM-TRAIN-PRESENTATION-2026-001, GM-PUB-HISTORY-001, GM-PUB-SVC-QUALITY-001, GM-ANNUAL-2026-001, GM-DIRECTION-DIGITAL-SAFETY-001, GM-DIRECTION-COCREATE-001, GM-DIRECTION-NEXT20-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-OWNER-PROCUREMENT-2026-06, GM-SRC-MS-WIN10-EOS, GM-SRC-MS-WIN11-REQ, GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-NOTION-CHAIR-INTERVIEW-2025]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-09-30
 title: 綠色奇蹟過去現在與未來
 description: 提供扶輪社友使用的二十張知識卡式簡報大綱，串連服務成長、2026 挑戰、參與方式及青年傳承。
@@ -16,7 +19,7 @@ description: 提供扶輪社友使用的二十張知識卡式簡報大綱，串�
 
 # 綠色奇蹟過去現在與未來
 
-這份 2026 簡報大綱以扶輪社友為主要對象，使用「公益形象大使 × 簡報專家」的敘事角度，把二十年服務整理成可理解、可轉述，也能邀請行動的二十張知識卡。
+這份 2026 簡報大綱以扶輪社友、公益夥伴與青年導師為主要對象，將二十年服務整理成二十張知識卡，方便介紹歷史、說明當前挑戰，並討論可以參與的下一步。
 
 <div class="gm-deck-featured-action">
   <div>
@@ -113,6 +116,6 @@ description: 提供扶輪社友使用的二十張知識卡式簡報大綱，串�
 <details>
 <summary>資料依據與使用邊界</summary>
 
-本頁依核定歷史母稿、再生電腦服務品質系統、2026 年度觀察、理事長訪談及審閱中的數位安全、公益共創與未來方向整理。簡報大綱狀態為 review，需由 Chinwen 完成最終事實與治理核定後，再製作或公開代表協會的正式簡報。
+本頁依協會歷史資料、再生電腦服務品質說明、2026 年度觀察、理事長訪談及目前的數位安全、公益共創與未來方向整理。數位安全、青年招募與跨世代導師仍屬發展方向；正式方案、資格、量能、時程及代表協會使用的簡報版本，仍以協會最新公開資訊為準。
 
 </details>

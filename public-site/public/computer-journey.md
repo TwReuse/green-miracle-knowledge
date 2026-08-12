@@ -1,15 +1,18 @@
 ---
 doc_id: GM-PUBLIC-SERVICE-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: service
 primary_audience: [設備捐贈者, 申請者, 合作夥伴, 社會大眾, 媒體教師]
 narrative_style: wiki-explainer
 canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-ASSET-2026]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-09-30
 ---
 
@@ -49,7 +52,7 @@ review_due: 2026-09-30
 
 <aside class="gm-purpose-note"><strong>這一步的再生用意</strong>讓有限設備到達能持續使用、能管理，也確實產生學習或公益效益的地方。真正的再生效益來自使用結果，不只是完成交付。</aside>
 
-## 5. 交付之後仍有責任
+## 5. 交付之後仍有責任 { #delivery-support }
 
 受贈設備自領用日起提供六個月硬體保固。非人為功能故障經判定後，可依流程免費維修或更換主機；耗材、人為損壞、不當使用及未經同意的改裝不在一般保固範圍內，回廠運費由受贈者負擔。個別專案另有約定時，以個別文件為準。
 
@@ -76,6 +79,6 @@ review_due: 2026-09-30
 <details>
 <summary>資料依據與當期查詢</summary>
 
-本篇依核定服務與品質母稿改寫。流程說明不取代內部 SOP，也不構成個案核配、日期、規格或法律承諾。申請與當期條件請回到[綠色奇蹟官網](https://www.reuse.org.tw/)確認。
+本文說明一般服務與品質原則，不構成個案核配、日期、規格或法律承諾。申請資格、可收設備、流程及當期條件，請回到[綠色奇蹟官網](https://www.reuse.org.tw/)確認。
 
 </details>

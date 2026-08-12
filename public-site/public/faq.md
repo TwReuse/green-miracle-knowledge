@@ -3,16 +3,16 @@ doc_id: GM-PUBLIC-FAQ-001
 status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: wiki
 primary_audience: [設備捐贈者, 申請者, 合作夥伴, 社會大眾]
 canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-AI-CARD-INDEX-001]
 source_ids: [GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-CREDIT-CHECK]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-11-09
-approved_by: Chinwen
-approval_date: 2026-08-11
-approval_evidence: owner-approval-chat-2026-08-11-public-facts-faq-citation
 ---
 
 # 常見問題
@@ -45,7 +45,9 @@ approval_evidence: owner-approval-chat-2026-08-11-public-facts-faq-citation
 
 ### 提出申請後一定會取得電腦嗎？
 
-不一定。團隊會依公益用途、資格、需求合理性、服務效益、設備管理能力及當期可用量審核。申請不等於核配，也不能預先保證規格、數量或交付日期。
+不一定。提出申請後，仍須等待審核與正式通知；可提供的設備內容及時間會依個案而異。
+
+[了解申請、審核到交付的完整服務旅程](computer-journey.md)
 
 ### 為什麼需要結案報告或使用回饋？
 
@@ -59,7 +61,9 @@ approval_evidence: owner-approval-chat-2026-08-11-public-facts-faq-citation
 
 ### 六個月保固包含哪些情況？
 
-受贈設備自領用日起提供六個月硬體保固。非人為功能故障經判定後，可依流程免費維修或更換主機；耗材、人為損壞、不當使用及未經同意的改裝不在一般保固範圍內。保固期內的回廠運費由受贈者負擔；個別專案另有約定時，以個別文件為準。
+受贈設備自領用日起提供六個月硬體保固。保固以經判定的非人為功能故障為主；耗材、人為損壞、不當使用及未經同意的改裝通常不包含在內。個別案件仍以交付文件與官方判定為準。
+
+[查看交付與保固的完整說明](computer-journey.md#delivery-support)
 
 ### 再生電腦是不是等同新電腦？
 

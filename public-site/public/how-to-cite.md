@@ -3,18 +3,18 @@ doc_id: GM-PUBLIC-CITE-001
 status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: wiki
 primary_audience: [媒體教師, 內容工作者, AI服務設計者]
 canonical_knowledge_ids: [GM-PUB-001, GM-GOV-003, GM-AI-CARD-INDEX-001]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2027-02-07
-approved_by: Chinwen
-approval_date: 2026-08-11
-approval_evidence: owner-approval-chat-2026-08-11-public-facts-faq-citation
 ---
 
-# 資料引用與媒體使用
+# 資料引用說明
 
 本頁提供給媒體、教師、企業簡報製作者、研究者及外部內容服務使用。它不是內部管理辦法，而是協助外部使用者辨認正式資料、保留版本，並避免把改寫內容誤認為協會原文。
 

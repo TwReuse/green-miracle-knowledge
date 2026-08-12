@@ -26,10 +26,15 @@ extra_css:
   - assets/stylesheets/green-miracle.css
 nav:
   - 永續共創: index.md
-  - 過去與未來:
-      - 服務如何演進: public/our-story.md
+  - 服務演進:
+      - 服務歷程: public/our-story.md
       - 歷年記事: public/annual-chronicle.md
-      - 簡報大綱摘要: public/presentation-outline-2026.md
-  - 服務與再生:
-      - 一部再生電腦的旅程: public/computer-journey.md
-      - 數位安全與家庭陪伴: public/digital-safety.md
+      - 簡報大綱: public/presentation-outline-2026.md
+  - 再生服務:
+      - 電腦旅程: public/computer-journey.md
+      - 數位安全: public/digital-safety.md
+  - 資料引用:
+      - 年度觀察: public/annual-2026.md
+      - 事實資料: public/factsheet.md
+      - 常見問題: public/faq.md
+      - 引用說明: public/how-to-cite.md

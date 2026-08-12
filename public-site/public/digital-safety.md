@@ -1,20 +1,23 @@
 ---
 doc_id: GM-PUBLIC-DIGITAL-SAFETY-001
-status: review
+status: approved
 owner_role: 方案負責人
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
-page_type: service
+page_type: wiki
 primary_audience: [受贈家庭, 學校社工, 教師, 合作夥伴]
 canonical_knowledge_ids: [GM-DIRECTION-DIGITAL-SAFETY-001]
 source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-MOE-DIGITAL-LITERACY, GM-SRC-MOE-BULLY-2024, GM-SRC-NPA-165, GM-SRC-IWIN]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-09-30
 ---
 
-# 數位安全與家庭陪伴
+# 規劃中的數位安全與家庭陪伴
 
-> 本頁是規劃方向，尚未成為所有受贈案件的固定課程或服務承諾。
+> 本頁說明規劃中的試辦方向，尚未成為所有受贈案件均可取得的固定課程。
 
 一台可用的電腦能打開學習機會，也把詐欺、網路霸凌、帳號安全與失控使用等風險帶進家庭。綠色奇蹟規劃讓再生電腦交付不只停在設備，而能成為親子一起建立數位安全習慣的起點。
 
@@ -43,6 +46,6 @@ review_due: 2026-09-30
 <details>
 <summary>資料依據與限制</summary>
 
-本頁依協會提出的服務方向及教育部、警政與兒少網安公開資源整理。課程尚待確認對象、教材、合作單位、個資告知、轉介流程及年度量能；未完成核定前，不得對外宣稱為所有受贈家庭均已接受的服務。
+本頁依協會提出的服務方向及教育部、警政與兒少網安公開資源整理。試辦前仍須確認適用對象、教材、合作單位、個資告知、轉介流程及年度量能；因此目前不能視為所有受贈家庭均已接受或均可取得的服務。
 
 </details>

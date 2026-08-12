@@ -1,12 +1,15 @@
 ---
 doc_id: GM-PUB-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: entry
 canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-ANNUAL-2026-001]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-11-09
 title: 綠色奇蹟服務傳承與永續共創
 description: 從歷史形成服務能力、現在持續因應改變，到與下一代共同創造未來。
@@ -79,6 +82,13 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
   </article>
 </div>
 
+## 依需要找到服務與資料
+
+- 設備捐贈者或企業：先讀[再生電腦旅程](public/computer-journey.md)，再回官網提出回收申請。
+- 申請者、社工或學校：先查看官網的[再生電腦申請說明](https://www.reuse.org.tw/project.html)，再了解交付與保固原則。
+- 媒體、教師或內容工作者：使用[事實資料](public/factsheet.md)與[引用說明](public/how-to-cite.md)，保留資料版本及限制。
+- 公益團體、企業或青年夥伴：從[服務歷程](public/our-story.md)了解合作如何逐步形成可接續的方法。
+
 <section class="gm-site-boundary" markdown="1">
 
 ## 官網發布當期服務，本網站保存傳承與改變
@@ -91,6 +101,6 @@ description: 從歷史形成服務能力、現在持續因應改變，到與下�
 
 ## 讓累積的經驗成為下一次改善的起點
 
-這個網站不只保存過去，也協助媒體、教師、志工、合作夥伴與新進人員理解綠色奇蹟已具備的能力與限制。當新的環境、教育或數位問題出現時，我們可以從既有案例出發，重新組合平台、物流、整修、授權、媒合與服務網絡，邀請年輕人與公益夥伴共同接續未來的服務。
+這個網站不只保存過去，也協助媒體、教師、志工、合作夥伴與新進人員理解綠色奇蹟已具備的能力與限制。當新的環境、教育或數位問題出現時，可以先回看既有案例，再由協會與合作夥伴依實際需求、資源及風險設計下一步。
 
 [了解如何引用本網站資料](public/how-to-cite.md){ .gm-text-link }

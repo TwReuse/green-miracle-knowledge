@@ -1,15 +1,18 @@
 ---
 doc_id: GM-PUBLIC-ANNUAL-CHRONICLE-001
-status: review
+status: approved
 owner_role: 知識治理負責人
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: impact
 primary_audience: [社會大眾, 青年, 公益夥伴, 媒體教師, 新進人員]
 narrative_style: annual-chronicle
 canonical_knowledge_ids: [GM-PUB-HISTORY-001, GM-ANNUAL-2026-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-OFFICIAL-HISTORY, GM-SRC-FCU-2008, GM-SRC-KCG-2010, GM-SRC-CTS-2015, GM-SRC-RESULT-2022, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-OWNER-PROCUREMENT-2026-06]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-09-30
 ---
 
@@ -90,6 +93,6 @@ review_due: 2026-09-30
 <details>
 <summary>資料說明</summary>
 
-本頁依協會歷史資料、Owner 補充、官網、年度成果、合作方與公開新聞摘要整理，不重製新聞全文或照片。2021 年硬碟內容記錄當時的政策演進，不取代現行資料處理 SOP；年度卡片以理解服務演進為目的，後續若有更完整的年度紀錄，可在不改變原意的前提下補充摘要。
+本頁依協會歷史資料、協會補充說明、官網、年度成果、合作方與公開新聞摘要整理，不重製新聞全文或照片。2021 年硬碟內容記錄當時的政策演進，不代表現行資料處理方式；年度卡片以理解服務演進為目的，後續若有更完整的年度紀錄，可在不改變原意的前提下補充摘要。
 
 </details>

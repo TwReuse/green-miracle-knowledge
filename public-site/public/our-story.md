@@ -1,15 +1,18 @@
 ---
 doc_id: GM-PUBLIC-STORY-001
-status: review
+status: approved
 owner_role: Chinwen
 public: true
+approved_by: Chinwen
+approval_date: 2026-08-12
+approval_evidence: owner-instruction-2026-08-12-eight-public-pages
 content_layer: human-readable
 page_type: story
 primary_audience: [初次訪客, 媒體教師, 新進人員, 公益夥伴, 青年]
 narrative_style: journalistic-wiki
 canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-HISTORY-001, GM-ANNUAL-2026-001, GM-DIRECTION-COCREATE-001, GM-DIRECTION-NEXT20-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-MOENV-PCLOVE-2005, GM-SRC-FCU-2008, GM-SRC-KCG-2010, GM-SRC-CTS-2015, GM-SRC-CHARTER, GM-SRC-OWNER-PROCUREMENT-2026-06, GM-SRC-MS-WIN10-EOS, GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-OFFICIAL-YOUTH-2024]
-last_reviewed: 2026-08-11
+last_reviewed: 2026-08-12
 review_due: 2026-09-30
 ---
 
@@ -80,15 +83,7 @@ review_due: 2026-09-30
 
 Windows 10 已於 2025 年 10 月 14 日結束一般支援；Windows 11 對處理器、UEFI／Secure Boot 與 TPM 2.0 等條件的要求，也讓部分過去能使用的舊機不再適合繼續以 Windows 電腦交付。AI 與資料中心需求同時使記憶體及 SSD 供應與價格承壓，安全可用設備的門檻因而提高。
 
-協會提供的 2026 年 6 月批次備品報價顯示：
-
-| 品項 | 先前取得／採購成本 | 2026 年 6 月批次報價 |
-|---|---:|---:|
-| 256GB 新品 SSD | NT$800／顆 | NT$1,500–1,800／顆 |
-| 8GB 記憶體 | NT$600／條 | NT$1,400–2,000／條 |
-| 兩項合計 | NT$1,400／組 | NT$2,900–3,800／組 |
-
-這是綠色奇蹟特定規格與採購條件的報價，不是台灣市場平均價，也不代表全部已實際成交。它說明同一筆經費能完成的升級組數下降，而且尚未包含檢測、資料清除、合法授權、物流、保固、數位教育與後續陪伴成本。當新電腦價格及再生零件成本同時上升，經濟弱勢家庭、學校與公益團體取得安全可用電腦的門檻也會提高。
+協會 2026 年 6 月特定批次的 SSD 與記憶體報價顯示，同一筆經費能完成的升級組數下降，而且尚未包含檢測、資料清除、合法授權、物流、保固、數位教育與後續陪伴成本。這份資料不是台灣市場平均價，也不代表全部已實際成交；完整品項、試算及引用限制集中保留在年度觀察頁。
 
 綠色奇蹟的回應不是降低安全要求，而是提高可交付規格、重新分流舊機、募集從「收到」到「安全可用」之間的成本，並嘗試把防詐、網路霸凌、網路成癮警訊及帳號安全教育納入交付與回訪。
 
@@ -109,6 +104,6 @@ Windows 10 已於 2025 年 10 月 14 日結束一般支援；Windows 11 對處�
 <details>
 <summary>資料依據與使用邊界</summary>
 
-本篇整合核定歷史母稿、2026 年度觀察及審閱中的公益共創與未來方向。2004 年為服務計畫起源，2021 年為協會法人化；兩者不可混稱。八八風災 200 餘部為歷史彙總，不代表目前已有 2004 年起可去重的累計資料。2026 年價格是協會批次報價，不是市場平均或完整單機成本；未來方向也不是已全面提供的服務承諾。若需媒體採訪或正式引用個別事件，請向協會確認最新核定版本。
+本篇整合協會歷史資料、2026 年度觀察及目前的公益共創與未來方向。2004 年為服務計畫起源，2021 年為協會法人化；兩者不可混稱。八八風災 200 餘部為歷史彙總，不代表目前已有 2004 年起可去重的累計資料。2026 年價格是協會批次報價，不是市場平均或完整單機成本；未來方向也不是已全面提供的服務承諾。若需媒體採訪或正式引用個別事件，請向協會確認最新公開版本。
 
 </details>
