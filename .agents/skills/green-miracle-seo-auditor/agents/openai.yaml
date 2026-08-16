@@ -1,0 +1,4 @@
+interface:
+  display_name: "綠色奇蹟 SEO 稽核"
+  short_description: "檢查並改善綠色奇蹟知識網站的搜尋呈現、索引與發布品質"
+  default_prompt: "Use $green-miracle-seo-auditor to audit the Green Miracle MkDocs site and propose governed SEO improvements."
