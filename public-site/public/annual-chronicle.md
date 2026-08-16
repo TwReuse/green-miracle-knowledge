@@ -14,6 +14,8 @@ canonical_knowledge_ids: [GM-PUB-HISTORY-001, GM-ANNUAL-2026-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R4, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-OFFICIAL-HISTORY, GM-SRC-FCU-2008, GM-SRC-KCG-2010, GM-SRC-CTS-2015, GM-SRC-RESULT-2022, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-OWNER-PROCUREMENT-2026-06]
 last_reviewed: 2026-08-12
 review_due: 2026-09-30
+title: 綠色奇蹟歷年記事
+description: 依年度整理綠色奇蹟的重要記事、服務困難、團隊思考與採取做法，呈現再生電腦公益服務如何隨社會需求持續演進。
 ---
 
 # 歷年記事：新聞、困難、想法與做法

@@ -16,6 +16,8 @@ review_due: 2027-04-30
 approved_by: Chinwen
 approval_date: 2026-08-12
 approval_evidence: owner-instruction-2026-08-12-menu-positive-public-copy
+title: 2026 再生電腦年度觀察
+description: 整理 Windows 10 終止支援、Windows 11 硬體門檻，以及記憶體與 SSD 成本變化，說明綠色奇蹟如何調整再生電腦服務。
 ---
 
 # 2026｜當規格與成本同時改變

@@ -13,6 +13,8 @@ canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001, GM-AI-CARD-IND
 source_ids: [GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-CREDIT-CHECK]
 last_reviewed: 2026-08-12
 review_due: 2026-11-09
+title: 綠色奇蹟常見問題
+description: 回答舊電腦回收、資料處理、再生電腦申請、合法軟體、保固與服務成果等常見問題，並連結綠色奇蹟官網最新資訊。
 ---
 
 # 常見問題

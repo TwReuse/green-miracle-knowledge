@@ -13,8 +13,8 @@ canonical_knowledge_ids: [GM-TRAIN-PRESENTATION-2026-001, GM-PUB-HISTORY-001, GM
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-OWNER-PROCUREMENT-2026-06, GM-SRC-MS-WIN10-EOS, GM-SRC-MS-WIN11-REQ, GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-NOTION-CHAIR-INTERVIEW-2025]
 last_reviewed: 2026-08-12
 review_due: 2026-09-30
-title: 綠色奇蹟過去現在與未來
-description: 提供扶輪社友使用的二十張知識卡式簡報大綱，串連服務成長、2026 挑戰、參與方式及青年傳承。
+title: 綠色奇蹟 2026 簡報大綱
+description: 提供扶輪社友、公益夥伴與青年導師使用的二十張知識卡式簡報大綱，串連服務歷程、2026 挑戰、參與方式及青年傳承。
 ---
 
 # 綠色奇蹟過去現在與未來

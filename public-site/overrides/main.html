@@ -1,13 +1,79 @@
 {% extends "base.html" %}
 
 {% block site_meta %}
+{% set seo_title = page.meta.title if page and page.meta and page.meta.title else (page.title if page and page.title else config.site_name) %}
+{% set seo_description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% if page and page.is_homepage %}<meta name="description" content="{{ config.site_description }}">{% endif %}
+<meta name="description" content="{{ seo_description }}">
 {% if config.site_author %}<meta name="author" content="{{ config.site_author }}">{% endif %}
 {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="{{ config.site_name }}">
+<meta property="og:title" content="{{ seo_title }}">
+<meta property="og:description" content="{{ seo_description }}">
+{% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seo_title }}">
+<meta name="twitter:description" content="{{ seo_description }}">
 <link rel="shortcut icon" type="image/png" href="https://www.reuse.org.tw/css/3c-dr/img/favicon.png">
+{% if page %}
+<script type="application/ld+json">
+{% if page.is_homepage %}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.reuse.org.tw/#organization",
+      "name": {{ config.site_author|tojson }},
+      "alternateName": "綠色奇蹟",
+      "url": "https://www.reuse.org.tw/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://docs.reuse.org.tw/#website",
+      "url": "https://docs.reuse.org.tw/",
+      "name": {{ config.site_name|tojson }},
+      "alternateName": "綠色奇蹟永續共創",
+      "description": {{ config.site_description|tojson }},
+      "inLanguage": "zh-TW",
+      "publisher": {"@id": "https://www.reuse.org.tw/#organization"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.canonical_url }}#webpage",
+      "url": {{ page.canonical_url|tojson }},
+      "name": {{ seo_title|tojson }},
+      "description": {{ seo_description|tojson }},
+      "inLanguage": "zh-TW",
+      "isPartOf": {"@id": "https://docs.reuse.org.tw/#website"},
+      "about": {"@id": "https://www.reuse.org.tw/#organization"}
+    }
+  ]
+}
+{% else %}
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ page.canonical_url }}#webpage",
+  "url": {{ page.canonical_url|tojson }},
+  "name": {{ seo_title|tojson }},
+  "description": {{ seo_description|tojson }},
+  "inLanguage": "zh-TW",
+  "isPartOf": {"@id": "https://docs.reuse.org.tw/#website"},
+  "about": {"@id": "https://www.reuse.org.tw/#organization"}
+}
+{% endif %}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block htmltitle %}
+{% set seo_title = page.meta.title if page and page.meta and page.meta.title else (page.title if page and page.title else config.site_name) %}
+<title>{% if page and not page.is_homepage %}{{ seo_title }}｜{% endif %}{{ config.site_name }}</title>
 {% endblock %}
 
 {% block site_name %}

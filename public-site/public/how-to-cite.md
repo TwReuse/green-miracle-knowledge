@@ -12,6 +12,8 @@ primary_audience: [媒體教師, 內容工作者, AI服務設計者]
 canonical_knowledge_ids: [GM-PUB-001, GM-GOV-003, GM-AI-CARD-INDEX-001]
 last_reviewed: 2026-08-12
 review_due: 2027-02-07
+title: 綠色奇蹟資料引用說明
+description: 說明如何引用綠色奇蹟文章、簡報、年度觀察與事實資料，包含來源標示、版本日期、改寫註記與資料更新原則。
 ---
 
 # 資料引用說明

@@ -14,6 +14,8 @@ canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-ASSET-2026]
 last_reviewed: 2026-08-12
 review_due: 2026-09-30
+title: 再生電腦服務流程
+description: 從線上申請、收件分類、檢測整修、申請審核到交付保固，了解一部舊電腦如何成為安全、合法且可持續使用的再生電腦。
 ---
 
 # 一部再生電腦，如何真正發揮效益

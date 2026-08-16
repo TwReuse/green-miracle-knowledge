@@ -12,7 +12,7 @@ canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001
 last_reviewed: 2026-08-12
 review_due: 2026-11-09
 title: 綠色奇蹟服務傳承與永續共創
-description: 從歷史形成服務能力、現在持續因應改變，到與下一代共同創造未來。
+description: 認識綠色奇蹟如何透過舊電腦回收、檢測、整修、合法授權與公益媒合，延續再生電腦服務，並記錄年度變化與未來共創。
 ---
 
 <section class="gm-hero" markdown="1">

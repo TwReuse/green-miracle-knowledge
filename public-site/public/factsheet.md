@@ -13,6 +13,8 @@ review_due: 2026-11-09
 approved_by: Chinwen
 approval_date: 2026-08-12
 approval_evidence: owner-instruction-2026-08-12-menu-positive-public-copy
+title: 綠色奇蹟事實資料
+description: 整理綠色奇蹟正式名稱、服務歷程、再生電腦流程與公開引用口徑，供媒體、教師、企業夥伴及內容工作者查核使用。
 ---
 
 # 綠色奇蹟事實資料包

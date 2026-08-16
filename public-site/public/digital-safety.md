@@ -13,6 +13,8 @@ canonical_knowledge_ids: [GM-DIRECTION-DIGITAL-SAFETY-001]
 source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-MOE-DIGITAL-LITERACY, GM-SRC-MOE-BULLY-2024, GM-SRC-NPA-165, GM-SRC-IWIN]
 last_reviewed: 2026-08-12
 review_due: 2026-09-30
+title: 數位安全與家庭陪伴
+description: 介紹綠色奇蹟規劃中的數位安全與家庭陪伴方向，涵蓋健康使用、帳號安全、網路霸凌與詐欺辨識，以及可引用的求助資源。
 ---
 
 # 規劃中的數位安全與家庭陪伴
