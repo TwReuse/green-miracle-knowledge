@@ -89,6 +89,7 @@
       "description": {{ seo_description|tojson }},
       "inLanguage": "zh-TW",
       "mainEntityOfPage": {"@id": "{{ page.canonical_url }}#webpage"},
+      {% if page.meta.last_reviewed %}"dateModified": "{{ page.meta.last_reviewed }}",{% endif %}
       "author": {"@id": "https://www.reuse.org.tw/#organization"},
       "publisher": {"@id": "https://www.reuse.org.tw/#organization"},
       "image": {{ seo_image|tojson }}
@@ -119,5 +120,32 @@
 {% endblock %}
 
 {% block site_name %}
-<a class="navbar-brand" href="https://www.reuse.org.tw/" aria-label="前往綠色奇蹟官網">{{ config.site_name }}</a>
+<a class="navbar-brand" href="https://www.reuse.org.tw/" aria-label="{{ config.site_name }}官網">{{ config.site_name }}</a>
+{% endblock %}
+
+{% block next_prev %}
+{% if page and page.previous_page %}
+<li class="nav-item">
+  <a rel="prev" href="{{ page.previous_page.url|url }}" class="nav-link">
+    <i class="fa fa-arrow-left" aria-hidden="true"></i> {% trans %}Previous{% endtrans %}
+  </a>
+</li>
+{% endif %}
+{% if page and page.next_page %}
+<li class="nav-item">
+  <a rel="next" href="{{ page.next_page.url|url }}" class="nav-link">
+    {% trans %}Next{% endtrans %} <i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </a>
+</li>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="col-md-3">{% include "toc.html" %}</div>
+<div class="col-md-9" role="main">
+  {% include "content.html" %}
+  {% if page and page.meta and page.meta.last_reviewed %}
+  <p class="gm-page-updated">資料審視日期：{{ page.meta.last_reviewed }}</p>
+  {% endif %}
+</div>
 {% endblock %}

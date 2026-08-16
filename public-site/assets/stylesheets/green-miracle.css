@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap");
-
 :root {
   --gm-green-900: #153c31;
   --gm-green-800: #1a3a2a;
@@ -23,7 +21,7 @@ html {
 body {
   background: var(--gm-canvas);
   color: var(--gm-ink);
-  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft JhengHei", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -727,6 +725,14 @@ code {
 
 .footer a {
   color: #ffffff;
+}
+
+.gm-page-updated {
+  margin: 2.75rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gm-border);
+  color: var(--gm-muted);
+  font-size: 0.85rem;
 }
 
 @media (max-width: 991px) {

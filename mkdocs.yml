@@ -11,11 +11,14 @@ theme:
   locale: zh_TW
   logo: assets/images/reuse-logo.png
   nav_style: primary
-  highlightjs: true
+  highlightjs: false
   user_color_mode_toggle: false
 plugins:
   - search:
       lang: zh
+      min_search_length: 1
+hooks:
+  - hooks/normalize_public_html.py
 markdown_extensions:
   - attr_list
   - md_in_html
