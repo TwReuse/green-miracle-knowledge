@@ -11,7 +11,7 @@ page_type: wiki
 primary_audience: [受贈家庭, 學校社工, 教師, 合作夥伴]
 canonical_knowledge_ids: [GM-DIRECTION-DIGITAL-SAFETY-001]
 source_ids: [GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-MOE-DIGITAL-LITERACY, GM-SRC-MOE-BULLY-2024, GM-SRC-NPA-165, GM-SRC-IWIN]
-last_reviewed: 2026-08-12
+last_reviewed: 2026-08-16
 review_due: 2026-09-30
 title: 數位安全與家庭陪伴
 description: 介紹綠色奇蹟規劃中的數位安全與家庭陪伴方向，涵蓋健康使用、帳號安全、網路霸凌與詐欺辨識，以及可引用的求助資源。
@@ -44,6 +44,11 @@ description: 介紹綠色奇蹟規劃中的數位安全與家庭陪伴方向，�
 建議先以交機共學、家庭數位使用約定，以及交付後 30 天與 90 天回訪進行小規模驗證。綠色奇蹟規劃提供入口、教材與轉介；醫療診斷、心理治療、校園調查、警政與法律事項則由各專業窗口處理。
 
 當期再生電腦申請與交付條件，仍請查閱[綠色奇蹟官網](https://www.reuse.org.tw/project.html)。
+
+## 延伸閱讀
+
+- [了解再生電腦交付與保固的完整服務流程](computer-journey.md)
+- [閱讀 2026 年數位近用、規格與成本的年度觀察](annual-2026.md)
 
 <details>
 <summary>資料依據與限制</summary>

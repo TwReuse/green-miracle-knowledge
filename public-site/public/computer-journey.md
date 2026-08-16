@@ -12,7 +12,7 @@ primary_audience: [設備捐贈者, 申請者, 合作夥伴, 社會大眾, 媒�
 narrative_style: wiki-explainer
 canonical_knowledge_ids: [GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OFFICIAL-CURRENT, GM-SRC-REUSE-PROJECT-2026, GM-SRC-REUSE-ASSET-2026]
-last_reviewed: 2026-08-12
+last_reviewed: 2026-08-16
 review_due: 2026-09-30
 title: 再生電腦服務流程
 description: 從線上申請、收件分類、檢測整修、申請審核到交付保固，了解一部舊電腦如何成為安全、合法且可持續使用的再生電腦。
@@ -77,6 +77,12 @@ description: 從線上申請、收件分類、檢測整修、申請審核到交�
 ## 參與方式
 
 捐設備的人、物流、客服、整修人員、公益夥伴與申請者各自完成一段工作。平台的作用，是讓資訊先連起來，讓每一個角色知道下一步要做什麼，也讓問題能被追蹤與改善。再生是這條服務鏈共同創造的結果。
+
+## 延伸閱讀
+
+- [查看舊電腦回收、申請與保固的常見問題](faq.md)
+- [了解 2026 年規格與零件成本如何影響服務](annual-2026.md)
+- [認識規劃中的數位安全與家庭陪伴方向](digital-safety.md)
 
 <details>
 <summary>資料依據與當期查詢</summary>

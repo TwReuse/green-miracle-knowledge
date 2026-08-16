@@ -11,7 +11,7 @@ page_type: wiki
 primary_audience: [扶輪社友, 公益夥伴, 企業夥伴, 青年導師]
 canonical_knowledge_ids: [GM-TRAIN-PRESENTATION-2026-001, GM-PUB-HISTORY-001, GM-PUB-SVC-QUALITY-001, GM-ANNUAL-2026-001, GM-DIRECTION-DIGITAL-SAFETY-001, GM-DIRECTION-COCREATE-001, GM-DIRECTION-NEXT20-001]
 source_ids: [GM-SRC-OWNER-HISTORY-POLICY-2026-08-11, GM-SRC-OWNER-2026-08-10-R5, GM-SRC-OFFICIAL-HISTORY, GM-SRC-RESULT-2022, GM-SRC-OWNER-PROCUREMENT-2026-06, GM-SRC-MS-WIN10-EOS, GM-SRC-MS-WIN11-REQ, GM-SRC-OWNER-DIRECTION-2026-08-11, GM-SRC-OFFICIAL-YOUTH-2024, GM-SRC-NOTION-CHAIR-INTERVIEW-2025]
-last_reviewed: 2026-08-12
+last_reviewed: 2026-08-16
 review_due: 2026-09-30
 title: 綠色奇蹟 2026 簡報大綱
 description: 提供扶輪社友、公益夥伴與青年導師使用的二十張知識卡式簡報大綱，串連服務歷程、2026 挑戰、參與方式及青年傳承。
@@ -112,6 +112,12 @@ description: 提供扶輪社友、公益夥伴與青年導師使用的二十張�
   <p>這份大綱可搭配服務演進與歷年記事使用，先核對故事脈絡，再延伸製作正式投影片。</p>
   <a class="gm-button gm-button-primary" href="../our-story/">返回過去與未來</a>
 </div>
+
+## 延伸閱讀
+
+- [查閱簡報可直接使用的事實資料](factsheet.md)
+- [使用文章、簡報與年度資料的引用格式](how-to-cite.md)
+- [閱讀 2026 年規格與成本變化的完整資料](annual-2026.md)
 
 <details>
 <summary>資料依據與使用邊界</summary>

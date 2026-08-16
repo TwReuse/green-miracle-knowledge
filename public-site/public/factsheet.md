@@ -8,7 +8,7 @@ page_type: wiki
 primary_audience: [媒體教師, 合作夥伴, 內容工作者]
 canonical_knowledge_ids: [GM-PUB-ABOUT-001, GM-PUB-ABOUT-002, GM-PUB-HISTORY-001, GM-PUB-SVC-001]
 source_ids: [GM-SRC-OWNER-2026-08-10-R4, GM-SRC-CHARTER, GM-SRC-JUDICIAL-2025, GM-SRC-OFFICIAL-CURRENT]
-last_reviewed: 2026-08-12
+last_reviewed: 2026-08-16
 review_due: 2026-11-09
 approved_by: Chinwen
 approval_date: 2026-08-12
@@ -72,3 +72,9 @@ description: 整理綠色奇蹟正式名稱、服務歷程、再生電腦流程�
 ## 品牌、照片與訪談
 
 合作事實可以引用合作單位名稱；Logo、照片、影片、個人引言及兒少素材依個別授權與隱私範圍使用。正式品牌素材與採訪資訊可由[綠色奇蹟官網](https://www.reuse.org.tw/)聯繫協會取得。
+
+## 延伸閱讀
+
+- [使用綠色奇蹟文章、簡報與年度資料的引用格式](how-to-cite.md)
+- [閱讀再生電腦服務流程與品質原則](computer-journey.md)
+- [查閱 2026 年度觀察的資料範圍與引用說明](annual-2026.md)

@@ -11,7 +11,7 @@ evidence_cutoff: 2026-06-30
 primary_audience: [一般讀者, 捐贈者, 合作夥伴, 媒體教師, 勸募計畫撰寫者]
 canonical_knowledge_ids: [GM-ANNUAL-2026-001, GM-PUB-SVC-001, GM-PUB-SVC-QUALITY-001]
 source_ids: [GM-SRC-OWNER-PROCUREMENT-2026-06, GM-SRC-MS-WIN10-EOS, GM-SRC-MS-WIN11-REQ, GM-SRC-TF-MEMORY-2026Q1, GM-SRC-IDC-PC-2026, GM-SRC-GARTNER-PC-2026]
-last_reviewed: 2026-08-12
+last_reviewed: 2026-08-16
 review_due: 2027-04-30
 approved_by: Chinwen
 approval_date: 2026-08-12
@@ -107,6 +107,12 @@ ITU 指出，設備和服務的高成本是低收入家庭參與數位生活的�
 > 社團法人綠色奇蹟公益服務網協會，〈2026｜當規格與成本同時改變〉，綠色奇蹟服務傳承與永續共創，資料截止 2026 年 6 月，查閱日期，網址。
 
 價格資料的完整名稱為「協會提供的 2026 年 6 月特定品項批次採購報價」，適用於該次規格與採購條件。正式採購、會計決算、勸募核准與當期服務資訊，以各自的正式文件及官網公告為準。
+
+## 延伸閱讀
+
+- [了解再生電腦從回收到交付的服務流程](computer-journey.md)
+- [查閱可直接引用的綠色奇蹟事實資料](factsheet.md)
+- [使用文章、簡報與年度資料的引用格式](how-to-cite.md)
 
 ## 資料依據
 
