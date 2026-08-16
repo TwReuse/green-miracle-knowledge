@@ -1,4 +1,6 @@
 repository_name: green-miracle-knowledge
+repository_type: knowledge-site
+repository_type_label: 知識類別網站
 visibility: public
 remote_organization: TwReuse
 remote_url: https://github.com/TwReuse/green-miracle-knowledge
@@ -8,6 +10,12 @@ technical_custodian: 矽聯科技股份有限公司
 repository_administrator: Chinwen
 github_handle: SLchinwen
 description: 綠色奇蹟服務傳承與永續共創網站、公開知識、教育訓練與內容 SSOT
+governance_operating_model:
+  mode: single-person
+  label: 單人作業治理
+  operator: Chinwen
+  control: 由同一人統籌編修、審查、核定與發布，並以來源、版本、差異檢查、自動驗證、提交紀錄及核定證據維持可追溯性。
+  exceptions: 法定決議、個資、募款、財務及第三方權利仍依章程、法令或外部授權辦理。
 public_site_config: mkdocs.yml
 public_site_root: public-site
 knowledge_preview_config: mkdocs.knowledge.yml
